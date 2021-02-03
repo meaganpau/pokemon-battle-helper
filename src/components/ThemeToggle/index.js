@@ -2,7 +2,7 @@ import React from 'react';
 import { func, string } from 'prop-types';
 import styled from 'styled-components';
 const Button = styled.button`
-  background: ${({ theme }) => theme.color.background};
+  background: ${({ theme }) => theme.color.background.main};
   border: 2px solid ${({ theme }) => theme.color.placeholder};
   color: ${({ theme }) => theme.color.text.dark};
   border-radius: 30px;

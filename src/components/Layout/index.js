@@ -1,12 +1,16 @@
 import React from 'react'
+import { BackgroundImage, Container, ContentContainer } from './style'
 import Header from '../Header'
 
 const Layout = ({ children, theme, toggleTheme }) => {
     return (
-        <div>
+        <Container>
+            <BackgroundImage />
             <Header theme={theme} toggleTheme={toggleTheme} />
-            { children }
-        </div>
+            <ContentContainer>
+                { children }
+            </ContentContainer>
+        </Container>
     )
 }
 
