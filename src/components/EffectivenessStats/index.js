@@ -4,17 +4,16 @@ import { AttackMoveContainer, Container } from './style';
 
 const EffectivenessStats = ({ attackStats, defenseStats }) => (
     <Container>
-        {/* <img src="https://db.pokemongohub.net/images/official/full/007.webp" /> */}
         <div>
-            <h3>Attack</h3>
-            {attackStats.map((move, i) => (
+            <h3>Attack Types</h3>
+            {Object.keys(attackStats).map((move, i) => (
                 <div key={i}>
                     <p>
-                        <Icon name={move.type} type='no-label' width={40} height={40} />
-                        {move.name}
+                        <Icon name={move} type='no-label' width={40} height={40} />
+                        {attackStats[move].name.join('/')}
                     </p>
-                    <AttackMoveContainer color={move.color}>
-                        {Object.keys(move.attackStats).map((key, i) => {
+                    <AttackMoveContainer color={attackStats[move].color}>
+                        {Object.keys(attackStats[move].attackStats).map((key, i) => {
                             return (
                                 <div key={i}>
                                     {key > 1 && (
@@ -22,7 +21,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                             <h4>
                                                 Deals {key}x more damage to:
                                             </h4>
-                                            {move.attackStats[key].map(
+                                            {attackStats[move].attackStats[key].map(
                                                 (type) => (
                                                     <Icon name={type} type="label" width={80} height={80} />
                                                 )
@@ -34,7 +33,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                             <h4>
                                                 Deals {key}x less damage to:
                                             </h4>
-                                            {move.attackStats[key].map(
+                                            {attackStats[move].attackStats[key].map(
                                                 (type) => (
                                                     <Icon name={type} type="label" width={80} height={80} />
                                                 )

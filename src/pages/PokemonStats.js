@@ -8,6 +8,7 @@ import pokemonMoves from '../data/current_pokemon_moves.json';
 import typeColors from '../data/type-colors.json';
 import getMultipliers from '../multiplier';
 import { labelToSlug, slugToLabel } from '../utils/slugs';
+import Icon from '../components/SvgIcon';
 
 const PokemonStats = ({ match }) => {
     const history = useHistory();
@@ -48,14 +49,18 @@ const PokemonStats = ({ match }) => {
             getMultipliers([moveStats.type.toLowerCase()]).attack
         );
 
-        acc.push({
-            name: curr,
-            type: moveStats.type,
-            attackStats,
-            color: typeColors[moveStats.type.toLowerCase()]
-        });
+        if (!acc[moveStats.type]) {
+            acc[moveStats.type] = {
+                name: [],
+                attackStats,
+                color: typeColors[moveStats.type.toLowerCase()]
+            };
+        }
+
+        acc[moveStats.type].name.push(curr)
+
         return acc;
-    }, []);
+    }, {});
 
     const defenseStats = calculateAttackStats(multipliers.defense);
 
@@ -67,7 +72,7 @@ const PokemonStats = ({ match }) => {
             </h2>
             <h3>Types</h3>
             {types.map((type, i) => (
-                <p key={i}>{type}</p>
+                <Icon name={type} type="tag" />
             ))}
             <EffectivenessStats
                 attackStats={attackMoves}
