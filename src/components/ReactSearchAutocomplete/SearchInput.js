@@ -37,7 +37,7 @@ SearchInput.propTypes = {
 }
 
 const StyledSearchInput = styled.div`
-  min-height: ${(props) => props.theme.height};
+  min-height: 44px;
   width: 100%;
 
   display: flex;
@@ -55,12 +55,17 @@ const StyledSearchInput = styled.div`
     font-size: inherit;
     font-family: inherit;
 
-    color: ${(props) => props.theme.color};
+    color: ${props => props.theme.color.text.dark};
+
+    &::placeholder {
+      color: ${props => props.theme.color.text.light};
+    }
   }
 
+  
   > svg {
     flex-shrink: 0;
     margin-left: 16px;
-    fill: ${(props) => props.theme.iconColor};
+    fill: ${props => props.theme.color.text.placeholder};
   }
 `

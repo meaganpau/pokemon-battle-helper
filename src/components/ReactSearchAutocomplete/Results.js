@@ -61,15 +61,11 @@ Results.propTypes = {
 }
 
 const ListItem = styled.li`
-  background: ${props => props.highlighted ? props.theme.hoverBackgroundColor : 'inherit'};
+  background: ${props => props.highlighted ? props.theme.color.background.hover : 'inherit'};
 `
 
 const StyledResults = styled.div`
   > div.line {
-    border-top-color: ${(props) => props.theme.lineColor};
-    border-top-style: solid;
-    border-top-width: 1px;
-
     margin-bottom: 0px;
     margin-left: 14px;
     margin-right: 20px;
@@ -82,7 +78,6 @@ const StyledResults = styled.div`
     list-style-type: none;
     margin: 0;
     padding: 0px 0 16px 0;
-    max-height: ${(props) => props.theme.maxHeight};
 
     > li {
       display: flex;
@@ -97,7 +92,7 @@ const StyledResults = styled.div`
         margin-left: 16px;
 
         > svg {
-          fill: ${(props) => props.theme.iconColor};
+          fill: grey;
         }
       }
 

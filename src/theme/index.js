@@ -19,7 +19,11 @@ export const lightTheme = {
         },
         background: {
             main: '#fff',
-            content: '#fff'
+            content: '#fff',
+            hover: '#eee'
+        },
+        pokeball: {
+            opacity: 0.035
         }
     },
 }
@@ -34,7 +38,11 @@ export const darkTheme = {
         },
         background: {
             main: '#4F5763',
-            content: '#2c333d'
+            content: '#2c333d',
+            hover: '#2c333d'
+        },
+        pokeball: {
+            opacity: 0.15
         }
     }
 }

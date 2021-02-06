@@ -10,7 +10,7 @@ export const ContentContainer = styled.div`
     max-width: 1088px;
     box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 40px auto 0;
     padding: 60px 100px;
     background: ${props => props.theme.color.background.content};
 `
@@ -20,4 +20,5 @@ export const BackgroundImage = styled(Pokeball)`
     top: 0;
     left: 0;
     z-index: -1;
+    opacity: ${props => props.theme.color.pokeball.opacity};
 `

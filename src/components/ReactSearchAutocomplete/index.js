@@ -5,7 +5,7 @@ import Fuse from 'fuse.js';
 import { defaultTheme, defaultFuseOptions } from './config';
 import Results from './Results';
 import SearchInput from './SearchInput';
-import { ThemeProvider } from 'styled-components';
+// import { ThemeProvider } from 'styled-components';
 import { debounce } from './utils';
 import styled from 'styled-components';
 
@@ -28,9 +28,9 @@ export default function ReactSearchAutocomplete(props) {
         styling,
         resultStringKeyName,
         showResults
-    } = props;  
+    } = props;
 
-    const theme = { ...defaultTheme, ...styling };
+    // const theme = { ...defaultTheme, ...styling };
     const options = { ...defaultFuseOptions, ...fuseOptions };
 
     const fuse = new Fuse(items, options);
@@ -41,24 +41,24 @@ export default function ReactSearchAutocomplete(props) {
     const [results, setResults] = useState([]);
     const [isFocused, setIsFocused] = useState(false);
     const [displayResults, setDisplayResults] = useState(false);
-    const [selectIndex, setSelectIndex] = useState(-1);   
+    const [selectIndex, setSelectIndex] = useState(-1);
 
-    const onEscape = useCallback(e => {
-      if (e.keyCode === 27) {
-        setSearchString('')
-        setDisplayString('')
-      }
-    }, [])
+    const onEscape = useCallback((e) => {
+        if (e.keyCode === 27) {
+            setSearchString('');
+            setDisplayString('');
+        }
+    }, []);
 
     useEffect(() => {
-      if (isFocused && !displayResults) {
-        window.addEventListener('keydown', onEscape);
-      } else {
-        window.removeEventListener('keydown', onEscape);
-      }
-      return () => {
-        window.removeEventListener('keydown', onEscape);
-      };
+        if (isFocused && !displayResults) {
+            window.addEventListener('keydown', onEscape);
+        } else {
+            window.removeEventListener('keydown', onEscape);
+        }
+        return () => {
+            window.removeEventListener('keydown', onEscape);
+        };
     }, [isFocused, displayResults, onEscape]);
 
     useEffect(() => {
@@ -68,7 +68,7 @@ export default function ReactSearchAutocomplete(props) {
     const onKeyDown = useCallback(
         (e) => {
             switch (e.keyCode) {
-                case 40:
+                case 40: // down arrow
                     e.preventDefault();
                     if (selectIndex < results.length - 1) {
                         setSelectIndex(selectIndex + 1);
@@ -76,22 +76,24 @@ export default function ReactSearchAutocomplete(props) {
                     setDisplayResults(showResults ? true : showResults);
                     break;
 
-                case 38:
+                case 38: // up arrow
                     e.preventDefault();
                     if (selectIndex > 0) {
                         setSelectIndex(selectIndex - 1);
                     }
                     break;
 
-                case 27:
+                case 27: // esc
                     setDisplayResults(false);
                     break;
 
-                case 13:
-                    onSelect(results[selectIndex])
-                    setDisplayResults(false);
-                    setSearchString('')
-                    setDisplayString('')
+                case 13: // enter
+                    if (results[selectIndex]) {
+                        onSelect(results[selectIndex]);
+                        setDisplayResults(false);
+                        setSearchString('');
+                        setDisplayString('');
+                    }
                     break;
 
                 default:
@@ -99,8 +101,8 @@ export default function ReactSearchAutocomplete(props) {
                     break;
             }
         },
-        [results.length, selectIndex]
-    ); 
+        [onSelect, results, selectIndex, showResults]
+    );
 
     useEffect(() => {
         if (isFocused && displayResults) {
@@ -114,19 +116,19 @@ export default function ReactSearchAutocomplete(props) {
         };
     }, [displayResults, isFocused, onKeyDown]);
 
-    useEffectSkipFirstRender(() => {     
-      let newResults = [];
-      
-      if (searchString.length > 0) {
-          newResults = fuseResults(searchString);
-          setResults(newResults);
-          onSearch(searchString, newResults);
+    useEffectSkipFirstRender(() => {
+        let newResults = [];
+
+        if (searchString.length > 0) {
+            newResults = fuseResults(searchString);
+            setResults(newResults);
+            onSearch(searchString, newResults);
         } else {
-          onClear();
-          setResults(newResults);
+            onClear();
+            setResults(newResults);
         }
-        setDisplayResults(showResults ? true : showResults)
-        setSelectIndex(-1)
+        setDisplayResults(showResults ? true : showResults);
+        setSelectIndex(-1);
         setDisplayString(searchString);
     }, [searchString]);
 
@@ -163,7 +165,7 @@ export default function ReactSearchAutocomplete(props) {
     };
 
     return (
-        <ThemeProvider theme={theme}>
+        // <ThemeProvider theme={theme}>
             <StyledReactSearchAutocomplete>
                 <div className='wrapper'>
                     <SearchInput
@@ -189,7 +191,7 @@ export default function ReactSearchAutocomplete(props) {
                     )}
                 </div>
             </StyledReactSearchAutocomplete>
-        </ThemeProvider>
+        // </ThemeProvider>
     );
 }
 
@@ -229,35 +231,16 @@ ReactSearchAutocomplete.propTypes = {
 
 const StyledReactSearchAutocomplete = styled.div`
     position: relative;
-
-    height: ${(props) => parseInt(props.theme.height) + 2 + 'px'};
+    margin-bottom: 30px;
+    height: 46px;
 
     > .wrapper {
         position: absolute;
         display: flex;
         flex-direction: column;
         width: 100%;
-
-        border: ${(props) => props.theme.border};
-        border-radius: ${(props) => props.theme.borderRadius};
-
-        background-color: ${(props) => props.theme.backgroundColor};
-        color: ${(props) => props.theme.color};
-
-        font-size: ${(props) => props.theme.fontSize};
-        font-family: ${(props) => props.theme.fontFamily};
-
-        z-index: ${(props) => props.theme.zIndex};
-
-      }
-      `;
-      
-      // &:hover {
-      //     box-shadow: ${(props) => props.theme.boxShadow};
-      // }
-      // &:active {
-      //     box-shadow: ${(props) => props.theme.boxShadow};
-      // }
-      // &:focus-within {
-      //     box-shadow: ${(props) => props.theme.boxShadow};
-      // }
+        box-shadow: 0px 4px 40px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        background-color: ${(props) => props.theme.color.background.main};
+    }
+`;

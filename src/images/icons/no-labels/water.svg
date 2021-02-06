@@ -1,0 +1,10 @@
+<svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="water" x1="0.886719" y1="0.245361" x2="0.886719" y2="80.0567" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A90DD"/>
+<stop offset="1" stop-color="#6CBDE4"/>
+</linearGradient>
+</defs>
+<rect x="0.886719" y="0.245361" width="79.8113" height="79.8113" rx="39.9057" fill="url(#water)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M55 48.1032C55 55.7782 48.732 62 41 62C33.268 62 27 55.7782 27 48.1032C27 40.6386 40.2427 20.1379 40.969 19.0191C40.9856 18.9936 41.0145 18.9936 41.031 19.0191C41.7573 20.1379 55 40.6386 55 48.1032ZM38.6662 57.5448C31.562 55.9959 32.7777 48.1548 32.7777 48.1548C32.7777 48.1548 34.7176 52.8882 39.4253 54.4215C44.1329 55.9547 49.8221 53.706 49.8221 53.706C49.8221 53.706 45.7705 59.0935 38.6662 57.5448Z" fill="white"/>
+</svg>

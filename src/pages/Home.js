@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
-import { labelToSlug } from '../utils/slugs';
+import SearchResults from '../components/SearchResults'
 
 const Home = () => {
     const [searchResults, setSearchResults] = useState([]);
@@ -25,22 +24,7 @@ const Home = () => {
                 showResults={false}
             />
             {searchResults.length ? (
-                searchResults.map((pokemon) => {
-                    const link = `/pokemon/${labelToSlug(pokemon.label)}`
-                    return (
-                        <Link
-                            key={pokemon.id}
-                            to={link}
-                        >
-                            <p>{pokemon.label}</p>
-                            <ul>
-                                {pokemon.type.map((type, i) => (
-                                    <li key={i}>{type}</li>
-                                ))}
-                            </ul>
-                        </Link>
-                    );
-                })
+                <SearchResults results={searchResults} />
             ) : (
                 <p>{searchText}</p>
             )}
