@@ -10,7 +10,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
             {attackStats.map((move, i) => (
                 <div key={i}>
                     <p>
-                        <Icon name={move.type} type='no-label' />
+                        <Icon name={move.type} type='no-label' width={40} height={40} />
                         {move.name}
                     </p>
                     <AttackMoveContainer color={move.color}>
@@ -24,7 +24,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                             </h4>
                                             {move.attackStats[key].map(
                                                 (type) => (
-                                                    <p key={type}>{type}</p>
+                                                    <Icon name={type} type="label" width={80} height={80} />
                                                 )
                                             )}
                                         </div>
@@ -36,7 +36,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                             </h4>
                                             {move.attackStats[key].map(
                                                 (type) => (
-                                                    <p key={type}>{type}</p>
+                                                    <Icon name={type} type="label" width={80} height={80} />
                                                 )
                                             )}
                                         </div>
@@ -59,7 +59,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                 <div>
                                     <h4>Takes {key}x more damage from:</h4>
                                     {defenseStats[key].map((type) => (
-                                        <p key={type}>{type}</p>
+                                        <Icon name={type} type="label" width={80} height={80} />
                                     ))}
                                 </div>
                             )}
@@ -67,7 +67,7 @@ const EffectivenessStats = ({ attackStats, defenseStats }) => (
                                 <div>
                                     <h4>Takes {key}x less damage from:</h4>
                                     {defenseStats[key].map((type) => (
-                                        <p key={type}>{type}</p>
+                                        <Icon name={type} type="label" width={80} height={80} />
                                     ))}
                                 </div>
                             )}
