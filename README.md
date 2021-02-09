@@ -1,3 +1,4 @@
+Sources:
 https://pogoapi.net/api/v1/pokemon_types.json
 https://pogoapi.net/api/v1/community_days.json
 https://pogoapi.net/api/v1/type_effectiveness.json
@@ -5,12 +6,6 @@ https://pogoapi.net/api/v1/current_pokemon_moves.json
 https://pogoapi.net/api/v1/fast_moves.json
 https://github.com/Naramsim/Colosseum/blob/master/src/scripts/helpers/getMultipliers.js
 https://db.pokemongohub.net/pokemon/7?form=Shadow
-
-Todo: 
-- Front end pokemon forms: 
-    - A = Armored Mewtwo
-    - Replace underscores with spaces (ie. East_sea)
-
 
 # Getting Started with Create React App
 
