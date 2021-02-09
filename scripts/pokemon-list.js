@@ -14,6 +14,10 @@ const filterOut = [
     "2021"
 ]
 
+const replace = {
+    A: 'Armored'
+}
+
 const pokemonList = []
 
 let id = 0;
@@ -22,8 +26,9 @@ for (const key in jsonData) {
     if (Object.hasOwnProperty.call(jsonData, key)) {
         const pokemon = jsonData[key];
         if (!filterOut.includes(pokemon.form)) {
+            let form = (Object.keys(replace).includes(pokemon.form) ? replace[pokemon.form] : pokemon.form).replace('_', ' ')
             pokemon.id = id
-            pokemon.label = `${pokemon.pokemon_name}${pokemon.form !== "Normal" ? ` (${pokemon.form})` : ''}`
+            pokemon.label = `${pokemon.pokemon_name}${form !== "Normal" ? ` (${form})` : ''}`
             id++
             pokemonList.push(pokemon)
         }
