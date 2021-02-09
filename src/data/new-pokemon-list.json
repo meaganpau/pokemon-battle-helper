@@ -1389,7 +1389,7 @@
         "pokemon_name": "Mewtwo",
         "type": ["Psychic"],
         "id": 173,
-        "label": "Mewtwo (A)"
+        "label": "Mewtwo (Armored)"
     },
     {
         "form": "Normal",
@@ -3677,7 +3677,7 @@
         "pokemon_name": "Shellos",
         "type": ["Water"],
         "id": 459,
-        "label": "Shellos (East_sea)"
+        "label": "Shellos (East sea)"
     },
     {
         "form": "West_sea",
@@ -3685,7 +3685,7 @@
         "pokemon_name": "Shellos",
         "type": ["Water"],
         "id": 460,
-        "label": "Shellos (West_sea)"
+        "label": "Shellos (West sea)"
     },
     {
         "form": "East_sea",
@@ -3693,7 +3693,7 @@
         "pokemon_name": "Gastrodon",
         "type": ["Water", "Ground"],
         "id": 461,
-        "label": "Gastrodon (East_sea)"
+        "label": "Gastrodon (East sea)"
     },
     {
         "form": "West_sea",
@@ -3701,7 +3701,7 @@
         "pokemon_name": "Gastrodon",
         "type": ["Water", "Ground"],
         "id": 462,
-        "label": "Gastrodon (West_sea)"
+        "label": "Gastrodon (West sea)"
     },
     {
         "form": "Normal",
@@ -4909,7 +4909,7 @@
         "pokemon_name": "Basculin",
         "type": ["Water"],
         "id": 613,
-        "label": "Basculin (Blue_striped)"
+        "label": "Basculin (Blue striped)"
     },
     {
         "form": "Red_striped",
@@ -4917,7 +4917,7 @@
         "pokemon_name": "Basculin",
         "type": ["Water"],
         "id": 614,
-        "label": "Basculin (Red_striped)"
+        "label": "Basculin (Red striped)"
     },
     {
         "form": "Normal",
@@ -4965,7 +4965,7 @@
         "pokemon_name": "Darmanitan",
         "type": ["Ice"],
         "id": 620,
-        "label": "Darmanitan (Galarian_standard)"
+        "label": "Darmanitan (Galarian standard)"
     },
     {
         "form": "Galarian_zen",
@@ -4973,7 +4973,7 @@
         "pokemon_name": "Darmanitan",
         "type": ["Ice", "Fire"],
         "id": 621,
-        "label": "Darmanitan (Galarian_zen)"
+        "label": "Darmanitan (Galarian zen)"
     },
     {
         "form": "Standard",
