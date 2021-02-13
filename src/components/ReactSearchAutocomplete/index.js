@@ -164,6 +164,13 @@ export default function ReactSearchAutocomplete(props) {
         setResults([]);
     };
 
+    const handleClick = () => {
+        onSelect(results[selectIndex])
+        setDisplayResults(false);
+        setSearchString('');
+        setDisplayString('');
+    }
+
     return (
         // <ThemeProvider theme={theme}>
             <StyledReactSearchAutocomplete>
@@ -181,7 +188,7 @@ export default function ReactSearchAutocomplete(props) {
                         <Results
                             highlighted={selectIndex > -1 ? selectIndex : null}
                             results={results}
-                            onClick={onSelect}
+                            onClick={handleClick}
                             setDisplayString={setDisplayString}
                             showIcon={showIcon}
                             maxResults={maxResults}

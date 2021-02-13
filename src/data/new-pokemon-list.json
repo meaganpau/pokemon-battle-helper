@@ -5,7 +5,8 @@
         "pokemon_name": "Bulbasaur",
         "type": ["Grass", "Poison"],
         "id": 0,
-        "label": "Bulbasaur"
+        "label": "Bulbasaur",
+        "slug": "bulbasaur"
     },
     {
         "form": "Normal",
@@ -13,7 +14,8 @@
         "pokemon_name": "Ivysaur",
         "type": ["Grass", "Poison"],
         "id": 1,
-        "label": "Ivysaur"
+        "label": "Ivysaur",
+        "slug": "ivysaur"
     },
     {
         "form": "Normal",
@@ -21,7 +23,8 @@
         "pokemon_name": "Venusaur",
         "type": ["Grass", "Poison"],
         "id": 2,
-        "label": "Venusaur"
+        "label": "Venusaur",
+        "slug": "venusaur"
     },
     {
         "form": "Normal",
@@ -29,7 +32,8 @@
         "pokemon_name": "Charmander",
         "type": ["Fire"],
         "id": 3,
-        "label": "Charmander"
+        "label": "Charmander",
+        "slug": "charmander"
     },
     {
         "form": "Normal",
@@ -37,7 +41,8 @@
         "pokemon_name": "Charmeleon",
         "type": ["Fire"],
         "id": 4,
-        "label": "Charmeleon"
+        "label": "Charmeleon",
+        "slug": "charmeleon"
     },
     {
         "form": "Normal",
@@ -45,7 +50,8 @@
         "pokemon_name": "Charizard",
         "type": ["Fire", "Flying"],
         "id": 5,
-        "label": "Charizard"
+        "label": "Charizard",
+        "slug": "charizard"
     },
     {
         "form": "Normal",
@@ -53,7 +59,8 @@
         "pokemon_name": "Squirtle",
         "type": ["Water"],
         "id": 6,
-        "label": "Squirtle"
+        "label": "Squirtle",
+        "slug": "squirtle"
     },
     {
         "form": "Normal",
@@ -61,7 +68,8 @@
         "pokemon_name": "Wartortle",
         "type": ["Water"],
         "id": 7,
-        "label": "Wartortle"
+        "label": "Wartortle",
+        "slug": "wartortle"
     },
     {
         "form": "Normal",
@@ -69,7 +77,8 @@
         "pokemon_name": "Blastoise",
         "type": ["Water"],
         "id": 8,
-        "label": "Blastoise"
+        "label": "Blastoise",
+        "slug": "blastoise"
     },
     {
         "form": "Normal",
@@ -77,7 +86,8 @@
         "pokemon_name": "Caterpie",
         "type": ["Bug"],
         "id": 9,
-        "label": "Caterpie"
+        "label": "Caterpie",
+        "slug": "caterpie"
     },
     {
         "form": "Normal",
@@ -85,7 +95,8 @@
         "pokemon_name": "Metapod",
         "type": ["Bug"],
         "id": 10,
-        "label": "Metapod"
+        "label": "Metapod",
+        "slug": "metapod"
     },
     {
         "form": "Normal",
@@ -93,7 +104,8 @@
         "pokemon_name": "Butterfree",
         "type": ["Bug", "Flying"],
         "id": 11,
-        "label": "Butterfree"
+        "label": "Butterfree",
+        "slug": "butterfree"
     },
     {
         "form": "Normal",
@@ -101,7 +113,8 @@
         "pokemon_name": "Weedle",
         "type": ["Bug", "Poison"],
         "id": 12,
-        "label": "Weedle"
+        "label": "Weedle",
+        "slug": "weedle"
     },
     {
         "form": "Normal",
@@ -109,7 +122,8 @@
         "pokemon_name": "Kakuna",
         "type": ["Bug", "Poison"],
         "id": 13,
-        "label": "Kakuna"
+        "label": "Kakuna",
+        "slug": "kakuna"
     },
     {
         "form": "Normal",
@@ -117,7 +131,8 @@
         "pokemon_name": "Beedrill",
         "type": ["Bug", "Poison"],
         "id": 14,
-        "label": "Beedrill"
+        "label": "Beedrill",
+        "slug": "beedrill"
     },
     {
         "form": "Normal",
@@ -125,7 +140,8 @@
         "pokemon_name": "Pidgey",
         "type": ["Normal", "Flying"],
         "id": 15,
-        "label": "Pidgey"
+        "label": "Pidgey",
+        "slug": "pidgey"
     },
     {
         "form": "Normal",
@@ -133,7 +149,8 @@
         "pokemon_name": "Pidgeotto",
         "type": ["Normal", "Flying"],
         "id": 16,
-        "label": "Pidgeotto"
+        "label": "Pidgeotto",
+        "slug": "pidgeotto"
     },
     {
         "form": "Normal",
@@ -141,7 +158,8 @@
         "pokemon_name": "Pidgeot",
         "type": ["Normal", "Flying"],
         "id": 17,
-        "label": "Pidgeot"
+        "label": "Pidgeot",
+        "slug": "pidgeot"
     },
     {
         "form": "Alola",
@@ -149,7 +167,8 @@
         "pokemon_name": "Rattata",
         "type": ["Dark", "Normal"],
         "id": 18,
-        "label": "Rattata (Alola)"
+        "label": "Rattata (Alola)",
+        "slug": "rattata-alola"
     },
     {
         "form": "Normal",
@@ -157,7 +176,8 @@
         "pokemon_name": "Rattata",
         "type": ["Normal"],
         "id": 19,
-        "label": "Rattata"
+        "label": "Rattata",
+        "slug": "rattata"
     },
     {
         "form": "Alola",
@@ -165,7 +185,8 @@
         "pokemon_name": "Raticate",
         "type": ["Dark", "Normal"],
         "id": 20,
-        "label": "Raticate (Alola)"
+        "label": "Raticate (Alola)",
+        "slug": "raticate-alola"
     },
     {
         "form": "Normal",
@@ -173,7 +194,8 @@
         "pokemon_name": "Raticate",
         "type": ["Normal"],
         "id": 21,
-        "label": "Raticate"
+        "label": "Raticate",
+        "slug": "raticate"
     },
     {
         "form": "Normal",
@@ -181,7 +203,8 @@
         "pokemon_name": "Spearow",
         "type": ["Normal", "Flying"],
         "id": 22,
-        "label": "Spearow"
+        "label": "Spearow",
+        "slug": "spearow"
     },
     {
         "form": "Normal",
@@ -189,7 +212,8 @@
         "pokemon_name": "Fearow",
         "type": ["Normal", "Flying"],
         "id": 23,
-        "label": "Fearow"
+        "label": "Fearow",
+        "slug": "fearow"
     },
     {
         "form": "Normal",
@@ -197,7 +221,8 @@
         "pokemon_name": "Ekans",
         "type": ["Poison"],
         "id": 24,
-        "label": "Ekans"
+        "label": "Ekans",
+        "slug": "ekans"
     },
     {
         "form": "Normal",
@@ -205,7 +230,8 @@
         "pokemon_name": "Arbok",
         "type": ["Poison"],
         "id": 25,
-        "label": "Arbok"
+        "label": "Arbok",
+        "slug": "arbok"
     },
     {
         "form": "Normal",
@@ -213,7 +239,8 @@
         "pokemon_name": "Pikachu",
         "type": ["Electric"],
         "id": 26,
-        "label": "Pikachu"
+        "label": "Pikachu",
+        "slug": "pikachu"
     },
     {
         "form": "Alola",
@@ -221,7 +248,8 @@
         "pokemon_name": "Raichu",
         "type": ["Electric", "Psychic"],
         "id": 27,
-        "label": "Raichu (Alola)"
+        "label": "Raichu (Alola)",
+        "slug": "raichu-alola"
     },
     {
         "form": "Normal",
@@ -229,7 +257,8 @@
         "pokemon_name": "Raichu",
         "type": ["Electric"],
         "id": 28,
-        "label": "Raichu"
+        "label": "Raichu",
+        "slug": "raichu"
     },
     {
         "form": "Alola",
@@ -237,7 +266,8 @@
         "pokemon_name": "Sandshrew",
         "type": ["Ice", "Steel"],
         "id": 29,
-        "label": "Sandshrew (Alola)"
+        "label": "Sandshrew (Alola)",
+        "slug": "sandshrew-alola"
     },
     {
         "form": "Normal",
@@ -245,7 +275,8 @@
         "pokemon_name": "Sandshrew",
         "type": ["Ground"],
         "id": 30,
-        "label": "Sandshrew"
+        "label": "Sandshrew",
+        "slug": "sandshrew"
     },
     {
         "form": "Alola",
@@ -253,7 +284,8 @@
         "pokemon_name": "Sandslash",
         "type": ["Ice", "Steel"],
         "id": 31,
-        "label": "Sandslash (Alola)"
+        "label": "Sandslash (Alola)",
+        "slug": "sandslash-alola"
     },
     {
         "form": "Normal",
@@ -261,7 +293,8 @@
         "pokemon_name": "Sandslash",
         "type": ["Ground"],
         "id": 32,
-        "label": "Sandslash"
+        "label": "Sandslash",
+        "slug": "sandslash"
     },
     {
         "form": "Normal",
@@ -269,7 +302,8 @@
         "pokemon_name": "Nidoran♀",
         "type": ["Poison"],
         "id": 33,
-        "label": "Nidoran♀"
+        "label": "Nidoran♀",
+        "slug": "nidoran♀"
     },
     {
         "form": "Normal",
@@ -277,7 +311,8 @@
         "pokemon_name": "Nidorina",
         "type": ["Poison"],
         "id": 34,
-        "label": "Nidorina"
+        "label": "Nidorina",
+        "slug": "nidorina"
     },
     {
         "form": "Normal",
@@ -285,7 +320,8 @@
         "pokemon_name": "Nidoqueen",
         "type": ["Poison", "Ground"],
         "id": 35,
-        "label": "Nidoqueen"
+        "label": "Nidoqueen",
+        "slug": "nidoqueen"
     },
     {
         "form": "Normal",
@@ -293,7 +329,8 @@
         "pokemon_name": "Nidoran♂",
         "type": ["Poison"],
         "id": 36,
-        "label": "Nidoran♂"
+        "label": "Nidoran♂",
+        "slug": "nidoran♂"
     },
     {
         "form": "Normal",
@@ -301,7 +338,8 @@
         "pokemon_name": "Nidorino",
         "type": ["Poison"],
         "id": 37,
-        "label": "Nidorino"
+        "label": "Nidorino",
+        "slug": "nidorino"
     },
     {
         "form": "Normal",
@@ -309,7 +347,8 @@
         "pokemon_name": "Nidoking",
         "type": ["Poison", "Ground"],
         "id": 38,
-        "label": "Nidoking"
+        "label": "Nidoking",
+        "slug": "nidoking"
     },
     {
         "form": "Normal",
@@ -317,7 +356,8 @@
         "pokemon_name": "Clefairy",
         "type": ["Fairy"],
         "id": 39,
-        "label": "Clefairy"
+        "label": "Clefairy",
+        "slug": "clefairy"
     },
     {
         "form": "Normal",
@@ -325,7 +365,8 @@
         "pokemon_name": "Clefable",
         "type": ["Fairy"],
         "id": 40,
-        "label": "Clefable"
+        "label": "Clefable",
+        "slug": "clefable"
     },
     {
         "form": "Alola",
@@ -333,7 +374,8 @@
         "pokemon_name": "Vulpix",
         "type": ["Ice"],
         "id": 41,
-        "label": "Vulpix (Alola)"
+        "label": "Vulpix (Alola)",
+        "slug": "vulpix-alola"
     },
     {
         "form": "Normal",
@@ -341,7 +383,8 @@
         "pokemon_name": "Vulpix",
         "type": ["Fire"],
         "id": 42,
-        "label": "Vulpix"
+        "label": "Vulpix",
+        "slug": "vulpix"
     },
     {
         "form": "Alola",
@@ -349,7 +392,8 @@
         "pokemon_name": "Ninetales",
         "type": ["Ice", "Fairy"],
         "id": 43,
-        "label": "Ninetales (Alola)"
+        "label": "Ninetales (Alola)",
+        "slug": "ninetales-alola"
     },
     {
         "form": "Normal",
@@ -357,7 +401,8 @@
         "pokemon_name": "Ninetales",
         "type": ["Fire"],
         "id": 44,
-        "label": "Ninetales"
+        "label": "Ninetales",
+        "slug": "ninetales"
     },
     {
         "form": "Normal",
@@ -365,7 +410,8 @@
         "pokemon_name": "Jigglypuff",
         "type": ["Normal", "Fairy"],
         "id": 45,
-        "label": "Jigglypuff"
+        "label": "Jigglypuff",
+        "slug": "jigglypuff"
     },
     {
         "form": "Normal",
@@ -373,7 +419,8 @@
         "pokemon_name": "Wigglytuff",
         "type": ["Normal", "Fairy"],
         "id": 46,
-        "label": "Wigglytuff"
+        "label": "Wigglytuff",
+        "slug": "wigglytuff"
     },
     {
         "form": "Normal",
@@ -381,7 +428,8 @@
         "pokemon_name": "Zubat",
         "type": ["Poison", "Flying"],
         "id": 47,
-        "label": "Zubat"
+        "label": "Zubat",
+        "slug": "zubat"
     },
     {
         "form": "Normal",
@@ -389,7 +437,8 @@
         "pokemon_name": "Golbat",
         "type": ["Poison", "Flying"],
         "id": 48,
-        "label": "Golbat"
+        "label": "Golbat",
+        "slug": "golbat"
     },
     {
         "form": "Normal",
@@ -397,7 +446,8 @@
         "pokemon_name": "Oddish",
         "type": ["Grass", "Poison"],
         "id": 49,
-        "label": "Oddish"
+        "label": "Oddish",
+        "slug": "oddish"
     },
     {
         "form": "Normal",
@@ -405,7 +455,8 @@
         "pokemon_name": "Gloom",
         "type": ["Grass", "Poison"],
         "id": 50,
-        "label": "Gloom"
+        "label": "Gloom",
+        "slug": "gloom"
     },
     {
         "form": "Normal",
@@ -413,7 +464,8 @@
         "pokemon_name": "Vileplume",
         "type": ["Grass", "Poison"],
         "id": 51,
-        "label": "Vileplume"
+        "label": "Vileplume",
+        "slug": "vileplume"
     },
     {
         "form": "Normal",
@@ -421,7 +473,8 @@
         "pokemon_name": "Paras",
         "type": ["Bug", "Grass"],
         "id": 52,
-        "label": "Paras"
+        "label": "Paras",
+        "slug": "paras"
     },
     {
         "form": "Normal",
@@ -429,7 +482,8 @@
         "pokemon_name": "Parasect",
         "type": ["Bug", "Grass"],
         "id": 53,
-        "label": "Parasect"
+        "label": "Parasect",
+        "slug": "parasect"
     },
     {
         "form": "Normal",
@@ -437,7 +491,8 @@
         "pokemon_name": "Venonat",
         "type": ["Bug", "Poison"],
         "id": 54,
-        "label": "Venonat"
+        "label": "Venonat",
+        "slug": "venonat"
     },
     {
         "form": "Normal",
@@ -445,7 +500,8 @@
         "pokemon_name": "Venomoth",
         "type": ["Bug", "Poison"],
         "id": 55,
-        "label": "Venomoth"
+        "label": "Venomoth",
+        "slug": "venomoth"
     },
     {
         "form": "Alola",
@@ -453,7 +509,8 @@
         "pokemon_name": "Diglett",
         "type": ["Ground", "Steel"],
         "id": 56,
-        "label": "Diglett (Alola)"
+        "label": "Diglett (Alola)",
+        "slug": "diglett-alola"
     },
     {
         "form": "Normal",
@@ -461,7 +518,8 @@
         "pokemon_name": "Diglett",
         "type": ["Ground"],
         "id": 57,
-        "label": "Diglett"
+        "label": "Diglett",
+        "slug": "diglett"
     },
     {
         "form": "Alola",
@@ -469,7 +527,8 @@
         "pokemon_name": "Dugtrio",
         "type": ["Ground", "Steel"],
         "id": 58,
-        "label": "Dugtrio (Alola)"
+        "label": "Dugtrio (Alola)",
+        "slug": "dugtrio-alola"
     },
     {
         "form": "Normal",
@@ -477,7 +536,8 @@
         "pokemon_name": "Dugtrio",
         "type": ["Ground"],
         "id": 59,
-        "label": "Dugtrio"
+        "label": "Dugtrio",
+        "slug": "dugtrio"
     },
     {
         "form": "Alola",
@@ -485,7 +545,8 @@
         "pokemon_name": "Meowth",
         "type": ["Dark"],
         "id": 60,
-        "label": "Meowth (Alola)"
+        "label": "Meowth (Alola)",
+        "slug": "meowth-alola"
     },
     {
         "form": "Galarian",
@@ -493,7 +554,8 @@
         "pokemon_name": "Meowth",
         "type": ["Steel"],
         "id": 61,
-        "label": "Meowth (Galarian)"
+        "label": "Meowth (Galarian)",
+        "slug": "meowth-galarian"
     },
     {
         "form": "Normal",
@@ -501,7 +563,8 @@
         "pokemon_name": "Meowth",
         "type": ["Normal"],
         "id": 62,
-        "label": "Meowth"
+        "label": "Meowth",
+        "slug": "meowth"
     },
     {
         "form": "Alola",
@@ -509,7 +572,8 @@
         "pokemon_name": "Persian",
         "type": ["Dark"],
         "id": 63,
-        "label": "Persian (Alola)"
+        "label": "Persian (Alola)",
+        "slug": "persian-alola"
     },
     {
         "form": "Normal",
@@ -517,7 +581,8 @@
         "pokemon_name": "Persian",
         "type": ["Normal"],
         "id": 64,
-        "label": "Persian"
+        "label": "Persian",
+        "slug": "persian"
     },
     {
         "form": "Normal",
@@ -525,7 +590,8 @@
         "pokemon_name": "Psyduck",
         "type": ["Water"],
         "id": 65,
-        "label": "Psyduck"
+        "label": "Psyduck",
+        "slug": "psyduck"
     },
     {
         "form": "Normal",
@@ -533,7 +599,8 @@
         "pokemon_name": "Golduck",
         "type": ["Water"],
         "id": 66,
-        "label": "Golduck"
+        "label": "Golduck",
+        "slug": "golduck"
     },
     {
         "form": "Normal",
@@ -541,7 +608,8 @@
         "pokemon_name": "Mankey",
         "type": ["Fighting"],
         "id": 67,
-        "label": "Mankey"
+        "label": "Mankey",
+        "slug": "mankey"
     },
     {
         "form": "Normal",
@@ -549,7 +617,8 @@
         "pokemon_name": "Primeape",
         "type": ["Fighting"],
         "id": 68,
-        "label": "Primeape"
+        "label": "Primeape",
+        "slug": "primeape"
     },
     {
         "form": "Normal",
@@ -557,7 +626,8 @@
         "pokemon_name": "Growlithe",
         "type": ["Fire"],
         "id": 69,
-        "label": "Growlithe"
+        "label": "Growlithe",
+        "slug": "growlithe"
     },
     {
         "form": "Normal",
@@ -565,7 +635,8 @@
         "pokemon_name": "Arcanine",
         "type": ["Fire"],
         "id": 70,
-        "label": "Arcanine"
+        "label": "Arcanine",
+        "slug": "arcanine"
     },
     {
         "form": "Normal",
@@ -573,7 +644,8 @@
         "pokemon_name": "Poliwag",
         "type": ["Water"],
         "id": 71,
-        "label": "Poliwag"
+        "label": "Poliwag",
+        "slug": "poliwag"
     },
     {
         "form": "Normal",
@@ -581,7 +653,8 @@
         "pokemon_name": "Poliwhirl",
         "type": ["Water"],
         "id": 72,
-        "label": "Poliwhirl"
+        "label": "Poliwhirl",
+        "slug": "poliwhirl"
     },
     {
         "form": "Normal",
@@ -589,7 +662,8 @@
         "pokemon_name": "Poliwrath",
         "type": ["Water", "Fighting"],
         "id": 73,
-        "label": "Poliwrath"
+        "label": "Poliwrath",
+        "slug": "poliwrath"
     },
     {
         "form": "Normal",
@@ -597,7 +671,8 @@
         "pokemon_name": "Abra",
         "type": ["Psychic"],
         "id": 74,
-        "label": "Abra"
+        "label": "Abra",
+        "slug": "abra"
     },
     {
         "form": "Normal",
@@ -605,7 +680,8 @@
         "pokemon_name": "Kadabra",
         "type": ["Psychic"],
         "id": 75,
-        "label": "Kadabra"
+        "label": "Kadabra",
+        "slug": "kadabra"
     },
     {
         "form": "Normal",
@@ -613,7 +689,8 @@
         "pokemon_name": "Alakazam",
         "type": ["Psychic"],
         "id": 76,
-        "label": "Alakazam"
+        "label": "Alakazam",
+        "slug": "alakazam"
     },
     {
         "form": "Normal",
@@ -621,7 +698,8 @@
         "pokemon_name": "Machop",
         "type": ["Fighting"],
         "id": 77,
-        "label": "Machop"
+        "label": "Machop",
+        "slug": "machop"
     },
     {
         "form": "Normal",
@@ -629,7 +707,8 @@
         "pokemon_name": "Machoke",
         "type": ["Fighting"],
         "id": 78,
-        "label": "Machoke"
+        "label": "Machoke",
+        "slug": "machoke"
     },
     {
         "form": "Normal",
@@ -637,7 +716,8 @@
         "pokemon_name": "Machamp",
         "type": ["Fighting"],
         "id": 79,
-        "label": "Machamp"
+        "label": "Machamp",
+        "slug": "machamp"
     },
     {
         "form": "Normal",
@@ -645,7 +725,8 @@
         "pokemon_name": "Bellsprout",
         "type": ["Grass", "Poison"],
         "id": 80,
-        "label": "Bellsprout"
+        "label": "Bellsprout",
+        "slug": "bellsprout"
     },
     {
         "form": "Normal",
@@ -653,7 +734,8 @@
         "pokemon_name": "Weepinbell",
         "type": ["Grass", "Poison"],
         "id": 81,
-        "label": "Weepinbell"
+        "label": "Weepinbell",
+        "slug": "weepinbell"
     },
     {
         "form": "Normal",
@@ -661,7 +743,8 @@
         "pokemon_name": "Victreebel",
         "type": ["Grass", "Poison"],
         "id": 82,
-        "label": "Victreebel"
+        "label": "Victreebel",
+        "slug": "victreebel"
     },
     {
         "form": "Normal",
@@ -669,7 +752,8 @@
         "pokemon_name": "Tentacool",
         "type": ["Water", "Poison"],
         "id": 83,
-        "label": "Tentacool"
+        "label": "Tentacool",
+        "slug": "tentacool"
     },
     {
         "form": "Normal",
@@ -677,7 +761,8 @@
         "pokemon_name": "Tentacruel",
         "type": ["Water", "Poison"],
         "id": 84,
-        "label": "Tentacruel"
+        "label": "Tentacruel",
+        "slug": "tentacruel"
     },
     {
         "form": "Alola",
@@ -685,7 +770,8 @@
         "pokemon_name": "Geodude",
         "type": ["Rock", "Electric"],
         "id": 85,
-        "label": "Geodude (Alola)"
+        "label": "Geodude (Alola)",
+        "slug": "geodude-alola"
     },
     {
         "form": "Normal",
@@ -693,7 +779,8 @@
         "pokemon_name": "Geodude",
         "type": ["Rock", "Ground"],
         "id": 86,
-        "label": "Geodude"
+        "label": "Geodude",
+        "slug": "geodude"
     },
     {
         "form": "Alola",
@@ -701,7 +788,8 @@
         "pokemon_name": "Graveler",
         "type": ["Rock", "Electric"],
         "id": 87,
-        "label": "Graveler (Alola)"
+        "label": "Graveler (Alola)",
+        "slug": "graveler-alola"
     },
     {
         "form": "Normal",
@@ -709,7 +797,8 @@
         "pokemon_name": "Graveler",
         "type": ["Rock", "Ground"],
         "id": 88,
-        "label": "Graveler"
+        "label": "Graveler",
+        "slug": "graveler"
     },
     {
         "form": "Alola",
@@ -717,7 +806,8 @@
         "pokemon_name": "Golem",
         "type": ["Rock", "Electric"],
         "id": 89,
-        "label": "Golem (Alola)"
+        "label": "Golem (Alola)",
+        "slug": "golem-alola"
     },
     {
         "form": "Normal",
@@ -725,7 +815,8 @@
         "pokemon_name": "Golem",
         "type": ["Rock", "Ground"],
         "id": 90,
-        "label": "Golem"
+        "label": "Golem",
+        "slug": "golem"
     },
     {
         "form": "Galarian",
@@ -733,7 +824,8 @@
         "pokemon_name": "Ponyta",
         "type": ["Psychic"],
         "id": 91,
-        "label": "Ponyta (Galarian)"
+        "label": "Ponyta (Galarian)",
+        "slug": "ponyta-galarian"
     },
     {
         "form": "Normal",
@@ -741,7 +833,8 @@
         "pokemon_name": "Ponyta",
         "type": ["Fire"],
         "id": 92,
-        "label": "Ponyta"
+        "label": "Ponyta",
+        "slug": "ponyta"
     },
     {
         "form": "Galarian",
@@ -749,7 +842,8 @@
         "pokemon_name": "Rapidash",
         "type": ["Psychic", "Fairy"],
         "id": 93,
-        "label": "Rapidash (Galarian)"
+        "label": "Rapidash (Galarian)",
+        "slug": "rapidash-galarian"
     },
     {
         "form": "Normal",
@@ -757,7 +851,8 @@
         "pokemon_name": "Rapidash",
         "type": ["Fire"],
         "id": 94,
-        "label": "Rapidash"
+        "label": "Rapidash",
+        "slug": "rapidash"
     },
     {
         "form": "Normal",
@@ -765,7 +860,8 @@
         "pokemon_name": "Slowpoke",
         "type": ["Water", "Psychic"],
         "id": 95,
-        "label": "Slowpoke"
+        "label": "Slowpoke",
+        "slug": "slowpoke"
     },
     {
         "form": "Normal",
@@ -773,7 +869,8 @@
         "pokemon_name": "Slowbro",
         "type": ["Water", "Psychic"],
         "id": 96,
-        "label": "Slowbro"
+        "label": "Slowbro",
+        "slug": "slowbro"
     },
     {
         "form": "Normal",
@@ -781,7 +878,8 @@
         "pokemon_name": "Magnemite",
         "type": ["Electric", "Steel"],
         "id": 97,
-        "label": "Magnemite"
+        "label": "Magnemite",
+        "slug": "magnemite"
     },
     {
         "form": "Normal",
@@ -789,7 +887,8 @@
         "pokemon_name": "Magneton",
         "type": ["Electric", "Steel"],
         "id": 98,
-        "label": "Magneton"
+        "label": "Magneton",
+        "slug": "magneton"
     },
     {
         "form": "Galarian",
@@ -797,7 +896,8 @@
         "pokemon_name": "Farfetch’d",
         "type": ["Fighting"],
         "id": 99,
-        "label": "Farfetch’d (Galarian)"
+        "label": "Farfetch’d (Galarian)",
+        "slug": "farfetch’d-galarian"
     },
     {
         "form": "Normal",
@@ -805,7 +905,8 @@
         "pokemon_name": "Farfetch’d",
         "type": ["Normal", "Flying"],
         "id": 100,
-        "label": "Farfetch’d"
+        "label": "Farfetch’d",
+        "slug": "farfetch’d"
     },
     {
         "form": "Normal",
@@ -813,7 +914,8 @@
         "pokemon_name": "Doduo",
         "type": ["Normal", "Flying"],
         "id": 101,
-        "label": "Doduo"
+        "label": "Doduo",
+        "slug": "doduo"
     },
     {
         "form": "Normal",
@@ -821,7 +923,8 @@
         "pokemon_name": "Dodrio",
         "type": ["Normal", "Flying"],
         "id": 102,
-        "label": "Dodrio"
+        "label": "Dodrio",
+        "slug": "dodrio"
     },
     {
         "form": "Normal",
@@ -829,7 +932,8 @@
         "pokemon_name": "Seel",
         "type": ["Water"],
         "id": 103,
-        "label": "Seel"
+        "label": "Seel",
+        "slug": "seel"
     },
     {
         "form": "Normal",
@@ -837,7 +941,8 @@
         "pokemon_name": "Dewgong",
         "type": ["Water", "Ice"],
         "id": 104,
-        "label": "Dewgong"
+        "label": "Dewgong",
+        "slug": "dewgong"
     },
     {
         "form": "Alola",
@@ -845,7 +950,8 @@
         "pokemon_name": "Grimer",
         "type": ["Poison", "Dark"],
         "id": 105,
-        "label": "Grimer (Alola)"
+        "label": "Grimer (Alola)",
+        "slug": "grimer-alola"
     },
     {
         "form": "Normal",
@@ -853,7 +959,8 @@
         "pokemon_name": "Grimer",
         "type": ["Poison"],
         "id": 106,
-        "label": "Grimer"
+        "label": "Grimer",
+        "slug": "grimer"
     },
     {
         "form": "Alola",
@@ -861,7 +968,8 @@
         "pokemon_name": "Muk",
         "type": ["Poison", "Dark"],
         "id": 107,
-        "label": "Muk (Alola)"
+        "label": "Muk (Alola)",
+        "slug": "muk-alola"
     },
     {
         "form": "Normal",
@@ -869,7 +977,8 @@
         "pokemon_name": "Muk",
         "type": ["Poison"],
         "id": 108,
-        "label": "Muk"
+        "label": "Muk",
+        "slug": "muk"
     },
     {
         "form": "Normal",
@@ -877,7 +986,8 @@
         "pokemon_name": "Shellder",
         "type": ["Water"],
         "id": 109,
-        "label": "Shellder"
+        "label": "Shellder",
+        "slug": "shellder"
     },
     {
         "form": "Normal",
@@ -885,7 +995,8 @@
         "pokemon_name": "Cloyster",
         "type": ["Water", "Ice"],
         "id": 110,
-        "label": "Cloyster"
+        "label": "Cloyster",
+        "slug": "cloyster"
     },
     {
         "form": "Normal",
@@ -893,7 +1004,8 @@
         "pokemon_name": "Gastly",
         "type": ["Ghost", "Poison"],
         "id": 111,
-        "label": "Gastly"
+        "label": "Gastly",
+        "slug": "gastly"
     },
     {
         "form": "Normal",
@@ -901,7 +1013,8 @@
         "pokemon_name": "Haunter",
         "type": ["Ghost", "Poison"],
         "id": 112,
-        "label": "Haunter"
+        "label": "Haunter",
+        "slug": "haunter"
     },
     {
         "form": "Normal",
@@ -909,7 +1022,8 @@
         "pokemon_name": "Gengar",
         "type": ["Ghost", "Poison"],
         "id": 113,
-        "label": "Gengar"
+        "label": "Gengar",
+        "slug": "gengar"
     },
     {
         "form": "Normal",
@@ -917,7 +1031,8 @@
         "pokemon_name": "Onix",
         "type": ["Rock", "Ground"],
         "id": 114,
-        "label": "Onix"
+        "label": "Onix",
+        "slug": "onix"
     },
     {
         "form": "Normal",
@@ -925,7 +1040,8 @@
         "pokemon_name": "Drowzee",
         "type": ["Psychic"],
         "id": 115,
-        "label": "Drowzee"
+        "label": "Drowzee",
+        "slug": "drowzee"
     },
     {
         "form": "Normal",
@@ -933,7 +1049,8 @@
         "pokemon_name": "Hypno",
         "type": ["Psychic"],
         "id": 116,
-        "label": "Hypno"
+        "label": "Hypno",
+        "slug": "hypno"
     },
     {
         "form": "Normal",
@@ -941,7 +1058,8 @@
         "pokemon_name": "Krabby",
         "type": ["Water"],
         "id": 117,
-        "label": "Krabby"
+        "label": "Krabby",
+        "slug": "krabby"
     },
     {
         "form": "Normal",
@@ -949,7 +1067,8 @@
         "pokemon_name": "Kingler",
         "type": ["Water"],
         "id": 118,
-        "label": "Kingler"
+        "label": "Kingler",
+        "slug": "kingler"
     },
     {
         "form": "Normal",
@@ -957,7 +1076,8 @@
         "pokemon_name": "Voltorb",
         "type": ["Electric"],
         "id": 119,
-        "label": "Voltorb"
+        "label": "Voltorb",
+        "slug": "voltorb"
     },
     {
         "form": "Normal",
@@ -965,7 +1085,8 @@
         "pokemon_name": "Electrode",
         "type": ["Electric"],
         "id": 120,
-        "label": "Electrode"
+        "label": "Electrode",
+        "slug": "electrode"
     },
     {
         "form": "Normal",
@@ -973,7 +1094,8 @@
         "pokemon_name": "Exeggcute",
         "type": ["Grass", "Psychic"],
         "id": 121,
-        "label": "Exeggcute"
+        "label": "Exeggcute",
+        "slug": "exeggcute"
     },
     {
         "form": "Alola",
@@ -981,7 +1103,8 @@
         "pokemon_name": "Exeggutor",
         "type": ["Grass", "Dragon"],
         "id": 122,
-        "label": "Exeggutor (Alola)"
+        "label": "Exeggutor (Alola)",
+        "slug": "exeggutor-alola"
     },
     {
         "form": "Normal",
@@ -989,7 +1112,8 @@
         "pokemon_name": "Exeggutor",
         "type": ["Grass", "Psychic"],
         "id": 123,
-        "label": "Exeggutor"
+        "label": "Exeggutor",
+        "slug": "exeggutor"
     },
     {
         "form": "Normal",
@@ -997,7 +1121,8 @@
         "pokemon_name": "Cubone",
         "type": ["Ground"],
         "id": 124,
-        "label": "Cubone"
+        "label": "Cubone",
+        "slug": "cubone"
     },
     {
         "form": "Alola",
@@ -1005,7 +1130,8 @@
         "pokemon_name": "Marowak",
         "type": ["Fire", "Ghost"],
         "id": 125,
-        "label": "Marowak (Alola)"
+        "label": "Marowak (Alola)",
+        "slug": "marowak-alola"
     },
     {
         "form": "Normal",
@@ -1013,7 +1139,8 @@
         "pokemon_name": "Marowak",
         "type": ["Ground"],
         "id": 126,
-        "label": "Marowak"
+        "label": "Marowak",
+        "slug": "marowak"
     },
     {
         "form": "Normal",
@@ -1021,7 +1148,8 @@
         "pokemon_name": "Hitmonlee",
         "type": ["Fighting"],
         "id": 127,
-        "label": "Hitmonlee"
+        "label": "Hitmonlee",
+        "slug": "hitmonlee"
     },
     {
         "form": "Normal",
@@ -1029,7 +1157,8 @@
         "pokemon_name": "Hitmonchan",
         "type": ["Fighting"],
         "id": 128,
-        "label": "Hitmonchan"
+        "label": "Hitmonchan",
+        "slug": "hitmonchan"
     },
     {
         "form": "Normal",
@@ -1037,7 +1166,8 @@
         "pokemon_name": "Lickitung",
         "type": ["Normal"],
         "id": 129,
-        "label": "Lickitung"
+        "label": "Lickitung",
+        "slug": "lickitung"
     },
     {
         "form": "Normal",
@@ -1045,7 +1175,8 @@
         "pokemon_name": "Koffing",
         "type": ["Poison"],
         "id": 130,
-        "label": "Koffing"
+        "label": "Koffing",
+        "slug": "koffing"
     },
     {
         "form": "Galarian",
@@ -1053,7 +1184,8 @@
         "pokemon_name": "Weezing",
         "type": ["Poison", "Fairy"],
         "id": 131,
-        "label": "Weezing (Galarian)"
+        "label": "Weezing (Galarian)",
+        "slug": "weezing-galarian"
     },
     {
         "form": "Normal",
@@ -1061,7 +1193,8 @@
         "pokemon_name": "Weezing",
         "type": ["Poison"],
         "id": 132,
-        "label": "Weezing"
+        "label": "Weezing",
+        "slug": "weezing"
     },
     {
         "form": "Normal",
@@ -1069,7 +1202,8 @@
         "pokemon_name": "Rhyhorn",
         "type": ["Ground", "Rock"],
         "id": 133,
-        "label": "Rhyhorn"
+        "label": "Rhyhorn",
+        "slug": "rhyhorn"
     },
     {
         "form": "Normal",
@@ -1077,7 +1211,8 @@
         "pokemon_name": "Rhydon",
         "type": ["Ground", "Rock"],
         "id": 134,
-        "label": "Rhydon"
+        "label": "Rhydon",
+        "slug": "rhydon"
     },
     {
         "form": "Normal",
@@ -1085,7 +1220,8 @@
         "pokemon_name": "Chansey",
         "type": ["Normal"],
         "id": 135,
-        "label": "Chansey"
+        "label": "Chansey",
+        "slug": "chansey"
     },
     {
         "form": "Normal",
@@ -1093,7 +1229,8 @@
         "pokemon_name": "Tangela",
         "type": ["Grass"],
         "id": 136,
-        "label": "Tangela"
+        "label": "Tangela",
+        "slug": "tangela"
     },
     {
         "form": "Normal",
@@ -1101,7 +1238,8 @@
         "pokemon_name": "Kangaskhan",
         "type": ["Normal"],
         "id": 137,
-        "label": "Kangaskhan"
+        "label": "Kangaskhan",
+        "slug": "kangaskhan"
     },
     {
         "form": "Normal",
@@ -1109,7 +1247,8 @@
         "pokemon_name": "Horsea",
         "type": ["Water"],
         "id": 138,
-        "label": "Horsea"
+        "label": "Horsea",
+        "slug": "horsea"
     },
     {
         "form": "Normal",
@@ -1117,7 +1256,8 @@
         "pokemon_name": "Seadra",
         "type": ["Water"],
         "id": 139,
-        "label": "Seadra"
+        "label": "Seadra",
+        "slug": "seadra"
     },
     {
         "form": "Normal",
@@ -1125,7 +1265,8 @@
         "pokemon_name": "Goldeen",
         "type": ["Water"],
         "id": 140,
-        "label": "Goldeen"
+        "label": "Goldeen",
+        "slug": "goldeen"
     },
     {
         "form": "Normal",
@@ -1133,7 +1274,8 @@
         "pokemon_name": "Seaking",
         "type": ["Water"],
         "id": 141,
-        "label": "Seaking"
+        "label": "Seaking",
+        "slug": "seaking"
     },
     {
         "form": "Normal",
@@ -1141,7 +1283,8 @@
         "pokemon_name": "Staryu",
         "type": ["Water"],
         "id": 142,
-        "label": "Staryu"
+        "label": "Staryu",
+        "slug": "staryu"
     },
     {
         "form": "Normal",
@@ -1149,7 +1292,8 @@
         "pokemon_name": "Starmie",
         "type": ["Water", "Psychic"],
         "id": 143,
-        "label": "Starmie"
+        "label": "Starmie",
+        "slug": "starmie"
     },
     {
         "form": "Galarian",
@@ -1157,7 +1301,8 @@
         "pokemon_name": "Mr. Mime",
         "type": ["Ice", "Psychic"],
         "id": 144,
-        "label": "Mr. Mime (Galarian)"
+        "label": "Mr. Mime (Galarian)",
+        "slug": "mr-mime-galarian"
     },
     {
         "form": "Normal",
@@ -1165,7 +1310,8 @@
         "pokemon_name": "Mr. Mime",
         "type": ["Psychic", "Fairy"],
         "id": 145,
-        "label": "Mr. Mime"
+        "label": "Mr. Mime",
+        "slug": "mr-mime"
     },
     {
         "form": "Normal",
@@ -1173,7 +1319,8 @@
         "pokemon_name": "Scyther",
         "type": ["Bug", "Flying"],
         "id": 146,
-        "label": "Scyther"
+        "label": "Scyther",
+        "slug": "scyther"
     },
     {
         "form": "Normal",
@@ -1181,7 +1328,8 @@
         "pokemon_name": "Jynx",
         "type": ["Ice", "Psychic"],
         "id": 147,
-        "label": "Jynx"
+        "label": "Jynx",
+        "slug": "jynx"
     },
     {
         "form": "Normal",
@@ -1189,7 +1337,8 @@
         "pokemon_name": "Electabuzz",
         "type": ["Electric"],
         "id": 148,
-        "label": "Electabuzz"
+        "label": "Electabuzz",
+        "slug": "electabuzz"
     },
     {
         "form": "Normal",
@@ -1197,7 +1346,8 @@
         "pokemon_name": "Magmar",
         "type": ["Fire"],
         "id": 149,
-        "label": "Magmar"
+        "label": "Magmar",
+        "slug": "magmar"
     },
     {
         "form": "Normal",
@@ -1205,7 +1355,8 @@
         "pokemon_name": "Pinsir",
         "type": ["Bug"],
         "id": 150,
-        "label": "Pinsir"
+        "label": "Pinsir",
+        "slug": "pinsir"
     },
     {
         "form": "Normal",
@@ -1213,7 +1364,8 @@
         "pokemon_name": "Tauros",
         "type": ["Normal"],
         "id": 151,
-        "label": "Tauros"
+        "label": "Tauros",
+        "slug": "tauros"
     },
     {
         "form": "Normal",
@@ -1221,7 +1373,8 @@
         "pokemon_name": "Magikarp",
         "type": ["Water"],
         "id": 152,
-        "label": "Magikarp"
+        "label": "Magikarp",
+        "slug": "magikarp"
     },
     {
         "form": "Normal",
@@ -1229,7 +1382,8 @@
         "pokemon_name": "Gyarados",
         "type": ["Water", "Flying"],
         "id": 153,
-        "label": "Gyarados"
+        "label": "Gyarados",
+        "slug": "gyarados"
     },
     {
         "form": "Normal",
@@ -1237,7 +1391,8 @@
         "pokemon_name": "Lapras",
         "type": ["Water", "Ice"],
         "id": 154,
-        "label": "Lapras"
+        "label": "Lapras",
+        "slug": "lapras"
     },
     {
         "form": "Normal",
@@ -1245,7 +1400,8 @@
         "pokemon_name": "Ditto",
         "type": ["Normal"],
         "id": 155,
-        "label": "Ditto"
+        "label": "Ditto",
+        "slug": "ditto"
     },
     {
         "form": "Normal",
@@ -1253,7 +1409,8 @@
         "pokemon_name": "Eevee",
         "type": ["Normal"],
         "id": 156,
-        "label": "Eevee"
+        "label": "Eevee",
+        "slug": "eevee"
     },
     {
         "form": "Normal",
@@ -1261,7 +1418,8 @@
         "pokemon_name": "Vaporeon",
         "type": ["Water"],
         "id": 157,
-        "label": "Vaporeon"
+        "label": "Vaporeon",
+        "slug": "vaporeon"
     },
     {
         "form": "Normal",
@@ -1269,7 +1427,8 @@
         "pokemon_name": "Jolteon",
         "type": ["Electric"],
         "id": 158,
-        "label": "Jolteon"
+        "label": "Jolteon",
+        "slug": "jolteon"
     },
     {
         "form": "Normal",
@@ -1277,7 +1436,8 @@
         "pokemon_name": "Flareon",
         "type": ["Fire"],
         "id": 159,
-        "label": "Flareon"
+        "label": "Flareon",
+        "slug": "flareon"
     },
     {
         "form": "Normal",
@@ -1285,7 +1445,8 @@
         "pokemon_name": "Porygon",
         "type": ["Normal"],
         "id": 160,
-        "label": "Porygon"
+        "label": "Porygon",
+        "slug": "porygon"
     },
     {
         "form": "Normal",
@@ -1293,7 +1454,8 @@
         "pokemon_name": "Omanyte",
         "type": ["Rock", "Water"],
         "id": 161,
-        "label": "Omanyte"
+        "label": "Omanyte",
+        "slug": "omanyte"
     },
     {
         "form": "Normal",
@@ -1301,7 +1463,8 @@
         "pokemon_name": "Omastar",
         "type": ["Rock", "Water"],
         "id": 162,
-        "label": "Omastar"
+        "label": "Omastar",
+        "slug": "omastar"
     },
     {
         "form": "Normal",
@@ -1309,7 +1472,8 @@
         "pokemon_name": "Kabuto",
         "type": ["Rock", "Water"],
         "id": 163,
-        "label": "Kabuto"
+        "label": "Kabuto",
+        "slug": "kabuto"
     },
     {
         "form": "Normal",
@@ -1317,7 +1481,8 @@
         "pokemon_name": "Kabutops",
         "type": ["Rock", "Water"],
         "id": 164,
-        "label": "Kabutops"
+        "label": "Kabutops",
+        "slug": "kabutops"
     },
     {
         "form": "Normal",
@@ -1325,7 +1490,8 @@
         "pokemon_name": "Aerodactyl",
         "type": ["Rock", "Flying"],
         "id": 165,
-        "label": "Aerodactyl"
+        "label": "Aerodactyl",
+        "slug": "aerodactyl"
     },
     {
         "form": "Normal",
@@ -1333,7 +1499,8 @@
         "pokemon_name": "Snorlax",
         "type": ["Normal"],
         "id": 166,
-        "label": "Snorlax"
+        "label": "Snorlax",
+        "slug": "snorlax"
     },
     {
         "form": "Normal",
@@ -1341,7 +1508,8 @@
         "pokemon_name": "Articuno",
         "type": ["Ice", "Flying"],
         "id": 167,
-        "label": "Articuno"
+        "label": "Articuno",
+        "slug": "articuno"
     },
     {
         "form": "Normal",
@@ -1349,7 +1517,8 @@
         "pokemon_name": "Zapdos",
         "type": ["Electric", "Flying"],
         "id": 168,
-        "label": "Zapdos"
+        "label": "Zapdos",
+        "slug": "zapdos"
     },
     {
         "form": "Normal",
@@ -1357,7 +1526,8 @@
         "pokemon_name": "Moltres",
         "type": ["Fire", "Flying"],
         "id": 169,
-        "label": "Moltres"
+        "label": "Moltres",
+        "slug": "moltres"
     },
     {
         "form": "Normal",
@@ -1365,7 +1535,8 @@
         "pokemon_name": "Dratini",
         "type": ["Dragon"],
         "id": 170,
-        "label": "Dratini"
+        "label": "Dratini",
+        "slug": "dratini"
     },
     {
         "form": "Normal",
@@ -1373,7 +1544,8 @@
         "pokemon_name": "Dragonair",
         "type": ["Dragon"],
         "id": 171,
-        "label": "Dragonair"
+        "label": "Dragonair",
+        "slug": "dragonair"
     },
     {
         "form": "Normal",
@@ -1381,7 +1553,8 @@
         "pokemon_name": "Dragonite",
         "type": ["Dragon", "Flying"],
         "id": 172,
-        "label": "Dragonite"
+        "label": "Dragonite",
+        "slug": "dragonite"
     },
     {
         "form": "A",
@@ -1389,7 +1562,8 @@
         "pokemon_name": "Mewtwo",
         "type": ["Psychic"],
         "id": 173,
-        "label": "Mewtwo (Armored)"
+        "label": "Mewtwo (Armored)",
+        "slug": "mewtwo-armored"
     },
     {
         "form": "Normal",
@@ -1397,7 +1571,8 @@
         "pokemon_name": "Mewtwo",
         "type": ["Psychic"],
         "id": 174,
-        "label": "Mewtwo"
+        "label": "Mewtwo",
+        "slug": "mewtwo"
     },
     {
         "form": "Normal",
@@ -1405,7 +1580,8 @@
         "pokemon_name": "Mew",
         "type": ["Psychic"],
         "id": 175,
-        "label": "Mew"
+        "label": "Mew",
+        "slug": "mew"
     },
     {
         "form": "Normal",
@@ -1413,7 +1589,8 @@
         "pokemon_name": "Chikorita",
         "type": ["Grass"],
         "id": 176,
-        "label": "Chikorita"
+        "label": "Chikorita",
+        "slug": "chikorita"
     },
     {
         "form": "Normal",
@@ -1421,7 +1598,8 @@
         "pokemon_name": "Bayleef",
         "type": ["Grass"],
         "id": 177,
-        "label": "Bayleef"
+        "label": "Bayleef",
+        "slug": "bayleef"
     },
     {
         "form": "Normal",
@@ -1429,7 +1607,8 @@
         "pokemon_name": "Meganium",
         "type": ["Grass"],
         "id": 178,
-        "label": "Meganium"
+        "label": "Meganium",
+        "slug": "meganium"
     },
     {
         "form": "Normal",
@@ -1437,7 +1616,8 @@
         "pokemon_name": "Cyndaquil",
         "type": ["Fire"],
         "id": 179,
-        "label": "Cyndaquil"
+        "label": "Cyndaquil",
+        "slug": "cyndaquil"
     },
     {
         "form": "Normal",
@@ -1445,7 +1625,8 @@
         "pokemon_name": "Quilava",
         "type": ["Fire"],
         "id": 180,
-        "label": "Quilava"
+        "label": "Quilava",
+        "slug": "quilava"
     },
     {
         "form": "Normal",
@@ -1453,7 +1634,8 @@
         "pokemon_name": "Typhlosion",
         "type": ["Fire"],
         "id": 181,
-        "label": "Typhlosion"
+        "label": "Typhlosion",
+        "slug": "typhlosion"
     },
     {
         "form": "Normal",
@@ -1461,7 +1643,8 @@
         "pokemon_name": "Totodile",
         "type": ["Water"],
         "id": 182,
-        "label": "Totodile"
+        "label": "Totodile",
+        "slug": "totodile"
     },
     {
         "form": "Normal",
@@ -1469,7 +1652,8 @@
         "pokemon_name": "Croconaw",
         "type": ["Water"],
         "id": 183,
-        "label": "Croconaw"
+        "label": "Croconaw",
+        "slug": "croconaw"
     },
     {
         "form": "Normal",
@@ -1477,7 +1661,8 @@
         "pokemon_name": "Feraligatr",
         "type": ["Water"],
         "id": 184,
-        "label": "Feraligatr"
+        "label": "Feraligatr",
+        "slug": "feraligatr"
     },
     {
         "form": "Normal",
@@ -1485,7 +1670,8 @@
         "pokemon_name": "Sentret",
         "type": ["Normal"],
         "id": 185,
-        "label": "Sentret"
+        "label": "Sentret",
+        "slug": "sentret"
     },
     {
         "form": "Normal",
@@ -1493,7 +1679,8 @@
         "pokemon_name": "Furret",
         "type": ["Normal"],
         "id": 186,
-        "label": "Furret"
+        "label": "Furret",
+        "slug": "furret"
     },
     {
         "form": "Normal",
@@ -1501,7 +1688,8 @@
         "pokemon_name": "Hoothoot",
         "type": ["Normal", "Flying"],
         "id": 187,
-        "label": "Hoothoot"
+        "label": "Hoothoot",
+        "slug": "hoothoot"
     },
     {
         "form": "Normal",
@@ -1509,7 +1697,8 @@
         "pokemon_name": "Noctowl",
         "type": ["Normal", "Flying"],
         "id": 188,
-        "label": "Noctowl"
+        "label": "Noctowl",
+        "slug": "noctowl"
     },
     {
         "form": "Normal",
@@ -1517,7 +1706,8 @@
         "pokemon_name": "Ledyba",
         "type": ["Bug", "Flying"],
         "id": 189,
-        "label": "Ledyba"
+        "label": "Ledyba",
+        "slug": "ledyba"
     },
     {
         "form": "Normal",
@@ -1525,7 +1715,8 @@
         "pokemon_name": "Ledian",
         "type": ["Bug", "Flying"],
         "id": 190,
-        "label": "Ledian"
+        "label": "Ledian",
+        "slug": "ledian"
     },
     {
         "form": "Normal",
@@ -1533,7 +1724,8 @@
         "pokemon_name": "Spinarak",
         "type": ["Bug", "Poison"],
         "id": 191,
-        "label": "Spinarak"
+        "label": "Spinarak",
+        "slug": "spinarak"
     },
     {
         "form": "Normal",
@@ -1541,7 +1733,8 @@
         "pokemon_name": "Ariados",
         "type": ["Bug", "Poison"],
         "id": 192,
-        "label": "Ariados"
+        "label": "Ariados",
+        "slug": "ariados"
     },
     {
         "form": "Normal",
@@ -1549,7 +1742,8 @@
         "pokemon_name": "Crobat",
         "type": ["Poison", "Flying"],
         "id": 193,
-        "label": "Crobat"
+        "label": "Crobat",
+        "slug": "crobat"
     },
     {
         "form": "Normal",
@@ -1557,7 +1751,8 @@
         "pokemon_name": "Chinchou",
         "type": ["Water", "Electric"],
         "id": 194,
-        "label": "Chinchou"
+        "label": "Chinchou",
+        "slug": "chinchou"
     },
     {
         "form": "Normal",
@@ -1565,7 +1760,8 @@
         "pokemon_name": "Lanturn",
         "type": ["Water", "Electric"],
         "id": 195,
-        "label": "Lanturn"
+        "label": "Lanturn",
+        "slug": "lanturn"
     },
     {
         "form": "Normal",
@@ -1573,7 +1769,8 @@
         "pokemon_name": "Pichu",
         "type": ["Electric"],
         "id": 196,
-        "label": "Pichu"
+        "label": "Pichu",
+        "slug": "pichu"
     },
     {
         "form": "Normal",
@@ -1581,7 +1778,8 @@
         "pokemon_name": "Cleffa",
         "type": ["Fairy"],
         "id": 197,
-        "label": "Cleffa"
+        "label": "Cleffa",
+        "slug": "cleffa"
     },
     {
         "form": "Normal",
@@ -1589,7 +1787,8 @@
         "pokemon_name": "Igglybuff",
         "type": ["Normal", "Fairy"],
         "id": 198,
-        "label": "Igglybuff"
+        "label": "Igglybuff",
+        "slug": "igglybuff"
     },
     {
         "form": "Normal",
@@ -1597,7 +1796,8 @@
         "pokemon_name": "Togepi",
         "type": ["Fairy"],
         "id": 199,
-        "label": "Togepi"
+        "label": "Togepi",
+        "slug": "togepi"
     },
     {
         "form": "Normal",
@@ -1605,7 +1805,8 @@
         "pokemon_name": "Togetic",
         "type": ["Fairy", "Flying"],
         "id": 200,
-        "label": "Togetic"
+        "label": "Togetic",
+        "slug": "togetic"
     },
     {
         "form": "Normal",
@@ -1613,7 +1814,8 @@
         "pokemon_name": "Natu",
         "type": ["Psychic", "Flying"],
         "id": 201,
-        "label": "Natu"
+        "label": "Natu",
+        "slug": "natu"
     },
     {
         "form": "Normal",
@@ -1621,7 +1823,8 @@
         "pokemon_name": "Xatu",
         "type": ["Psychic", "Flying"],
         "id": 202,
-        "label": "Xatu"
+        "label": "Xatu",
+        "slug": "xatu"
     },
     {
         "form": "Normal",
@@ -1629,7 +1832,8 @@
         "pokemon_name": "Mareep",
         "type": ["Electric"],
         "id": 203,
-        "label": "Mareep"
+        "label": "Mareep",
+        "slug": "mareep"
     },
     {
         "form": "Normal",
@@ -1637,7 +1841,8 @@
         "pokemon_name": "Flaaffy",
         "type": ["Electric"],
         "id": 204,
-        "label": "Flaaffy"
+        "label": "Flaaffy",
+        "slug": "flaaffy"
     },
     {
         "form": "Normal",
@@ -1645,7 +1850,8 @@
         "pokemon_name": "Ampharos",
         "type": ["Electric"],
         "id": 205,
-        "label": "Ampharos"
+        "label": "Ampharos",
+        "slug": "ampharos"
     },
     {
         "form": "Normal",
@@ -1653,7 +1859,8 @@
         "pokemon_name": "Bellossom",
         "type": ["Grass"],
         "id": 206,
-        "label": "Bellossom"
+        "label": "Bellossom",
+        "slug": "bellossom"
     },
     {
         "form": "Normal",
@@ -1661,7 +1868,8 @@
         "pokemon_name": "Marill",
         "type": ["Water", "Fairy"],
         "id": 207,
-        "label": "Marill"
+        "label": "Marill",
+        "slug": "marill"
     },
     {
         "form": "Normal",
@@ -1669,7 +1877,8 @@
         "pokemon_name": "Azumarill",
         "type": ["Water", "Fairy"],
         "id": 208,
-        "label": "Azumarill"
+        "label": "Azumarill",
+        "slug": "azumarill"
     },
     {
         "form": "Normal",
@@ -1677,7 +1886,8 @@
         "pokemon_name": "Sudowoodo",
         "type": ["Rock"],
         "id": 209,
-        "label": "Sudowoodo"
+        "label": "Sudowoodo",
+        "slug": "sudowoodo"
     },
     {
         "form": "Normal",
@@ -1685,7 +1895,8 @@
         "pokemon_name": "Politoed",
         "type": ["Water"],
         "id": 210,
-        "label": "Politoed"
+        "label": "Politoed",
+        "slug": "politoed"
     },
     {
         "form": "Normal",
@@ -1693,7 +1904,8 @@
         "pokemon_name": "Hoppip",
         "type": ["Grass", "Flying"],
         "id": 211,
-        "label": "Hoppip"
+        "label": "Hoppip",
+        "slug": "hoppip"
     },
     {
         "form": "Normal",
@@ -1701,7 +1913,8 @@
         "pokemon_name": "Skiploom",
         "type": ["Grass", "Flying"],
         "id": 212,
-        "label": "Skiploom"
+        "label": "Skiploom",
+        "slug": "skiploom"
     },
     {
         "form": "Normal",
@@ -1709,7 +1922,8 @@
         "pokemon_name": "Jumpluff",
         "type": ["Grass", "Flying"],
         "id": 213,
-        "label": "Jumpluff"
+        "label": "Jumpluff",
+        "slug": "jumpluff"
     },
     {
         "form": "Normal",
@@ -1717,7 +1931,8 @@
         "pokemon_name": "Aipom",
         "type": ["Normal"],
         "id": 214,
-        "label": "Aipom"
+        "label": "Aipom",
+        "slug": "aipom"
     },
     {
         "form": "Normal",
@@ -1725,7 +1940,8 @@
         "pokemon_name": "Sunkern",
         "type": ["Grass"],
         "id": 215,
-        "label": "Sunkern"
+        "label": "Sunkern",
+        "slug": "sunkern"
     },
     {
         "form": "Normal",
@@ -1733,7 +1949,8 @@
         "pokemon_name": "Sunflora",
         "type": ["Grass"],
         "id": 216,
-        "label": "Sunflora"
+        "label": "Sunflora",
+        "slug": "sunflora"
     },
     {
         "form": "Normal",
@@ -1741,7 +1958,8 @@
         "pokemon_name": "Yanma",
         "type": ["Bug", "Flying"],
         "id": 217,
-        "label": "Yanma"
+        "label": "Yanma",
+        "slug": "yanma"
     },
     {
         "form": "Normal",
@@ -1749,7 +1967,8 @@
         "pokemon_name": "Wooper",
         "type": ["Water", "Ground"],
         "id": 218,
-        "label": "Wooper"
+        "label": "Wooper",
+        "slug": "wooper"
     },
     {
         "form": "Normal",
@@ -1757,7 +1976,8 @@
         "pokemon_name": "Quagsire",
         "type": ["Water", "Ground"],
         "id": 219,
-        "label": "Quagsire"
+        "label": "Quagsire",
+        "slug": "quagsire"
     },
     {
         "form": "Normal",
@@ -1765,7 +1985,8 @@
         "pokemon_name": "Espeon",
         "type": ["Psychic"],
         "id": 220,
-        "label": "Espeon"
+        "label": "Espeon",
+        "slug": "espeon"
     },
     {
         "form": "Normal",
@@ -1773,7 +1994,8 @@
         "pokemon_name": "Umbreon",
         "type": ["Dark"],
         "id": 221,
-        "label": "Umbreon"
+        "label": "Umbreon",
+        "slug": "umbreon"
     },
     {
         "form": "Normal",
@@ -1781,7 +2003,8 @@
         "pokemon_name": "Murkrow",
         "type": ["Dark", "Flying"],
         "id": 222,
-        "label": "Murkrow"
+        "label": "Murkrow",
+        "slug": "murkrow"
     },
     {
         "form": "Normal",
@@ -1789,7 +2012,8 @@
         "pokemon_name": "Slowking",
         "type": ["Water", "Psychic"],
         "id": 223,
-        "label": "Slowking"
+        "label": "Slowking",
+        "slug": "slowking"
     },
     {
         "form": "Normal",
@@ -1797,7 +2021,8 @@
         "pokemon_name": "Misdreavus",
         "type": ["Ghost"],
         "id": 224,
-        "label": "Misdreavus"
+        "label": "Misdreavus",
+        "slug": "misdreavus"
     },
     {
         "form": "Normal",
@@ -1805,7 +2030,8 @@
         "pokemon_name": "Unown",
         "type": ["Psychic"],
         "id": 225,
-        "label": "Unown"
+        "label": "Unown",
+        "slug": "unown"
     },
     {
         "form": "Normal",
@@ -1813,7 +2039,8 @@
         "pokemon_name": "Wobbuffet",
         "type": ["Psychic"],
         "id": 226,
-        "label": "Wobbuffet"
+        "label": "Wobbuffet",
+        "slug": "wobbuffet"
     },
     {
         "form": "Normal",
@@ -1821,7 +2048,8 @@
         "pokemon_name": "Girafarig",
         "type": ["Normal", "Psychic"],
         "id": 227,
-        "label": "Girafarig"
+        "label": "Girafarig",
+        "slug": "girafarig"
     },
     {
         "form": "Normal",
@@ -1829,7 +2057,8 @@
         "pokemon_name": "Pineco",
         "type": ["Bug"],
         "id": 228,
-        "label": "Pineco"
+        "label": "Pineco",
+        "slug": "pineco"
     },
     {
         "form": "Normal",
@@ -1837,7 +2066,8 @@
         "pokemon_name": "Forretress",
         "type": ["Bug", "Steel"],
         "id": 229,
-        "label": "Forretress"
+        "label": "Forretress",
+        "slug": "forretress"
     },
     {
         "form": "Normal",
@@ -1845,7 +2075,8 @@
         "pokemon_name": "Dunsparce",
         "type": ["Normal"],
         "id": 230,
-        "label": "Dunsparce"
+        "label": "Dunsparce",
+        "slug": "dunsparce"
     },
     {
         "form": "Normal",
@@ -1853,7 +2084,8 @@
         "pokemon_name": "Gligar",
         "type": ["Ground", "Flying"],
         "id": 231,
-        "label": "Gligar"
+        "label": "Gligar",
+        "slug": "gligar"
     },
     {
         "form": "Normal",
@@ -1861,7 +2093,8 @@
         "pokemon_name": "Steelix",
         "type": ["Steel", "Ground"],
         "id": 232,
-        "label": "Steelix"
+        "label": "Steelix",
+        "slug": "steelix"
     },
     {
         "form": "Normal",
@@ -1869,7 +2102,8 @@
         "pokemon_name": "Snubbull",
         "type": ["Fairy"],
         "id": 233,
-        "label": "Snubbull"
+        "label": "Snubbull",
+        "slug": "snubbull"
     },
     {
         "form": "Normal",
@@ -1877,7 +2111,8 @@
         "pokemon_name": "Granbull",
         "type": ["Fairy"],
         "id": 234,
-        "label": "Granbull"
+        "label": "Granbull",
+        "slug": "granbull"
     },
     {
         "form": "Normal",
@@ -1885,7 +2120,8 @@
         "pokemon_name": "Qwilfish",
         "type": ["Water", "Poison"],
         "id": 235,
-        "label": "Qwilfish"
+        "label": "Qwilfish",
+        "slug": "qwilfish"
     },
     {
         "form": "Normal",
@@ -1893,7 +2129,8 @@
         "pokemon_name": "Scizor",
         "type": ["Bug", "Steel"],
         "id": 236,
-        "label": "Scizor"
+        "label": "Scizor",
+        "slug": "scizor"
     },
     {
         "form": "Normal",
@@ -1901,7 +2138,8 @@
         "pokemon_name": "Shuckle",
         "type": ["Bug", "Rock"],
         "id": 237,
-        "label": "Shuckle"
+        "label": "Shuckle",
+        "slug": "shuckle"
     },
     {
         "form": "Normal",
@@ -1909,7 +2147,8 @@
         "pokemon_name": "Heracross",
         "type": ["Bug", "Fighting"],
         "id": 238,
-        "label": "Heracross"
+        "label": "Heracross",
+        "slug": "heracross"
     },
     {
         "form": "Normal",
@@ -1917,7 +2156,8 @@
         "pokemon_name": "Sneasel",
         "type": ["Dark", "Ice"],
         "id": 239,
-        "label": "Sneasel"
+        "label": "Sneasel",
+        "slug": "sneasel"
     },
     {
         "form": "Normal",
@@ -1925,7 +2165,8 @@
         "pokemon_name": "Teddiursa",
         "type": ["Normal"],
         "id": 240,
-        "label": "Teddiursa"
+        "label": "Teddiursa",
+        "slug": "teddiursa"
     },
     {
         "form": "Normal",
@@ -1933,7 +2174,8 @@
         "pokemon_name": "Ursaring",
         "type": ["Normal"],
         "id": 241,
-        "label": "Ursaring"
+        "label": "Ursaring",
+        "slug": "ursaring"
     },
     {
         "form": "Normal",
@@ -1941,7 +2183,8 @@
         "pokemon_name": "Slugma",
         "type": ["Fire"],
         "id": 242,
-        "label": "Slugma"
+        "label": "Slugma",
+        "slug": "slugma"
     },
     {
         "form": "Normal",
@@ -1949,7 +2192,8 @@
         "pokemon_name": "Magcargo",
         "type": ["Fire", "Rock"],
         "id": 243,
-        "label": "Magcargo"
+        "label": "Magcargo",
+        "slug": "magcargo"
     },
     {
         "form": "Normal",
@@ -1957,7 +2201,8 @@
         "pokemon_name": "Swinub",
         "type": ["Ice", "Ground"],
         "id": 244,
-        "label": "Swinub"
+        "label": "Swinub",
+        "slug": "swinub"
     },
     {
         "form": "Normal",
@@ -1965,7 +2210,8 @@
         "pokemon_name": "Piloswine",
         "type": ["Ice", "Ground"],
         "id": 245,
-        "label": "Piloswine"
+        "label": "Piloswine",
+        "slug": "piloswine"
     },
     {
         "form": "Normal",
@@ -1973,7 +2219,8 @@
         "pokemon_name": "Corsola",
         "type": ["Water", "Rock"],
         "id": 246,
-        "label": "Corsola"
+        "label": "Corsola",
+        "slug": "corsola"
     },
     {
         "form": "Normal",
@@ -1981,7 +2228,8 @@
         "pokemon_name": "Remoraid",
         "type": ["Water"],
         "id": 247,
-        "label": "Remoraid"
+        "label": "Remoraid",
+        "slug": "remoraid"
     },
     {
         "form": "Normal",
@@ -1989,7 +2237,8 @@
         "pokemon_name": "Octillery",
         "type": ["Water"],
         "id": 248,
-        "label": "Octillery"
+        "label": "Octillery",
+        "slug": "octillery"
     },
     {
         "form": "Normal",
@@ -1997,7 +2246,8 @@
         "pokemon_name": "Delibird",
         "type": ["Ice", "Flying"],
         "id": 249,
-        "label": "Delibird"
+        "label": "Delibird",
+        "slug": "delibird"
     },
     {
         "form": "Normal",
@@ -2005,7 +2255,8 @@
         "pokemon_name": "Mantine",
         "type": ["Water", "Flying"],
         "id": 250,
-        "label": "Mantine"
+        "label": "Mantine",
+        "slug": "mantine"
     },
     {
         "form": "Normal",
@@ -2013,7 +2264,8 @@
         "pokemon_name": "Skarmory",
         "type": ["Steel", "Flying"],
         "id": 251,
-        "label": "Skarmory"
+        "label": "Skarmory",
+        "slug": "skarmory"
     },
     {
         "form": "Normal",
@@ -2021,7 +2273,8 @@
         "pokemon_name": "Houndour",
         "type": ["Dark", "Fire"],
         "id": 252,
-        "label": "Houndour"
+        "label": "Houndour",
+        "slug": "houndour"
     },
     {
         "form": "Normal",
@@ -2029,7 +2282,8 @@
         "pokemon_name": "Houndoom",
         "type": ["Dark", "Fire"],
         "id": 253,
-        "label": "Houndoom"
+        "label": "Houndoom",
+        "slug": "houndoom"
     },
     {
         "form": "Normal",
@@ -2037,7 +2291,8 @@
         "pokemon_name": "Kingdra",
         "type": ["Water", "Dragon"],
         "id": 254,
-        "label": "Kingdra"
+        "label": "Kingdra",
+        "slug": "kingdra"
     },
     {
         "form": "Normal",
@@ -2045,7 +2300,8 @@
         "pokemon_name": "Phanpy",
         "type": ["Ground"],
         "id": 255,
-        "label": "Phanpy"
+        "label": "Phanpy",
+        "slug": "phanpy"
     },
     {
         "form": "Normal",
@@ -2053,7 +2309,8 @@
         "pokemon_name": "Donphan",
         "type": ["Ground"],
         "id": 256,
-        "label": "Donphan"
+        "label": "Donphan",
+        "slug": "donphan"
     },
     {
         "form": "Normal",
@@ -2061,7 +2318,8 @@
         "pokemon_name": "Porygon2",
         "type": ["Normal"],
         "id": 257,
-        "label": "Porygon2"
+        "label": "Porygon2",
+        "slug": "porygon2"
     },
     {
         "form": "Normal",
@@ -2069,7 +2327,8 @@
         "pokemon_name": "Stantler",
         "type": ["Normal"],
         "id": 258,
-        "label": "Stantler"
+        "label": "Stantler",
+        "slug": "stantler"
     },
     {
         "form": "Normal",
@@ -2077,7 +2336,8 @@
         "pokemon_name": "Smeargle",
         "type": ["Normal"],
         "id": 259,
-        "label": "Smeargle"
+        "label": "Smeargle",
+        "slug": "smeargle"
     },
     {
         "form": "Normal",
@@ -2085,7 +2345,8 @@
         "pokemon_name": "Tyrogue",
         "type": ["Fighting"],
         "id": 260,
-        "label": "Tyrogue"
+        "label": "Tyrogue",
+        "slug": "tyrogue"
     },
     {
         "form": "Normal",
@@ -2093,7 +2354,8 @@
         "pokemon_name": "Hitmontop",
         "type": ["Fighting"],
         "id": 261,
-        "label": "Hitmontop"
+        "label": "Hitmontop",
+        "slug": "hitmontop"
     },
     {
         "form": "Normal",
@@ -2101,7 +2363,8 @@
         "pokemon_name": "Smoochum",
         "type": ["Ice", "Psychic"],
         "id": 262,
-        "label": "Smoochum"
+        "label": "Smoochum",
+        "slug": "smoochum"
     },
     {
         "form": "Normal",
@@ -2109,7 +2372,8 @@
         "pokemon_name": "Elekid",
         "type": ["Electric"],
         "id": 263,
-        "label": "Elekid"
+        "label": "Elekid",
+        "slug": "elekid"
     },
     {
         "form": "Normal",
@@ -2117,7 +2381,8 @@
         "pokemon_name": "Magby",
         "type": ["Fire"],
         "id": 264,
-        "label": "Magby"
+        "label": "Magby",
+        "slug": "magby"
     },
     {
         "form": "Normal",
@@ -2125,7 +2390,8 @@
         "pokemon_name": "Miltank",
         "type": ["Normal"],
         "id": 265,
-        "label": "Miltank"
+        "label": "Miltank",
+        "slug": "miltank"
     },
     {
         "form": "Normal",
@@ -2133,7 +2399,8 @@
         "pokemon_name": "Blissey",
         "type": ["Normal"],
         "id": 266,
-        "label": "Blissey"
+        "label": "Blissey",
+        "slug": "blissey"
     },
     {
         "form": "Normal",
@@ -2141,7 +2408,8 @@
         "pokemon_name": "Raikou",
         "type": ["Electric"],
         "id": 267,
-        "label": "Raikou"
+        "label": "Raikou",
+        "slug": "raikou"
     },
     {
         "form": "Normal",
@@ -2149,7 +2417,8 @@
         "pokemon_name": "Entei",
         "type": ["Fire"],
         "id": 268,
-        "label": "Entei"
+        "label": "Entei",
+        "slug": "entei"
     },
     {
         "form": "Normal",
@@ -2157,7 +2426,8 @@
         "pokemon_name": "Suicune",
         "type": ["Water"],
         "id": 269,
-        "label": "Suicune"
+        "label": "Suicune",
+        "slug": "suicune"
     },
     {
         "form": "Normal",
@@ -2165,7 +2435,8 @@
         "pokemon_name": "Larvitar",
         "type": ["Rock", "Ground"],
         "id": 270,
-        "label": "Larvitar"
+        "label": "Larvitar",
+        "slug": "larvitar"
     },
     {
         "form": "Normal",
@@ -2173,7 +2444,8 @@
         "pokemon_name": "Pupitar",
         "type": ["Rock", "Ground"],
         "id": 271,
-        "label": "Pupitar"
+        "label": "Pupitar",
+        "slug": "pupitar"
     },
     {
         "form": "Normal",
@@ -2181,7 +2453,8 @@
         "pokemon_name": "Tyranitar",
         "type": ["Rock", "Dark"],
         "id": 272,
-        "label": "Tyranitar"
+        "label": "Tyranitar",
+        "slug": "tyranitar"
     },
     {
         "form": "Normal",
@@ -2189,7 +2462,8 @@
         "pokemon_name": "Lugia",
         "type": ["Psychic", "Flying"],
         "id": 273,
-        "label": "Lugia"
+        "label": "Lugia",
+        "slug": "lugia"
     },
     {
         "form": "Normal",
@@ -2197,7 +2471,8 @@
         "pokemon_name": "Ho-Oh",
         "type": ["Fire", "Flying"],
         "id": 274,
-        "label": "Ho-Oh"
+        "label": "Ho-Oh",
+        "slug": "hooh"
     },
     {
         "form": "Normal",
@@ -2205,7 +2480,8 @@
         "pokemon_name": "Celebi",
         "type": ["Psychic", "Grass"],
         "id": 275,
-        "label": "Celebi"
+        "label": "Celebi",
+        "slug": "celebi"
     },
     {
         "form": "Normal",
@@ -2213,7 +2489,8 @@
         "pokemon_name": "Treecko",
         "type": ["Grass"],
         "id": 276,
-        "label": "Treecko"
+        "label": "Treecko",
+        "slug": "treecko"
     },
     {
         "form": "Normal",
@@ -2221,7 +2498,8 @@
         "pokemon_name": "Grovyle",
         "type": ["Grass"],
         "id": 277,
-        "label": "Grovyle"
+        "label": "Grovyle",
+        "slug": "grovyle"
     },
     {
         "form": "Normal",
@@ -2229,7 +2507,8 @@
         "pokemon_name": "Sceptile",
         "type": ["Grass"],
         "id": 278,
-        "label": "Sceptile"
+        "label": "Sceptile",
+        "slug": "sceptile"
     },
     {
         "form": "Normal",
@@ -2237,7 +2516,8 @@
         "pokemon_name": "Torchic",
         "type": ["Fire"],
         "id": 279,
-        "label": "Torchic"
+        "label": "Torchic",
+        "slug": "torchic"
     },
     {
         "form": "Normal",
@@ -2245,7 +2525,8 @@
         "pokemon_name": "Combusken",
         "type": ["Fire", "Fighting"],
         "id": 280,
-        "label": "Combusken"
+        "label": "Combusken",
+        "slug": "combusken"
     },
     {
         "form": "Normal",
@@ -2253,7 +2534,8 @@
         "pokemon_name": "Blaziken",
         "type": ["Fire", "Fighting"],
         "id": 281,
-        "label": "Blaziken"
+        "label": "Blaziken",
+        "slug": "blaziken"
     },
     {
         "form": "Normal",
@@ -2261,7 +2543,8 @@
         "pokemon_name": "Mudkip",
         "type": ["Water"],
         "id": 282,
-        "label": "Mudkip"
+        "label": "Mudkip",
+        "slug": "mudkip"
     },
     {
         "form": "Normal",
@@ -2269,7 +2552,8 @@
         "pokemon_name": "Marshtomp",
         "type": ["Water", "Ground"],
         "id": 283,
-        "label": "Marshtomp"
+        "label": "Marshtomp",
+        "slug": "marshtomp"
     },
     {
         "form": "Normal",
@@ -2277,7 +2561,8 @@
         "pokemon_name": "Swampert",
         "type": ["Water", "Ground"],
         "id": 284,
-        "label": "Swampert"
+        "label": "Swampert",
+        "slug": "swampert"
     },
     {
         "form": "Normal",
@@ -2285,7 +2570,8 @@
         "pokemon_name": "Poochyena",
         "type": ["Dark"],
         "id": 285,
-        "label": "Poochyena"
+        "label": "Poochyena",
+        "slug": "poochyena"
     },
     {
         "form": "Normal",
@@ -2293,7 +2579,8 @@
         "pokemon_name": "Mightyena",
         "type": ["Dark"],
         "id": 286,
-        "label": "Mightyena"
+        "label": "Mightyena",
+        "slug": "mightyena"
     },
     {
         "form": "Galarian",
@@ -2301,7 +2588,8 @@
         "pokemon_name": "Zigzagoon",
         "type": ["Dark", "Normal"],
         "id": 287,
-        "label": "Zigzagoon (Galarian)"
+        "label": "Zigzagoon (Galarian)",
+        "slug": "zigzagoon-galarian"
     },
     {
         "form": "Normal",
@@ -2309,7 +2597,8 @@
         "pokemon_name": "Zigzagoon",
         "type": ["Normal"],
         "id": 288,
-        "label": "Zigzagoon"
+        "label": "Zigzagoon",
+        "slug": "zigzagoon"
     },
     {
         "form": "Galarian",
@@ -2317,7 +2606,8 @@
         "pokemon_name": "Linoone",
         "type": ["Dark", "Normal"],
         "id": 289,
-        "label": "Linoone (Galarian)"
+        "label": "Linoone (Galarian)",
+        "slug": "linoone-galarian"
     },
     {
         "form": "Normal",
@@ -2325,7 +2615,8 @@
         "pokemon_name": "Linoone",
         "type": ["Normal"],
         "id": 290,
-        "label": "Linoone"
+        "label": "Linoone",
+        "slug": "linoone"
     },
     {
         "form": "Normal",
@@ -2333,7 +2624,8 @@
         "pokemon_name": "Wurmple",
         "type": ["Bug"],
         "id": 291,
-        "label": "Wurmple"
+        "label": "Wurmple",
+        "slug": "wurmple"
     },
     {
         "form": "Normal",
@@ -2341,7 +2633,8 @@
         "pokemon_name": "Silcoon",
         "type": ["Bug"],
         "id": 292,
-        "label": "Silcoon"
+        "label": "Silcoon",
+        "slug": "silcoon"
     },
     {
         "form": "Normal",
@@ -2349,7 +2642,8 @@
         "pokemon_name": "Beautifly",
         "type": ["Bug", "Flying"],
         "id": 293,
-        "label": "Beautifly"
+        "label": "Beautifly",
+        "slug": "beautifly"
     },
     {
         "form": "Normal",
@@ -2357,7 +2651,8 @@
         "pokemon_name": "Cascoon",
         "type": ["Bug"],
         "id": 294,
-        "label": "Cascoon"
+        "label": "Cascoon",
+        "slug": "cascoon"
     },
     {
         "form": "Normal",
@@ -2365,7 +2660,8 @@
         "pokemon_name": "Dustox",
         "type": ["Bug", "Poison"],
         "id": 295,
-        "label": "Dustox"
+        "label": "Dustox",
+        "slug": "dustox"
     },
     {
         "form": "Normal",
@@ -2373,7 +2669,8 @@
         "pokemon_name": "Lotad",
         "type": ["Water", "Grass"],
         "id": 296,
-        "label": "Lotad"
+        "label": "Lotad",
+        "slug": "lotad"
     },
     {
         "form": "Normal",
@@ -2381,7 +2678,8 @@
         "pokemon_name": "Lombre",
         "type": ["Water", "Grass"],
         "id": 297,
-        "label": "Lombre"
+        "label": "Lombre",
+        "slug": "lombre"
     },
     {
         "form": "Normal",
@@ -2389,7 +2687,8 @@
         "pokemon_name": "Ludicolo",
         "type": ["Water", "Grass"],
         "id": 298,
-        "label": "Ludicolo"
+        "label": "Ludicolo",
+        "slug": "ludicolo"
     },
     {
         "form": "Normal",
@@ -2397,7 +2696,8 @@
         "pokemon_name": "Seedot",
         "type": ["Grass"],
         "id": 299,
-        "label": "Seedot"
+        "label": "Seedot",
+        "slug": "seedot"
     },
     {
         "form": "Normal",
@@ -2405,7 +2705,8 @@
         "pokemon_name": "Nuzleaf",
         "type": ["Grass", "Dark"],
         "id": 300,
-        "label": "Nuzleaf"
+        "label": "Nuzleaf",
+        "slug": "nuzleaf"
     },
     {
         "form": "Normal",
@@ -2413,7 +2714,8 @@
         "pokemon_name": "Shiftry",
         "type": ["Grass", "Dark"],
         "id": 301,
-        "label": "Shiftry"
+        "label": "Shiftry",
+        "slug": "shiftry"
     },
     {
         "form": "Normal",
@@ -2421,7 +2723,8 @@
         "pokemon_name": "Taillow",
         "type": ["Normal", "Flying"],
         "id": 302,
-        "label": "Taillow"
+        "label": "Taillow",
+        "slug": "taillow"
     },
     {
         "form": "Normal",
@@ -2429,7 +2732,8 @@
         "pokemon_name": "Swellow",
         "type": ["Normal", "Flying"],
         "id": 303,
-        "label": "Swellow"
+        "label": "Swellow",
+        "slug": "swellow"
     },
     {
         "form": "Normal",
@@ -2437,7 +2741,8 @@
         "pokemon_name": "Wingull",
         "type": ["Water", "Flying"],
         "id": 304,
-        "label": "Wingull"
+        "label": "Wingull",
+        "slug": "wingull"
     },
     {
         "form": "Normal",
@@ -2445,7 +2750,8 @@
         "pokemon_name": "Pelipper",
         "type": ["Water", "Flying"],
         "id": 305,
-        "label": "Pelipper"
+        "label": "Pelipper",
+        "slug": "pelipper"
     },
     {
         "form": "Normal",
@@ -2453,7 +2759,8 @@
         "pokemon_name": "Ralts",
         "type": ["Psychic", "Fairy"],
         "id": 306,
-        "label": "Ralts"
+        "label": "Ralts",
+        "slug": "ralts"
     },
     {
         "form": "Normal",
@@ -2461,7 +2768,8 @@
         "pokemon_name": "Kirlia",
         "type": ["Psychic", "Fairy"],
         "id": 307,
-        "label": "Kirlia"
+        "label": "Kirlia",
+        "slug": "kirlia"
     },
     {
         "form": "Normal",
@@ -2469,7 +2777,8 @@
         "pokemon_name": "Gardevoir",
         "type": ["Psychic", "Fairy"],
         "id": 308,
-        "label": "Gardevoir"
+        "label": "Gardevoir",
+        "slug": "gardevoir"
     },
     {
         "form": "Normal",
@@ -2477,7 +2786,8 @@
         "pokemon_name": "Surskit",
         "type": ["Bug", "Water"],
         "id": 309,
-        "label": "Surskit"
+        "label": "Surskit",
+        "slug": "surskit"
     },
     {
         "form": "Normal",
@@ -2485,7 +2795,8 @@
         "pokemon_name": "Masquerain",
         "type": ["Bug", "Flying"],
         "id": 310,
-        "label": "Masquerain"
+        "label": "Masquerain",
+        "slug": "masquerain"
     },
     {
         "form": "Normal",
@@ -2493,7 +2804,8 @@
         "pokemon_name": "Shroomish",
         "type": ["Grass"],
         "id": 311,
-        "label": "Shroomish"
+        "label": "Shroomish",
+        "slug": "shroomish"
     },
     {
         "form": "Normal",
@@ -2501,7 +2813,8 @@
         "pokemon_name": "Breloom",
         "type": ["Grass", "Fighting"],
         "id": 312,
-        "label": "Breloom"
+        "label": "Breloom",
+        "slug": "breloom"
     },
     {
         "form": "Normal",
@@ -2509,7 +2822,8 @@
         "pokemon_name": "Slakoth",
         "type": ["Normal"],
         "id": 313,
-        "label": "Slakoth"
+        "label": "Slakoth",
+        "slug": "slakoth"
     },
     {
         "form": "Normal",
@@ -2517,7 +2831,8 @@
         "pokemon_name": "Vigoroth",
         "type": ["Normal"],
         "id": 314,
-        "label": "Vigoroth"
+        "label": "Vigoroth",
+        "slug": "vigoroth"
     },
     {
         "form": "Normal",
@@ -2525,7 +2840,8 @@
         "pokemon_name": "Slaking",
         "type": ["Normal"],
         "id": 315,
-        "label": "Slaking"
+        "label": "Slaking",
+        "slug": "slaking"
     },
     {
         "form": "Normal",
@@ -2533,7 +2849,8 @@
         "pokemon_name": "Nincada",
         "type": ["Bug", "Ground"],
         "id": 316,
-        "label": "Nincada"
+        "label": "Nincada",
+        "slug": "nincada"
     },
     {
         "form": "Normal",
@@ -2541,7 +2858,8 @@
         "pokemon_name": "Ninjask",
         "type": ["Bug", "Flying"],
         "id": 317,
-        "label": "Ninjask"
+        "label": "Ninjask",
+        "slug": "ninjask"
     },
     {
         "form": "Normal",
@@ -2549,7 +2867,8 @@
         "pokemon_name": "Shedinja",
         "type": ["Bug", "Ghost"],
         "id": 318,
-        "label": "Shedinja"
+        "label": "Shedinja",
+        "slug": "shedinja"
     },
     {
         "form": "Normal",
@@ -2557,7 +2876,8 @@
         "pokemon_name": "Whismur",
         "type": ["Normal"],
         "id": 319,
-        "label": "Whismur"
+        "label": "Whismur",
+        "slug": "whismur"
     },
     {
         "form": "Normal",
@@ -2565,7 +2885,8 @@
         "pokemon_name": "Loudred",
         "type": ["Normal"],
         "id": 320,
-        "label": "Loudred"
+        "label": "Loudred",
+        "slug": "loudred"
     },
     {
         "form": "Normal",
@@ -2573,7 +2894,8 @@
         "pokemon_name": "Exploud",
         "type": ["Normal"],
         "id": 321,
-        "label": "Exploud"
+        "label": "Exploud",
+        "slug": "exploud"
     },
     {
         "form": "Normal",
@@ -2581,7 +2903,8 @@
         "pokemon_name": "Makuhita",
         "type": ["Fighting"],
         "id": 322,
-        "label": "Makuhita"
+        "label": "Makuhita",
+        "slug": "makuhita"
     },
     {
         "form": "Normal",
@@ -2589,7 +2912,8 @@
         "pokemon_name": "Hariyama",
         "type": ["Fighting"],
         "id": 323,
-        "label": "Hariyama"
+        "label": "Hariyama",
+        "slug": "hariyama"
     },
     {
         "form": "Normal",
@@ -2597,7 +2921,8 @@
         "pokemon_name": "Azurill",
         "type": ["Normal", "Fairy"],
         "id": 324,
-        "label": "Azurill"
+        "label": "Azurill",
+        "slug": "azurill"
     },
     {
         "form": "Normal",
@@ -2605,7 +2930,8 @@
         "pokemon_name": "Nosepass",
         "type": ["Rock"],
         "id": 325,
-        "label": "Nosepass"
+        "label": "Nosepass",
+        "slug": "nosepass"
     },
     {
         "form": "Normal",
@@ -2613,7 +2939,8 @@
         "pokemon_name": "Skitty",
         "type": ["Normal"],
         "id": 326,
-        "label": "Skitty"
+        "label": "Skitty",
+        "slug": "skitty"
     },
     {
         "form": "Normal",
@@ -2621,7 +2948,8 @@
         "pokemon_name": "Delcatty",
         "type": ["Normal"],
         "id": 327,
-        "label": "Delcatty"
+        "label": "Delcatty",
+        "slug": "delcatty"
     },
     {
         "form": "Normal",
@@ -2629,7 +2957,8 @@
         "pokemon_name": "Sableye",
         "type": ["Dark", "Ghost"],
         "id": 328,
-        "label": "Sableye"
+        "label": "Sableye",
+        "slug": "sableye"
     },
     {
         "form": "Normal",
@@ -2637,7 +2966,8 @@
         "pokemon_name": "Mawile",
         "type": ["Steel", "Fairy"],
         "id": 329,
-        "label": "Mawile"
+        "label": "Mawile",
+        "slug": "mawile"
     },
     {
         "form": "Normal",
@@ -2645,7 +2975,8 @@
         "pokemon_name": "Aron",
         "type": ["Steel", "Rock"],
         "id": 330,
-        "label": "Aron"
+        "label": "Aron",
+        "slug": "aron"
     },
     {
         "form": "Normal",
@@ -2653,7 +2984,8 @@
         "pokemon_name": "Lairon",
         "type": ["Steel", "Rock"],
         "id": 331,
-        "label": "Lairon"
+        "label": "Lairon",
+        "slug": "lairon"
     },
     {
         "form": "Normal",
@@ -2661,7 +2993,8 @@
         "pokemon_name": "Aggron",
         "type": ["Steel", "Rock"],
         "id": 332,
-        "label": "Aggron"
+        "label": "Aggron",
+        "slug": "aggron"
     },
     {
         "form": "Normal",
@@ -2669,7 +3002,8 @@
         "pokemon_name": "Meditite",
         "type": ["Fighting", "Psychic"],
         "id": 333,
-        "label": "Meditite"
+        "label": "Meditite",
+        "slug": "meditite"
     },
     {
         "form": "Normal",
@@ -2677,7 +3011,8 @@
         "pokemon_name": "Medicham",
         "type": ["Fighting", "Psychic"],
         "id": 334,
-        "label": "Medicham"
+        "label": "Medicham",
+        "slug": "medicham"
     },
     {
         "form": "Normal",
@@ -2685,7 +3020,8 @@
         "pokemon_name": "Electrike",
         "type": ["Electric"],
         "id": 335,
-        "label": "Electrike"
+        "label": "Electrike",
+        "slug": "electrike"
     },
     {
         "form": "Normal",
@@ -2693,7 +3029,8 @@
         "pokemon_name": "Manectric",
         "type": ["Electric"],
         "id": 336,
-        "label": "Manectric"
+        "label": "Manectric",
+        "slug": "manectric"
     },
     {
         "form": "Normal",
@@ -2701,7 +3038,8 @@
         "pokemon_name": "Plusle",
         "type": ["Electric"],
         "id": 337,
-        "label": "Plusle"
+        "label": "Plusle",
+        "slug": "plusle"
     },
     {
         "form": "Normal",
@@ -2709,7 +3047,8 @@
         "pokemon_name": "Minun",
         "type": ["Electric"],
         "id": 338,
-        "label": "Minun"
+        "label": "Minun",
+        "slug": "minun"
     },
     {
         "form": "Normal",
@@ -2717,7 +3056,8 @@
         "pokemon_name": "Volbeat",
         "type": ["Bug"],
         "id": 339,
-        "label": "Volbeat"
+        "label": "Volbeat",
+        "slug": "volbeat"
     },
     {
         "form": "Normal",
@@ -2725,7 +3065,8 @@
         "pokemon_name": "Illumise",
         "type": ["Bug"],
         "id": 340,
-        "label": "Illumise"
+        "label": "Illumise",
+        "slug": "illumise"
     },
     {
         "form": "Normal",
@@ -2733,7 +3074,8 @@
         "pokemon_name": "Roselia",
         "type": ["Grass", "Poison"],
         "id": 341,
-        "label": "Roselia"
+        "label": "Roselia",
+        "slug": "roselia"
     },
     {
         "form": "Normal",
@@ -2741,7 +3083,8 @@
         "pokemon_name": "Gulpin",
         "type": ["Poison"],
         "id": 342,
-        "label": "Gulpin"
+        "label": "Gulpin",
+        "slug": "gulpin"
     },
     {
         "form": "Normal",
@@ -2749,7 +3092,8 @@
         "pokemon_name": "Swalot",
         "type": ["Poison"],
         "id": 343,
-        "label": "Swalot"
+        "label": "Swalot",
+        "slug": "swalot"
     },
     {
         "form": "Normal",
@@ -2757,7 +3101,8 @@
         "pokemon_name": "Carvanha",
         "type": ["Water", "Dark"],
         "id": 344,
-        "label": "Carvanha"
+        "label": "Carvanha",
+        "slug": "carvanha"
     },
     {
         "form": "Normal",
@@ -2765,7 +3110,8 @@
         "pokemon_name": "Sharpedo",
         "type": ["Water", "Dark"],
         "id": 345,
-        "label": "Sharpedo"
+        "label": "Sharpedo",
+        "slug": "sharpedo"
     },
     {
         "form": "Normal",
@@ -2773,7 +3119,8 @@
         "pokemon_name": "Wailmer",
         "type": ["Water"],
         "id": 346,
-        "label": "Wailmer"
+        "label": "Wailmer",
+        "slug": "wailmer"
     },
     {
         "form": "Normal",
@@ -2781,7 +3128,8 @@
         "pokemon_name": "Wailord",
         "type": ["Water"],
         "id": 347,
-        "label": "Wailord"
+        "label": "Wailord",
+        "slug": "wailord"
     },
     {
         "form": "Normal",
@@ -2789,7 +3137,8 @@
         "pokemon_name": "Numel",
         "type": ["Fire", "Ground"],
         "id": 348,
-        "label": "Numel"
+        "label": "Numel",
+        "slug": "numel"
     },
     {
         "form": "Normal",
@@ -2797,7 +3146,8 @@
         "pokemon_name": "Camerupt",
         "type": ["Fire", "Ground"],
         "id": 349,
-        "label": "Camerupt"
+        "label": "Camerupt",
+        "slug": "camerupt"
     },
     {
         "form": "Normal",
@@ -2805,7 +3155,8 @@
         "pokemon_name": "Torkoal",
         "type": ["Fire"],
         "id": 350,
-        "label": "Torkoal"
+        "label": "Torkoal",
+        "slug": "torkoal"
     },
     {
         "form": "Normal",
@@ -2813,7 +3164,8 @@
         "pokemon_name": "Spoink",
         "type": ["Psychic"],
         "id": 351,
-        "label": "Spoink"
+        "label": "Spoink",
+        "slug": "spoink"
     },
     {
         "form": "Normal",
@@ -2821,7 +3173,8 @@
         "pokemon_name": "Grumpig",
         "type": ["Psychic"],
         "id": 352,
-        "label": "Grumpig"
+        "label": "Grumpig",
+        "slug": "grumpig"
     },
     {
         "form": "Normal",
@@ -2829,7 +3182,8 @@
         "pokemon_name": "Spinda",
         "type": ["Normal"],
         "id": 353,
-        "label": "Spinda"
+        "label": "Spinda",
+        "slug": "spinda"
     },
     {
         "form": "Normal",
@@ -2837,7 +3191,8 @@
         "pokemon_name": "Trapinch",
         "type": ["Ground"],
         "id": 354,
-        "label": "Trapinch"
+        "label": "Trapinch",
+        "slug": "trapinch"
     },
     {
         "form": "Normal",
@@ -2845,7 +3200,8 @@
         "pokemon_name": "Vibrava",
         "type": ["Ground", "Dragon"],
         "id": 355,
-        "label": "Vibrava"
+        "label": "Vibrava",
+        "slug": "vibrava"
     },
     {
         "form": "Normal",
@@ -2853,7 +3209,8 @@
         "pokemon_name": "Flygon",
         "type": ["Ground", "Dragon"],
         "id": 356,
-        "label": "Flygon"
+        "label": "Flygon",
+        "slug": "flygon"
     },
     {
         "form": "Normal",
@@ -2861,7 +3218,8 @@
         "pokemon_name": "Cacnea",
         "type": ["Grass"],
         "id": 357,
-        "label": "Cacnea"
+        "label": "Cacnea",
+        "slug": "cacnea"
     },
     {
         "form": "Normal",
@@ -2869,7 +3227,8 @@
         "pokemon_name": "Cacturne",
         "type": ["Grass", "Dark"],
         "id": 358,
-        "label": "Cacturne"
+        "label": "Cacturne",
+        "slug": "cacturne"
     },
     {
         "form": "Normal",
@@ -2877,7 +3236,8 @@
         "pokemon_name": "Swablu",
         "type": ["Normal", "Flying"],
         "id": 359,
-        "label": "Swablu"
+        "label": "Swablu",
+        "slug": "swablu"
     },
     {
         "form": "Normal",
@@ -2885,7 +3245,8 @@
         "pokemon_name": "Altaria",
         "type": ["Dragon", "Flying"],
         "id": 360,
-        "label": "Altaria"
+        "label": "Altaria",
+        "slug": "altaria"
     },
     {
         "form": "Normal",
@@ -2893,7 +3254,8 @@
         "pokemon_name": "Zangoose",
         "type": ["Normal"],
         "id": 361,
-        "label": "Zangoose"
+        "label": "Zangoose",
+        "slug": "zangoose"
     },
     {
         "form": "Normal",
@@ -2901,7 +3263,8 @@
         "pokemon_name": "Seviper",
         "type": ["Poison"],
         "id": 362,
-        "label": "Seviper"
+        "label": "Seviper",
+        "slug": "seviper"
     },
     {
         "form": "Normal",
@@ -2909,7 +3272,8 @@
         "pokemon_name": "Lunatone",
         "type": ["Rock", "Psychic"],
         "id": 363,
-        "label": "Lunatone"
+        "label": "Lunatone",
+        "slug": "lunatone"
     },
     {
         "form": "Normal",
@@ -2917,7 +3281,8 @@
         "pokemon_name": "Solrock",
         "type": ["Rock", "Psychic"],
         "id": 364,
-        "label": "Solrock"
+        "label": "Solrock",
+        "slug": "solrock"
     },
     {
         "form": "Normal",
@@ -2925,7 +3290,8 @@
         "pokemon_name": "Barboach",
         "type": ["Water", "Ground"],
         "id": 365,
-        "label": "Barboach"
+        "label": "Barboach",
+        "slug": "barboach"
     },
     {
         "form": "Normal",
@@ -2933,7 +3299,8 @@
         "pokemon_name": "Whiscash",
         "type": ["Water", "Ground"],
         "id": 366,
-        "label": "Whiscash"
+        "label": "Whiscash",
+        "slug": "whiscash"
     },
     {
         "form": "Normal",
@@ -2941,7 +3308,8 @@
         "pokemon_name": "Corphish",
         "type": ["Water"],
         "id": 367,
-        "label": "Corphish"
+        "label": "Corphish",
+        "slug": "corphish"
     },
     {
         "form": "Normal",
@@ -2949,7 +3317,8 @@
         "pokemon_name": "Crawdaunt",
         "type": ["Water", "Dark"],
         "id": 368,
-        "label": "Crawdaunt"
+        "label": "Crawdaunt",
+        "slug": "crawdaunt"
     },
     {
         "form": "Normal",
@@ -2957,7 +3326,8 @@
         "pokemon_name": "Baltoy",
         "type": ["Ground", "Psychic"],
         "id": 369,
-        "label": "Baltoy"
+        "label": "Baltoy",
+        "slug": "baltoy"
     },
     {
         "form": "Normal",
@@ -2965,7 +3335,8 @@
         "pokemon_name": "Claydol",
         "type": ["Ground", "Psychic"],
         "id": 370,
-        "label": "Claydol"
+        "label": "Claydol",
+        "slug": "claydol"
     },
     {
         "form": "Normal",
@@ -2973,7 +3344,8 @@
         "pokemon_name": "Lileep",
         "type": ["Rock", "Grass"],
         "id": 371,
-        "label": "Lileep"
+        "label": "Lileep",
+        "slug": "lileep"
     },
     {
         "form": "Normal",
@@ -2981,7 +3353,8 @@
         "pokemon_name": "Cradily",
         "type": ["Rock", "Grass"],
         "id": 372,
-        "label": "Cradily"
+        "label": "Cradily",
+        "slug": "cradily"
     },
     {
         "form": "Normal",
@@ -2989,7 +3362,8 @@
         "pokemon_name": "Anorith",
         "type": ["Rock", "Bug"],
         "id": 373,
-        "label": "Anorith"
+        "label": "Anorith",
+        "slug": "anorith"
     },
     {
         "form": "Normal",
@@ -2997,7 +3371,8 @@
         "pokemon_name": "Armaldo",
         "type": ["Rock", "Bug"],
         "id": 374,
-        "label": "Armaldo"
+        "label": "Armaldo",
+        "slug": "armaldo"
     },
     {
         "form": "Normal",
@@ -3005,7 +3380,8 @@
         "pokemon_name": "Feebas",
         "type": ["Water"],
         "id": 375,
-        "label": "Feebas"
+        "label": "Feebas",
+        "slug": "feebas"
     },
     {
         "form": "Normal",
@@ -3013,7 +3389,8 @@
         "pokemon_name": "Milotic",
         "type": ["Water"],
         "id": 376,
-        "label": "Milotic"
+        "label": "Milotic",
+        "slug": "milotic"
     },
     {
         "form": "Normal",
@@ -3021,7 +3398,8 @@
         "pokemon_name": "Castform",
         "type": ["Normal"],
         "id": 377,
-        "label": "Castform"
+        "label": "Castform",
+        "slug": "castform"
     },
     {
         "form": "Rainy",
@@ -3029,7 +3407,8 @@
         "pokemon_name": "Castform",
         "type": ["Water"],
         "id": 378,
-        "label": "Castform (Rainy)"
+        "label": "Castform (Rainy)",
+        "slug": "castform-rainy"
     },
     {
         "form": "Snowy",
@@ -3037,7 +3416,8 @@
         "pokemon_name": "Castform",
         "type": ["Ice"],
         "id": 379,
-        "label": "Castform (Snowy)"
+        "label": "Castform (Snowy)",
+        "slug": "castform-snowy"
     },
     {
         "form": "Sunny",
@@ -3045,7 +3425,8 @@
         "pokemon_name": "Castform",
         "type": ["Fire"],
         "id": 380,
-        "label": "Castform (Sunny)"
+        "label": "Castform (Sunny)",
+        "slug": "castform-sunny"
     },
     {
         "form": "Normal",
@@ -3053,7 +3434,8 @@
         "pokemon_name": "Kecleon",
         "type": ["Normal"],
         "id": 381,
-        "label": "Kecleon"
+        "label": "Kecleon",
+        "slug": "kecleon"
     },
     {
         "form": "Normal",
@@ -3061,7 +3443,8 @@
         "pokemon_name": "Shuppet",
         "type": ["Ghost"],
         "id": 382,
-        "label": "Shuppet"
+        "label": "Shuppet",
+        "slug": "shuppet"
     },
     {
         "form": "Normal",
@@ -3069,7 +3452,8 @@
         "pokemon_name": "Banette",
         "type": ["Ghost"],
         "id": 383,
-        "label": "Banette"
+        "label": "Banette",
+        "slug": "banette"
     },
     {
         "form": "Normal",
@@ -3077,7 +3461,8 @@
         "pokemon_name": "Duskull",
         "type": ["Ghost"],
         "id": 384,
-        "label": "Duskull"
+        "label": "Duskull",
+        "slug": "duskull"
     },
     {
         "form": "Normal",
@@ -3085,7 +3470,8 @@
         "pokemon_name": "Dusclops",
         "type": ["Ghost"],
         "id": 385,
-        "label": "Dusclops"
+        "label": "Dusclops",
+        "slug": "dusclops"
     },
     {
         "form": "Normal",
@@ -3093,7 +3479,8 @@
         "pokemon_name": "Tropius",
         "type": ["Grass", "Flying"],
         "id": 386,
-        "label": "Tropius"
+        "label": "Tropius",
+        "slug": "tropius"
     },
     {
         "form": "Normal",
@@ -3101,7 +3488,8 @@
         "pokemon_name": "Chimecho",
         "type": ["Psychic"],
         "id": 387,
-        "label": "Chimecho"
+        "label": "Chimecho",
+        "slug": "chimecho"
     },
     {
         "form": "Normal",
@@ -3109,7 +3497,8 @@
         "pokemon_name": "Absol",
         "type": ["Dark"],
         "id": 388,
-        "label": "Absol"
+        "label": "Absol",
+        "slug": "absol"
     },
     {
         "form": "Normal",
@@ -3117,7 +3506,8 @@
         "pokemon_name": "Wynaut",
         "type": ["Psychic"],
         "id": 389,
-        "label": "Wynaut"
+        "label": "Wynaut",
+        "slug": "wynaut"
     },
     {
         "form": "Normal",
@@ -3125,7 +3515,8 @@
         "pokemon_name": "Snorunt",
         "type": ["Ice"],
         "id": 390,
-        "label": "Snorunt"
+        "label": "Snorunt",
+        "slug": "snorunt"
     },
     {
         "form": "Normal",
@@ -3133,7 +3524,8 @@
         "pokemon_name": "Glalie",
         "type": ["Ice"],
         "id": 391,
-        "label": "Glalie"
+        "label": "Glalie",
+        "slug": "glalie"
     },
     {
         "form": "Normal",
@@ -3141,7 +3533,8 @@
         "pokemon_name": "Spheal",
         "type": ["Ice", "Water"],
         "id": 392,
-        "label": "Spheal"
+        "label": "Spheal",
+        "slug": "spheal"
     },
     {
         "form": "Normal",
@@ -3149,7 +3542,8 @@
         "pokemon_name": "Sealeo",
         "type": ["Ice", "Water"],
         "id": 393,
-        "label": "Sealeo"
+        "label": "Sealeo",
+        "slug": "sealeo"
     },
     {
         "form": "Normal",
@@ -3157,7 +3551,8 @@
         "pokemon_name": "Walrein",
         "type": ["Ice", "Water"],
         "id": 394,
-        "label": "Walrein"
+        "label": "Walrein",
+        "slug": "walrein"
     },
     {
         "form": "Normal",
@@ -3165,7 +3560,8 @@
         "pokemon_name": "Clamperl",
         "type": ["Water"],
         "id": 395,
-        "label": "Clamperl"
+        "label": "Clamperl",
+        "slug": "clamperl"
     },
     {
         "form": "Normal",
@@ -3173,7 +3569,8 @@
         "pokemon_name": "Huntail",
         "type": ["Water"],
         "id": 396,
-        "label": "Huntail"
+        "label": "Huntail",
+        "slug": "huntail"
     },
     {
         "form": "Normal",
@@ -3181,7 +3578,8 @@
         "pokemon_name": "Gorebyss",
         "type": ["Water"],
         "id": 397,
-        "label": "Gorebyss"
+        "label": "Gorebyss",
+        "slug": "gorebyss"
     },
     {
         "form": "Normal",
@@ -3189,7 +3587,8 @@
         "pokemon_name": "Relicanth",
         "type": ["Water", "Rock"],
         "id": 398,
-        "label": "Relicanth"
+        "label": "Relicanth",
+        "slug": "relicanth"
     },
     {
         "form": "Normal",
@@ -3197,7 +3596,8 @@
         "pokemon_name": "Luvdisc",
         "type": ["Water"],
         "id": 399,
-        "label": "Luvdisc"
+        "label": "Luvdisc",
+        "slug": "luvdisc"
     },
     {
         "form": "Normal",
@@ -3205,7 +3605,8 @@
         "pokemon_name": "Bagon",
         "type": ["Dragon"],
         "id": 400,
-        "label": "Bagon"
+        "label": "Bagon",
+        "slug": "bagon"
     },
     {
         "form": "Normal",
@@ -3213,7 +3614,8 @@
         "pokemon_name": "Shelgon",
         "type": ["Dragon"],
         "id": 401,
-        "label": "Shelgon"
+        "label": "Shelgon",
+        "slug": "shelgon"
     },
     {
         "form": "Normal",
@@ -3221,7 +3623,8 @@
         "pokemon_name": "Salamence",
         "type": ["Dragon", "Flying"],
         "id": 402,
-        "label": "Salamence"
+        "label": "Salamence",
+        "slug": "salamence"
     },
     {
         "form": "Normal",
@@ -3229,7 +3632,8 @@
         "pokemon_name": "Beldum",
         "type": ["Steel", "Psychic"],
         "id": 403,
-        "label": "Beldum"
+        "label": "Beldum",
+        "slug": "beldum"
     },
     {
         "form": "Normal",
@@ -3237,7 +3641,8 @@
         "pokemon_name": "Metang",
         "type": ["Steel", "Psychic"],
         "id": 404,
-        "label": "Metang"
+        "label": "Metang",
+        "slug": "metang"
     },
     {
         "form": "Normal",
@@ -3245,7 +3650,8 @@
         "pokemon_name": "Metagross",
         "type": ["Steel", "Psychic"],
         "id": 405,
-        "label": "Metagross"
+        "label": "Metagross",
+        "slug": "metagross"
     },
     {
         "form": "Normal",
@@ -3253,7 +3659,8 @@
         "pokemon_name": "Regirock",
         "type": ["Rock"],
         "id": 406,
-        "label": "Regirock"
+        "label": "Regirock",
+        "slug": "regirock"
     },
     {
         "form": "Normal",
@@ -3261,7 +3668,8 @@
         "pokemon_name": "Regice",
         "type": ["Ice"],
         "id": 407,
-        "label": "Regice"
+        "label": "Regice",
+        "slug": "regice"
     },
     {
         "form": "Normal",
@@ -3269,7 +3677,8 @@
         "pokemon_name": "Registeel",
         "type": ["Steel"],
         "id": 408,
-        "label": "Registeel"
+        "label": "Registeel",
+        "slug": "registeel"
     },
     {
         "form": "Normal",
@@ -3277,7 +3686,8 @@
         "pokemon_name": "Latias",
         "type": ["Dragon", "Psychic"],
         "id": 409,
-        "label": "Latias"
+        "label": "Latias",
+        "slug": "latias"
     },
     {
         "form": "Normal",
@@ -3285,7 +3695,8 @@
         "pokemon_name": "Latios",
         "type": ["Dragon", "Psychic"],
         "id": 410,
-        "label": "Latios"
+        "label": "Latios",
+        "slug": "latios"
     },
     {
         "form": "Normal",
@@ -3293,7 +3704,8 @@
         "pokemon_name": "Kyogre",
         "type": ["Water"],
         "id": 411,
-        "label": "Kyogre"
+        "label": "Kyogre",
+        "slug": "kyogre"
     },
     {
         "form": "Normal",
@@ -3301,7 +3713,8 @@
         "pokemon_name": "Groudon",
         "type": ["Ground"],
         "id": 412,
-        "label": "Groudon"
+        "label": "Groudon",
+        "slug": "groudon"
     },
     {
         "form": "Normal",
@@ -3309,7 +3722,8 @@
         "pokemon_name": "Rayquaza",
         "type": ["Dragon", "Flying"],
         "id": 413,
-        "label": "Rayquaza"
+        "label": "Rayquaza",
+        "slug": "rayquaza"
     },
     {
         "form": "Normal",
@@ -3317,7 +3731,8 @@
         "pokemon_name": "Jirachi",
         "type": ["Steel", "Psychic"],
         "id": 414,
-        "label": "Jirachi"
+        "label": "Jirachi",
+        "slug": "jirachi"
     },
     {
         "form": "Attack",
@@ -3325,7 +3740,8 @@
         "pokemon_name": "Deoxys",
         "type": ["Psychic"],
         "id": 415,
-        "label": "Deoxys (Attack)"
+        "label": "Deoxys (Attack)",
+        "slug": "deoxys-attack"
     },
     {
         "form": "Defense",
@@ -3333,7 +3749,8 @@
         "pokemon_name": "Deoxys",
         "type": ["Psychic"],
         "id": 416,
-        "label": "Deoxys (Defense)"
+        "label": "Deoxys (Defense)",
+        "slug": "deoxys-defense"
     },
     {
         "form": "Normal",
@@ -3341,7 +3758,8 @@
         "pokemon_name": "Deoxys",
         "type": ["Psychic"],
         "id": 417,
-        "label": "Deoxys"
+        "label": "Deoxys",
+        "slug": "deoxys"
     },
     {
         "form": "Speed",
@@ -3349,7 +3767,8 @@
         "pokemon_name": "Deoxys",
         "type": ["Psychic"],
         "id": 418,
-        "label": "Deoxys (Speed)"
+        "label": "Deoxys (Speed)",
+        "slug": "deoxys-speed"
     },
     {
         "form": "Normal",
@@ -3357,7 +3776,8 @@
         "pokemon_name": "Turtwig",
         "type": ["Grass"],
         "id": 419,
-        "label": "Turtwig"
+        "label": "Turtwig",
+        "slug": "turtwig"
     },
     {
         "form": "Normal",
@@ -3365,7 +3785,8 @@
         "pokemon_name": "Grotle",
         "type": ["Grass"],
         "id": 420,
-        "label": "Grotle"
+        "label": "Grotle",
+        "slug": "grotle"
     },
     {
         "form": "Normal",
@@ -3373,7 +3794,8 @@
         "pokemon_name": "Torterra",
         "type": ["Grass", "Ground"],
         "id": 421,
-        "label": "Torterra"
+        "label": "Torterra",
+        "slug": "torterra"
     },
     {
         "form": "Normal",
@@ -3381,7 +3803,8 @@
         "pokemon_name": "Chimchar",
         "type": ["Fire"],
         "id": 422,
-        "label": "Chimchar"
+        "label": "Chimchar",
+        "slug": "chimchar"
     },
     {
         "form": "Normal",
@@ -3389,7 +3812,8 @@
         "pokemon_name": "Monferno",
         "type": ["Fire", "Fighting"],
         "id": 423,
-        "label": "Monferno"
+        "label": "Monferno",
+        "slug": "monferno"
     },
     {
         "form": "Normal",
@@ -3397,7 +3821,8 @@
         "pokemon_name": "Infernape",
         "type": ["Fire", "Fighting"],
         "id": 424,
-        "label": "Infernape"
+        "label": "Infernape",
+        "slug": "infernape"
     },
     {
         "form": "Normal",
@@ -3405,7 +3830,8 @@
         "pokemon_name": "Piplup",
         "type": ["Water"],
         "id": 425,
-        "label": "Piplup"
+        "label": "Piplup",
+        "slug": "piplup"
     },
     {
         "form": "Normal",
@@ -3413,7 +3839,8 @@
         "pokemon_name": "Prinplup",
         "type": ["Water"],
         "id": 426,
-        "label": "Prinplup"
+        "label": "Prinplup",
+        "slug": "prinplup"
     },
     {
         "form": "Normal",
@@ -3421,7 +3848,8 @@
         "pokemon_name": "Empoleon",
         "type": ["Water", "Steel"],
         "id": 427,
-        "label": "Empoleon"
+        "label": "Empoleon",
+        "slug": "empoleon"
     },
     {
         "form": "Normal",
@@ -3429,7 +3857,8 @@
         "pokemon_name": "Starly",
         "type": ["Normal", "Flying"],
         "id": 428,
-        "label": "Starly"
+        "label": "Starly",
+        "slug": "starly"
     },
     {
         "form": "Normal",
@@ -3437,7 +3866,8 @@
         "pokemon_name": "Staravia",
         "type": ["Normal", "Flying"],
         "id": 429,
-        "label": "Staravia"
+        "label": "Staravia",
+        "slug": "staravia"
     },
     {
         "form": "Normal",
@@ -3445,7 +3875,8 @@
         "pokemon_name": "Staraptor",
         "type": ["Normal", "Flying"],
         "id": 430,
-        "label": "Staraptor"
+        "label": "Staraptor",
+        "slug": "staraptor"
     },
     {
         "form": "Normal",
@@ -3453,7 +3884,8 @@
         "pokemon_name": "Bidoof",
         "type": ["Normal"],
         "id": 431,
-        "label": "Bidoof"
+        "label": "Bidoof",
+        "slug": "bidoof"
     },
     {
         "form": "Normal",
@@ -3461,7 +3893,8 @@
         "pokemon_name": "Bibarel",
         "type": ["Normal", "Water"],
         "id": 432,
-        "label": "Bibarel"
+        "label": "Bibarel",
+        "slug": "bibarel"
     },
     {
         "form": "Normal",
@@ -3469,7 +3902,8 @@
         "pokemon_name": "Kricketot",
         "type": ["Bug"],
         "id": 433,
-        "label": "Kricketot"
+        "label": "Kricketot",
+        "slug": "kricketot"
     },
     {
         "form": "Normal",
@@ -3477,7 +3911,8 @@
         "pokemon_name": "Kricketune",
         "type": ["Bug"],
         "id": 434,
-        "label": "Kricketune"
+        "label": "Kricketune",
+        "slug": "kricketune"
     },
     {
         "form": "Normal",
@@ -3485,7 +3920,8 @@
         "pokemon_name": "Shinx",
         "type": ["Electric"],
         "id": 435,
-        "label": "Shinx"
+        "label": "Shinx",
+        "slug": "shinx"
     },
     {
         "form": "Normal",
@@ -3493,7 +3929,8 @@
         "pokemon_name": "Luxio",
         "type": ["Electric"],
         "id": 436,
-        "label": "Luxio"
+        "label": "Luxio",
+        "slug": "luxio"
     },
     {
         "form": "Normal",
@@ -3501,7 +3938,8 @@
         "pokemon_name": "Luxray",
         "type": ["Electric"],
         "id": 437,
-        "label": "Luxray"
+        "label": "Luxray",
+        "slug": "luxray"
     },
     {
         "form": "Normal",
@@ -3509,7 +3947,8 @@
         "pokemon_name": "Budew",
         "type": ["Grass", "Poison"],
         "id": 438,
-        "label": "Budew"
+        "label": "Budew",
+        "slug": "budew"
     },
     {
         "form": "Normal",
@@ -3517,7 +3956,8 @@
         "pokemon_name": "Roserade",
         "type": ["Grass", "Poison"],
         "id": 439,
-        "label": "Roserade"
+        "label": "Roserade",
+        "slug": "roserade"
     },
     {
         "form": "Normal",
@@ -3525,7 +3965,8 @@
         "pokemon_name": "Cranidos",
         "type": ["Rock"],
         "id": 440,
-        "label": "Cranidos"
+        "label": "Cranidos",
+        "slug": "cranidos"
     },
     {
         "form": "Normal",
@@ -3533,7 +3974,8 @@
         "pokemon_name": "Rampardos",
         "type": ["Rock"],
         "id": 441,
-        "label": "Rampardos"
+        "label": "Rampardos",
+        "slug": "rampardos"
     },
     {
         "form": "Normal",
@@ -3541,7 +3983,8 @@
         "pokemon_name": "Shieldon",
         "type": ["Rock", "Steel"],
         "id": 442,
-        "label": "Shieldon"
+        "label": "Shieldon",
+        "slug": "shieldon"
     },
     {
         "form": "Normal",
@@ -3549,7 +3992,8 @@
         "pokemon_name": "Bastiodon",
         "type": ["Rock", "Steel"],
         "id": 443,
-        "label": "Bastiodon"
+        "label": "Bastiodon",
+        "slug": "bastiodon"
     },
     {
         "form": "Plant",
@@ -3557,7 +4001,8 @@
         "pokemon_name": "Burmy",
         "type": ["Bug"],
         "id": 444,
-        "label": "Burmy (Plant)"
+        "label": "Burmy (Plant)",
+        "slug": "burmy-plant"
     },
     {
         "form": "Sandy",
@@ -3565,7 +4010,8 @@
         "pokemon_name": "Burmy",
         "type": ["Bug"],
         "id": 445,
-        "label": "Burmy (Sandy)"
+        "label": "Burmy (Sandy)",
+        "slug": "burmy-sandy"
     },
     {
         "form": "Trash",
@@ -3573,7 +4019,8 @@
         "pokemon_name": "Burmy",
         "type": ["Bug"],
         "id": 446,
-        "label": "Burmy (Trash)"
+        "label": "Burmy (Trash)",
+        "slug": "burmy-trash"
     },
     {
         "form": "Plant",
@@ -3581,7 +4028,8 @@
         "pokemon_name": "Wormadam",
         "type": ["Bug", "Grass"],
         "id": 447,
-        "label": "Wormadam (Plant)"
+        "label": "Wormadam (Plant)",
+        "slug": "wormadam-plant"
     },
     {
         "form": "Sandy",
@@ -3589,7 +4037,8 @@
         "pokemon_name": "Wormadam",
         "type": ["Bug", "Ground"],
         "id": 448,
-        "label": "Wormadam (Sandy)"
+        "label": "Wormadam (Sandy)",
+        "slug": "wormadam-sandy"
     },
     {
         "form": "Trash",
@@ -3597,7 +4046,8 @@
         "pokemon_name": "Wormadam",
         "type": ["Bug", "Steel"],
         "id": 449,
-        "label": "Wormadam (Trash)"
+        "label": "Wormadam (Trash)",
+        "slug": "wormadam-trash"
     },
     {
         "form": "Normal",
@@ -3605,7 +4055,8 @@
         "pokemon_name": "Mothim",
         "type": ["Bug", "Flying"],
         "id": 450,
-        "label": "Mothim"
+        "label": "Mothim",
+        "slug": "mothim"
     },
     {
         "form": "Normal",
@@ -3613,7 +4064,8 @@
         "pokemon_name": "Combee",
         "type": ["Bug", "Flying"],
         "id": 451,
-        "label": "Combee"
+        "label": "Combee",
+        "slug": "combee"
     },
     {
         "form": "Normal",
@@ -3621,7 +4073,8 @@
         "pokemon_name": "Vespiquen",
         "type": ["Bug", "Flying"],
         "id": 452,
-        "label": "Vespiquen"
+        "label": "Vespiquen",
+        "slug": "vespiquen"
     },
     {
         "form": "Normal",
@@ -3629,7 +4082,8 @@
         "pokemon_name": "Pachirisu",
         "type": ["Electric"],
         "id": 453,
-        "label": "Pachirisu"
+        "label": "Pachirisu",
+        "slug": "pachirisu"
     },
     {
         "form": "Normal",
@@ -3637,7 +4091,8 @@
         "pokemon_name": "Buizel",
         "type": ["Water"],
         "id": 454,
-        "label": "Buizel"
+        "label": "Buizel",
+        "slug": "buizel"
     },
     {
         "form": "Normal",
@@ -3645,7 +4100,8 @@
         "pokemon_name": "Floatzel",
         "type": ["Water"],
         "id": 455,
-        "label": "Floatzel"
+        "label": "Floatzel",
+        "slug": "floatzel"
     },
     {
         "form": "Normal",
@@ -3653,7 +4109,8 @@
         "pokemon_name": "Cherubi",
         "type": ["Grass"],
         "id": 456,
-        "label": "Cherubi"
+        "label": "Cherubi",
+        "slug": "cherubi"
     },
     {
         "form": "Overcast",
@@ -3661,7 +4118,8 @@
         "pokemon_name": "Cherrim",
         "type": ["Grass"],
         "id": 457,
-        "label": "Cherrim (Overcast)"
+        "label": "Cherrim (Overcast)",
+        "slug": "cherrim-overcast"
     },
     {
         "form": "Sunny",
@@ -3669,7 +4127,8 @@
         "pokemon_name": "Cherrim",
         "type": ["Grass"],
         "id": 458,
-        "label": "Cherrim (Sunny)"
+        "label": "Cherrim (Sunny)",
+        "slug": "cherrim-sunny"
     },
     {
         "form": "East_sea",
@@ -3677,7 +4136,8 @@
         "pokemon_name": "Shellos",
         "type": ["Water"],
         "id": 459,
-        "label": "Shellos (East sea)"
+        "label": "Shellos (East sea)",
+        "slug": "shellos-east-sea"
     },
     {
         "form": "West_sea",
@@ -3685,7 +4145,8 @@
         "pokemon_name": "Shellos",
         "type": ["Water"],
         "id": 460,
-        "label": "Shellos (West sea)"
+        "label": "Shellos (West sea)",
+        "slug": "shellos-west-sea"
     },
     {
         "form": "East_sea",
@@ -3693,7 +4154,8 @@
         "pokemon_name": "Gastrodon",
         "type": ["Water", "Ground"],
         "id": 461,
-        "label": "Gastrodon (East sea)"
+        "label": "Gastrodon (East sea)",
+        "slug": "gastrodon-east-sea"
     },
     {
         "form": "West_sea",
@@ -3701,7 +4163,8 @@
         "pokemon_name": "Gastrodon",
         "type": ["Water", "Ground"],
         "id": 462,
-        "label": "Gastrodon (West sea)"
+        "label": "Gastrodon (West sea)",
+        "slug": "gastrodon-west-sea"
     },
     {
         "form": "Normal",
@@ -3709,7 +4172,8 @@
         "pokemon_name": "Ambipom",
         "type": ["Normal"],
         "id": 463,
-        "label": "Ambipom"
+        "label": "Ambipom",
+        "slug": "ambipom"
     },
     {
         "form": "Normal",
@@ -3717,7 +4181,8 @@
         "pokemon_name": "Drifloon",
         "type": ["Ghost", "Flying"],
         "id": 464,
-        "label": "Drifloon"
+        "label": "Drifloon",
+        "slug": "drifloon"
     },
     {
         "form": "Normal",
@@ -3725,7 +4190,8 @@
         "pokemon_name": "Drifblim",
         "type": ["Ghost", "Flying"],
         "id": 465,
-        "label": "Drifblim"
+        "label": "Drifblim",
+        "slug": "drifblim"
     },
     {
         "form": "Normal",
@@ -3733,7 +4199,8 @@
         "pokemon_name": "Buneary",
         "type": ["Normal"],
         "id": 466,
-        "label": "Buneary"
+        "label": "Buneary",
+        "slug": "buneary"
     },
     {
         "form": "Normal",
@@ -3741,7 +4208,8 @@
         "pokemon_name": "Lopunny",
         "type": ["Normal"],
         "id": 467,
-        "label": "Lopunny"
+        "label": "Lopunny",
+        "slug": "lopunny"
     },
     {
         "form": "Normal",
@@ -3749,7 +4217,8 @@
         "pokemon_name": "Mismagius",
         "type": ["Ghost"],
         "id": 468,
-        "label": "Mismagius"
+        "label": "Mismagius",
+        "slug": "mismagius"
     },
     {
         "form": "Normal",
@@ -3757,7 +4226,8 @@
         "pokemon_name": "Honchkrow",
         "type": ["Dark", "Flying"],
         "id": 469,
-        "label": "Honchkrow"
+        "label": "Honchkrow",
+        "slug": "honchkrow"
     },
     {
         "form": "Normal",
@@ -3765,7 +4235,8 @@
         "pokemon_name": "Glameow",
         "type": ["Normal"],
         "id": 470,
-        "label": "Glameow"
+        "label": "Glameow",
+        "slug": "glameow"
     },
     {
         "form": "Normal",
@@ -3773,7 +4244,8 @@
         "pokemon_name": "Purugly",
         "type": ["Normal"],
         "id": 471,
-        "label": "Purugly"
+        "label": "Purugly",
+        "slug": "purugly"
     },
     {
         "form": "Normal",
@@ -3781,7 +4253,8 @@
         "pokemon_name": "Chingling",
         "type": ["Psychic"],
         "id": 472,
-        "label": "Chingling"
+        "label": "Chingling",
+        "slug": "chingling"
     },
     {
         "form": "Normal",
@@ -3789,7 +4262,8 @@
         "pokemon_name": "Stunky",
         "type": ["Poison", "Dark"],
         "id": 473,
-        "label": "Stunky"
+        "label": "Stunky",
+        "slug": "stunky"
     },
     {
         "form": "Normal",
@@ -3797,7 +4271,8 @@
         "pokemon_name": "Skuntank",
         "type": ["Poison", "Dark"],
         "id": 474,
-        "label": "Skuntank"
+        "label": "Skuntank",
+        "slug": "skuntank"
     },
     {
         "form": "Normal",
@@ -3805,7 +4280,8 @@
         "pokemon_name": "Bronzor",
         "type": ["Steel", "Psychic"],
         "id": 475,
-        "label": "Bronzor"
+        "label": "Bronzor",
+        "slug": "bronzor"
     },
     {
         "form": "Normal",
@@ -3813,7 +4289,8 @@
         "pokemon_name": "Bronzong",
         "type": ["Steel", "Psychic"],
         "id": 476,
-        "label": "Bronzong"
+        "label": "Bronzong",
+        "slug": "bronzong"
     },
     {
         "form": "Normal",
@@ -3821,7 +4298,8 @@
         "pokemon_name": "Bonsly",
         "type": ["Rock"],
         "id": 477,
-        "label": "Bonsly"
+        "label": "Bonsly",
+        "slug": "bonsly"
     },
     {
         "form": "Normal",
@@ -3829,7 +4307,8 @@
         "pokemon_name": "Mime Jr.",
         "type": ["Psychic", "Fairy"],
         "id": 478,
-        "label": "Mime Jr."
+        "label": "Mime Jr.",
+        "slug": "mime-jr"
     },
     {
         "form": "Normal",
@@ -3837,7 +4316,8 @@
         "pokemon_name": "Happiny",
         "type": ["Normal"],
         "id": 479,
-        "label": "Happiny"
+        "label": "Happiny",
+        "slug": "happiny"
     },
     {
         "form": "Normal",
@@ -3845,7 +4325,8 @@
         "pokemon_name": "Chatot",
         "type": ["Normal", "Flying"],
         "id": 480,
-        "label": "Chatot"
+        "label": "Chatot",
+        "slug": "chatot"
     },
     {
         "form": "Normal",
@@ -3853,7 +4334,8 @@
         "pokemon_name": "Spiritomb",
         "type": ["Ghost", "Dark"],
         "id": 481,
-        "label": "Spiritomb"
+        "label": "Spiritomb",
+        "slug": "spiritomb"
     },
     {
         "form": "Normal",
@@ -3861,7 +4343,8 @@
         "pokemon_name": "Gible",
         "type": ["Dragon", "Ground"],
         "id": 482,
-        "label": "Gible"
+        "label": "Gible",
+        "slug": "gible"
     },
     {
         "form": "Normal",
@@ -3869,7 +4352,8 @@
         "pokemon_name": "Gabite",
         "type": ["Dragon", "Ground"],
         "id": 483,
-        "label": "Gabite"
+        "label": "Gabite",
+        "slug": "gabite"
     },
     {
         "form": "Normal",
@@ -3877,7 +4361,8 @@
         "pokemon_name": "Garchomp",
         "type": ["Dragon", "Ground"],
         "id": 484,
-        "label": "Garchomp"
+        "label": "Garchomp",
+        "slug": "garchomp"
     },
     {
         "form": "Normal",
@@ -3885,7 +4370,8 @@
         "pokemon_name": "Munchlax",
         "type": ["Normal"],
         "id": 485,
-        "label": "Munchlax"
+        "label": "Munchlax",
+        "slug": "munchlax"
     },
     {
         "form": "Normal",
@@ -3893,7 +4379,8 @@
         "pokemon_name": "Riolu",
         "type": ["Fighting"],
         "id": 486,
-        "label": "Riolu"
+        "label": "Riolu",
+        "slug": "riolu"
     },
     {
         "form": "Normal",
@@ -3901,7 +4388,8 @@
         "pokemon_name": "Lucario",
         "type": ["Fighting", "Steel"],
         "id": 487,
-        "label": "Lucario"
+        "label": "Lucario",
+        "slug": "lucario"
     },
     {
         "form": "Normal",
@@ -3909,7 +4397,8 @@
         "pokemon_name": "Hippopotas",
         "type": ["Ground"],
         "id": 488,
-        "label": "Hippopotas"
+        "label": "Hippopotas",
+        "slug": "hippopotas"
     },
     {
         "form": "Normal",
@@ -3917,7 +4406,8 @@
         "pokemon_name": "Hippowdon",
         "type": ["Ground"],
         "id": 489,
-        "label": "Hippowdon"
+        "label": "Hippowdon",
+        "slug": "hippowdon"
     },
     {
         "form": "Normal",
@@ -3925,7 +4415,8 @@
         "pokemon_name": "Skorupi",
         "type": ["Poison", "Bug"],
         "id": 490,
-        "label": "Skorupi"
+        "label": "Skorupi",
+        "slug": "skorupi"
     },
     {
         "form": "Normal",
@@ -3933,7 +4424,8 @@
         "pokemon_name": "Drapion",
         "type": ["Poison", "Dark"],
         "id": 491,
-        "label": "Drapion"
+        "label": "Drapion",
+        "slug": "drapion"
     },
     {
         "form": "Normal",
@@ -3941,7 +4433,8 @@
         "pokemon_name": "Croagunk",
         "type": ["Poison", "Fighting"],
         "id": 492,
-        "label": "Croagunk"
+        "label": "Croagunk",
+        "slug": "croagunk"
     },
     {
         "form": "Normal",
@@ -3949,7 +4442,8 @@
         "pokemon_name": "Toxicroak",
         "type": ["Poison", "Fighting"],
         "id": 493,
-        "label": "Toxicroak"
+        "label": "Toxicroak",
+        "slug": "toxicroak"
     },
     {
         "form": "Normal",
@@ -3957,7 +4451,8 @@
         "pokemon_name": "Carnivine",
         "type": ["Grass"],
         "id": 494,
-        "label": "Carnivine"
+        "label": "Carnivine",
+        "slug": "carnivine"
     },
     {
         "form": "Normal",
@@ -3965,7 +4460,8 @@
         "pokemon_name": "Finneon",
         "type": ["Water"],
         "id": 495,
-        "label": "Finneon"
+        "label": "Finneon",
+        "slug": "finneon"
     },
     {
         "form": "Normal",
@@ -3973,7 +4469,8 @@
         "pokemon_name": "Lumineon",
         "type": ["Water"],
         "id": 496,
-        "label": "Lumineon"
+        "label": "Lumineon",
+        "slug": "lumineon"
     },
     {
         "form": "Normal",
@@ -3981,7 +4478,8 @@
         "pokemon_name": "Mantyke",
         "type": ["Water", "Flying"],
         "id": 497,
-        "label": "Mantyke"
+        "label": "Mantyke",
+        "slug": "mantyke"
     },
     {
         "form": "Normal",
@@ -3989,7 +4487,8 @@
         "pokemon_name": "Snover",
         "type": ["Grass", "Ice"],
         "id": 498,
-        "label": "Snover"
+        "label": "Snover",
+        "slug": "snover"
     },
     {
         "form": "Normal",
@@ -3997,7 +4496,8 @@
         "pokemon_name": "Abomasnow",
         "type": ["Grass", "Ice"],
         "id": 499,
-        "label": "Abomasnow"
+        "label": "Abomasnow",
+        "slug": "abomasnow"
     },
     {
         "form": "Normal",
@@ -4005,7 +4505,8 @@
         "pokemon_name": "Weavile",
         "type": ["Dark", "Ice"],
         "id": 500,
-        "label": "Weavile"
+        "label": "Weavile",
+        "slug": "weavile"
     },
     {
         "form": "Normal",
@@ -4013,7 +4514,8 @@
         "pokemon_name": "Magnezone",
         "type": ["Electric", "Steel"],
         "id": 501,
-        "label": "Magnezone"
+        "label": "Magnezone",
+        "slug": "magnezone"
     },
     {
         "form": "Normal",
@@ -4021,7 +4523,8 @@
         "pokemon_name": "Lickilicky",
         "type": ["Normal"],
         "id": 502,
-        "label": "Lickilicky"
+        "label": "Lickilicky",
+        "slug": "lickilicky"
     },
     {
         "form": "Normal",
@@ -4029,7 +4532,8 @@
         "pokemon_name": "Rhyperior",
         "type": ["Ground", "Rock"],
         "id": 503,
-        "label": "Rhyperior"
+        "label": "Rhyperior",
+        "slug": "rhyperior"
     },
     {
         "form": "Normal",
@@ -4037,7 +4541,8 @@
         "pokemon_name": "Tangrowth",
         "type": ["Grass"],
         "id": 504,
-        "label": "Tangrowth"
+        "label": "Tangrowth",
+        "slug": "tangrowth"
     },
     {
         "form": "Normal",
@@ -4045,7 +4550,8 @@
         "pokemon_name": "Electivire",
         "type": ["Electric"],
         "id": 505,
-        "label": "Electivire"
+        "label": "Electivire",
+        "slug": "electivire"
     },
     {
         "form": "Normal",
@@ -4053,7 +4559,8 @@
         "pokemon_name": "Magmortar",
         "type": ["Fire"],
         "id": 506,
-        "label": "Magmortar"
+        "label": "Magmortar",
+        "slug": "magmortar"
     },
     {
         "form": "Normal",
@@ -4061,7 +4568,8 @@
         "pokemon_name": "Togekiss",
         "type": ["Fairy", "Flying"],
         "id": 507,
-        "label": "Togekiss"
+        "label": "Togekiss",
+        "slug": "togekiss"
     },
     {
         "form": "Normal",
@@ -4069,7 +4577,8 @@
         "pokemon_name": "Yanmega",
         "type": ["Bug", "Flying"],
         "id": 508,
-        "label": "Yanmega"
+        "label": "Yanmega",
+        "slug": "yanmega"
     },
     {
         "form": "Normal",
@@ -4077,7 +4586,8 @@
         "pokemon_name": "Leafeon",
         "type": ["Grass"],
         "id": 509,
-        "label": "Leafeon"
+        "label": "Leafeon",
+        "slug": "leafeon"
     },
     {
         "form": "Normal",
@@ -4085,7 +4595,8 @@
         "pokemon_name": "Glaceon",
         "type": ["Ice"],
         "id": 510,
-        "label": "Glaceon"
+        "label": "Glaceon",
+        "slug": "glaceon"
     },
     {
         "form": "Normal",
@@ -4093,7 +4604,8 @@
         "pokemon_name": "Gliscor",
         "type": ["Ground", "Flying"],
         "id": 511,
-        "label": "Gliscor"
+        "label": "Gliscor",
+        "slug": "gliscor"
     },
     {
         "form": "Normal",
@@ -4101,7 +4613,8 @@
         "pokemon_name": "Mamoswine",
         "type": ["Ice", "Ground"],
         "id": 512,
-        "label": "Mamoswine"
+        "label": "Mamoswine",
+        "slug": "mamoswine"
     },
     {
         "form": "Normal",
@@ -4109,7 +4622,8 @@
         "pokemon_name": "Porygon-Z",
         "type": ["Normal"],
         "id": 513,
-        "label": "Porygon-Z"
+        "label": "Porygon-Z",
+        "slug": "porygonz"
     },
     {
         "form": "Normal",
@@ -4117,7 +4631,8 @@
         "pokemon_name": "Gallade",
         "type": ["Psychic", "Fighting"],
         "id": 514,
-        "label": "Gallade"
+        "label": "Gallade",
+        "slug": "gallade"
     },
     {
         "form": "Normal",
@@ -4125,7 +4640,8 @@
         "pokemon_name": "Probopass",
         "type": ["Rock", "Steel"],
         "id": 515,
-        "label": "Probopass"
+        "label": "Probopass",
+        "slug": "probopass"
     },
     {
         "form": "Normal",
@@ -4133,7 +4649,8 @@
         "pokemon_name": "Dusknoir",
         "type": ["Ghost"],
         "id": 516,
-        "label": "Dusknoir"
+        "label": "Dusknoir",
+        "slug": "dusknoir"
     },
     {
         "form": "Normal",
@@ -4141,7 +4658,8 @@
         "pokemon_name": "Froslass",
         "type": ["Ice", "Ghost"],
         "id": 517,
-        "label": "Froslass"
+        "label": "Froslass",
+        "slug": "froslass"
     },
     {
         "form": "Fan",
@@ -4149,7 +4667,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Flying"],
         "id": 518,
-        "label": "Rotom (Fan)"
+        "label": "Rotom (Fan)",
+        "slug": "rotom-fan"
     },
     {
         "form": "Frost",
@@ -4157,7 +4676,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Ice"],
         "id": 519,
-        "label": "Rotom (Frost)"
+        "label": "Rotom (Frost)",
+        "slug": "rotom-frost"
     },
     {
         "form": "Heat",
@@ -4165,7 +4685,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Fire"],
         "id": 520,
-        "label": "Rotom (Heat)"
+        "label": "Rotom (Heat)",
+        "slug": "rotom-heat"
     },
     {
         "form": "Mow",
@@ -4173,7 +4694,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Grass"],
         "id": 521,
-        "label": "Rotom (Mow)"
+        "label": "Rotom (Mow)",
+        "slug": "rotom-mow"
     },
     {
         "form": "Normal",
@@ -4181,7 +4703,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Ghost"],
         "id": 522,
-        "label": "Rotom"
+        "label": "Rotom",
+        "slug": "rotom"
     },
     {
         "form": "Wash",
@@ -4189,7 +4712,8 @@
         "pokemon_name": "Rotom",
         "type": ["Electric", "Water"],
         "id": 523,
-        "label": "Rotom (Wash)"
+        "label": "Rotom (Wash)",
+        "slug": "rotom-wash"
     },
     {
         "form": "Normal",
@@ -4197,7 +4721,8 @@
         "pokemon_name": "Uxie",
         "type": ["Psychic"],
         "id": 524,
-        "label": "Uxie"
+        "label": "Uxie",
+        "slug": "uxie"
     },
     {
         "form": "Normal",
@@ -4205,7 +4730,8 @@
         "pokemon_name": "Mesprit",
         "type": ["Psychic"],
         "id": 525,
-        "label": "Mesprit"
+        "label": "Mesprit",
+        "slug": "mesprit"
     },
     {
         "form": "Normal",
@@ -4213,7 +4739,8 @@
         "pokemon_name": "Azelf",
         "type": ["Psychic"],
         "id": 526,
-        "label": "Azelf"
+        "label": "Azelf",
+        "slug": "azelf"
     },
     {
         "form": "Normal",
@@ -4221,7 +4748,8 @@
         "pokemon_name": "Dialga",
         "type": ["Steel", "Dragon"],
         "id": 527,
-        "label": "Dialga"
+        "label": "Dialga",
+        "slug": "dialga"
     },
     {
         "form": "Normal",
@@ -4229,7 +4757,8 @@
         "pokemon_name": "Palkia",
         "type": ["Water", "Dragon"],
         "id": 528,
-        "label": "Palkia"
+        "label": "Palkia",
+        "slug": "palkia"
     },
     {
         "form": "Normal",
@@ -4237,7 +4766,8 @@
         "pokemon_name": "Heatran",
         "type": ["Fire", "Steel"],
         "id": 529,
-        "label": "Heatran"
+        "label": "Heatran",
+        "slug": "heatran"
     },
     {
         "form": "Normal",
@@ -4245,7 +4775,8 @@
         "pokemon_name": "Regigigas",
         "type": ["Normal"],
         "id": 530,
-        "label": "Regigigas"
+        "label": "Regigigas",
+        "slug": "regigigas"
     },
     {
         "form": "Altered",
@@ -4253,7 +4784,8 @@
         "pokemon_name": "Giratina",
         "type": ["Ghost", "Dragon"],
         "id": 531,
-        "label": "Giratina (Altered)"
+        "label": "Giratina (Altered)",
+        "slug": "giratina-altered"
     },
     {
         "form": "Origin",
@@ -4261,7 +4793,8 @@
         "pokemon_name": "Giratina",
         "type": ["Ghost", "Dragon"],
         "id": 532,
-        "label": "Giratina (Origin)"
+        "label": "Giratina (Origin)",
+        "slug": "giratina-origin"
     },
     {
         "form": "Normal",
@@ -4269,7 +4802,8 @@
         "pokemon_name": "Cresselia",
         "type": ["Psychic"],
         "id": 533,
-        "label": "Cresselia"
+        "label": "Cresselia",
+        "slug": "cresselia"
     },
     {
         "form": "Normal",
@@ -4277,7 +4811,8 @@
         "pokemon_name": "Phione",
         "type": ["Water"],
         "id": 534,
-        "label": "Phione"
+        "label": "Phione",
+        "slug": "phione"
     },
     {
         "form": "Normal",
@@ -4285,7 +4820,8 @@
         "pokemon_name": "Manaphy",
         "type": ["Water"],
         "id": 535,
-        "label": "Manaphy"
+        "label": "Manaphy",
+        "slug": "manaphy"
     },
     {
         "form": "Normal",
@@ -4293,7 +4829,8 @@
         "pokemon_name": "Darkrai",
         "type": ["Dark"],
         "id": 536,
-        "label": "Darkrai"
+        "label": "Darkrai",
+        "slug": "darkrai"
     },
     {
         "form": "Land",
@@ -4301,7 +4838,8 @@
         "pokemon_name": "Shaymin",
         "type": ["Grass"],
         "id": 537,
-        "label": "Shaymin (Land)"
+        "label": "Shaymin (Land)",
+        "slug": "shaymin-land"
     },
     {
         "form": "Sky",
@@ -4309,7 +4847,8 @@
         "pokemon_name": "Shaymin",
         "type": ["Grass", "Flying"],
         "id": 538,
-        "label": "Shaymin (Sky)"
+        "label": "Shaymin (Sky)",
+        "slug": "shaymin-sky"
     },
     {
         "form": "Bug",
@@ -4317,7 +4856,8 @@
         "pokemon_name": "Arceus",
         "type": ["Bug"],
         "id": 539,
-        "label": "Arceus (Bug)"
+        "label": "Arceus (Bug)",
+        "slug": "arceus-bug"
     },
     {
         "form": "Dark",
@@ -4325,7 +4865,8 @@
         "pokemon_name": "Arceus",
         "type": ["Dark"],
         "id": 540,
-        "label": "Arceus (Dark)"
+        "label": "Arceus (Dark)",
+        "slug": "arceus-dark"
     },
     {
         "form": "Dragon",
@@ -4333,7 +4874,8 @@
         "pokemon_name": "Arceus",
         "type": ["Dragon"],
         "id": 541,
-        "label": "Arceus (Dragon)"
+        "label": "Arceus (Dragon)",
+        "slug": "arceus-dragon"
     },
     {
         "form": "Electric",
@@ -4341,7 +4883,8 @@
         "pokemon_name": "Arceus",
         "type": ["Electric"],
         "id": 542,
-        "label": "Arceus (Electric)"
+        "label": "Arceus (Electric)",
+        "slug": "arceus-electric"
     },
     {
         "form": "Fairy",
@@ -4349,7 +4892,8 @@
         "pokemon_name": "Arceus",
         "type": ["Fairy"],
         "id": 543,
-        "label": "Arceus (Fairy)"
+        "label": "Arceus (Fairy)",
+        "slug": "arceus-fairy"
     },
     {
         "form": "Fighting",
@@ -4357,7 +4901,8 @@
         "pokemon_name": "Arceus",
         "type": ["Fighting"],
         "id": 544,
-        "label": "Arceus (Fighting)"
+        "label": "Arceus (Fighting)",
+        "slug": "arceus-fighting"
     },
     {
         "form": "Fire",
@@ -4365,7 +4910,8 @@
         "pokemon_name": "Arceus",
         "type": ["Fire"],
         "id": 545,
-        "label": "Arceus (Fire)"
+        "label": "Arceus (Fire)",
+        "slug": "arceus-fire"
     },
     {
         "form": "Flying",
@@ -4373,7 +4919,8 @@
         "pokemon_name": "Arceus",
         "type": ["Flying"],
         "id": 546,
-        "label": "Arceus (Flying)"
+        "label": "Arceus (Flying)",
+        "slug": "arceus-flying"
     },
     {
         "form": "Ghost",
@@ -4381,7 +4928,8 @@
         "pokemon_name": "Arceus",
         "type": ["Ghost"],
         "id": 547,
-        "label": "Arceus (Ghost)"
+        "label": "Arceus (Ghost)",
+        "slug": "arceus-ghost"
     },
     {
         "form": "Grass",
@@ -4389,7 +4937,8 @@
         "pokemon_name": "Arceus",
         "type": ["Grass"],
         "id": 548,
-        "label": "Arceus (Grass)"
+        "label": "Arceus (Grass)",
+        "slug": "arceus-grass"
     },
     {
         "form": "Ground",
@@ -4397,7 +4946,8 @@
         "pokemon_name": "Arceus",
         "type": ["Ground"],
         "id": 549,
-        "label": "Arceus (Ground)"
+        "label": "Arceus (Ground)",
+        "slug": "arceus-ground"
     },
     {
         "form": "Ice",
@@ -4405,7 +4955,8 @@
         "pokemon_name": "Arceus",
         "type": ["Ice"],
         "id": 550,
-        "label": "Arceus (Ice)"
+        "label": "Arceus (Ice)",
+        "slug": "arceus-ice"
     },
     {
         "form": "Normal",
@@ -4413,7 +4964,8 @@
         "pokemon_name": "Arceus",
         "type": ["Normal"],
         "id": 551,
-        "label": "Arceus"
+        "label": "Arceus",
+        "slug": "arceus"
     },
     {
         "form": "Poison",
@@ -4421,7 +4973,8 @@
         "pokemon_name": "Arceus",
         "type": ["Poison"],
         "id": 552,
-        "label": "Arceus (Poison)"
+        "label": "Arceus (Poison)",
+        "slug": "arceus-poison"
     },
     {
         "form": "Psychic",
@@ -4429,7 +4982,8 @@
         "pokemon_name": "Arceus",
         "type": ["Psychic"],
         "id": 553,
-        "label": "Arceus (Psychic)"
+        "label": "Arceus (Psychic)",
+        "slug": "arceus-psychic"
     },
     {
         "form": "Rock",
@@ -4437,7 +4991,8 @@
         "pokemon_name": "Arceus",
         "type": ["Rock"],
         "id": 554,
-        "label": "Arceus (Rock)"
+        "label": "Arceus (Rock)",
+        "slug": "arceus-rock"
     },
     {
         "form": "Steel",
@@ -4445,7 +5000,8 @@
         "pokemon_name": "Arceus",
         "type": ["Steel"],
         "id": 555,
-        "label": "Arceus (Steel)"
+        "label": "Arceus (Steel)",
+        "slug": "arceus-steel"
     },
     {
         "form": "Water",
@@ -4453,7 +5009,8 @@
         "pokemon_name": "Arceus",
         "type": ["Water"],
         "id": 556,
-        "label": "Arceus (Water)"
+        "label": "Arceus (Water)",
+        "slug": "arceus-water"
     },
     {
         "form": "Normal",
@@ -4461,7 +5018,8 @@
         "pokemon_name": "Victini",
         "type": ["Psychic", "Fire"],
         "id": 557,
-        "label": "Victini"
+        "label": "Victini",
+        "slug": "victini"
     },
     {
         "form": "Normal",
@@ -4469,7 +5027,8 @@
         "pokemon_name": "Snivy",
         "type": ["Grass"],
         "id": 558,
-        "label": "Snivy"
+        "label": "Snivy",
+        "slug": "snivy"
     },
     {
         "form": "Normal",
@@ -4477,7 +5036,8 @@
         "pokemon_name": "Servine",
         "type": ["Grass"],
         "id": 559,
-        "label": "Servine"
+        "label": "Servine",
+        "slug": "servine"
     },
     {
         "form": "Normal",
@@ -4485,7 +5045,8 @@
         "pokemon_name": "Serperior",
         "type": ["Grass"],
         "id": 560,
-        "label": "Serperior"
+        "label": "Serperior",
+        "slug": "serperior"
     },
     {
         "form": "Normal",
@@ -4493,7 +5054,8 @@
         "pokemon_name": "Tepig",
         "type": ["Fire"],
         "id": 561,
-        "label": "Tepig"
+        "label": "Tepig",
+        "slug": "tepig"
     },
     {
         "form": "Normal",
@@ -4501,7 +5063,8 @@
         "pokemon_name": "Pignite",
         "type": ["Fire", "Fighting"],
         "id": 562,
-        "label": "Pignite"
+        "label": "Pignite",
+        "slug": "pignite"
     },
     {
         "form": "Normal",
@@ -4509,7 +5072,8 @@
         "pokemon_name": "Emboar",
         "type": ["Fire", "Fighting"],
         "id": 563,
-        "label": "Emboar"
+        "label": "Emboar",
+        "slug": "emboar"
     },
     {
         "form": "Normal",
@@ -4517,7 +5081,8 @@
         "pokemon_name": "Oshawott",
         "type": ["Water"],
         "id": 564,
-        "label": "Oshawott"
+        "label": "Oshawott",
+        "slug": "oshawott"
     },
     {
         "form": "Normal",
@@ -4525,7 +5090,8 @@
         "pokemon_name": "Dewott",
         "type": ["Water"],
         "id": 565,
-        "label": "Dewott"
+        "label": "Dewott",
+        "slug": "dewott"
     },
     {
         "form": "Normal",
@@ -4533,7 +5099,8 @@
         "pokemon_name": "Samurott",
         "type": ["Water"],
         "id": 566,
-        "label": "Samurott"
+        "label": "Samurott",
+        "slug": "samurott"
     },
     {
         "form": "Normal",
@@ -4541,7 +5108,8 @@
         "pokemon_name": "Patrat",
         "type": ["Normal"],
         "id": 567,
-        "label": "Patrat"
+        "label": "Patrat",
+        "slug": "patrat"
     },
     {
         "form": "Normal",
@@ -4549,7 +5117,8 @@
         "pokemon_name": "Watchog",
         "type": ["Normal"],
         "id": 568,
-        "label": "Watchog"
+        "label": "Watchog",
+        "slug": "watchog"
     },
     {
         "form": "Normal",
@@ -4557,7 +5126,8 @@
         "pokemon_name": "Lillipup",
         "type": ["Normal"],
         "id": 569,
-        "label": "Lillipup"
+        "label": "Lillipup",
+        "slug": "lillipup"
     },
     {
         "form": "Normal",
@@ -4565,7 +5135,8 @@
         "pokemon_name": "Herdier",
         "type": ["Normal"],
         "id": 570,
-        "label": "Herdier"
+        "label": "Herdier",
+        "slug": "herdier"
     },
     {
         "form": "Normal",
@@ -4573,7 +5144,8 @@
         "pokemon_name": "Stoutland",
         "type": ["Normal"],
         "id": 571,
-        "label": "Stoutland"
+        "label": "Stoutland",
+        "slug": "stoutland"
     },
     {
         "form": "Normal",
@@ -4581,7 +5153,8 @@
         "pokemon_name": "Purrloin",
         "type": ["Dark"],
         "id": 572,
-        "label": "Purrloin"
+        "label": "Purrloin",
+        "slug": "purrloin"
     },
     {
         "form": "Normal",
@@ -4589,7 +5162,8 @@
         "pokemon_name": "Liepard",
         "type": ["Dark"],
         "id": 573,
-        "label": "Liepard"
+        "label": "Liepard",
+        "slug": "liepard"
     },
     {
         "form": "Normal",
@@ -4597,7 +5171,8 @@
         "pokemon_name": "Pansage",
         "type": ["Grass"],
         "id": 574,
-        "label": "Pansage"
+        "label": "Pansage",
+        "slug": "pansage"
     },
     {
         "form": "Normal",
@@ -4605,7 +5180,8 @@
         "pokemon_name": "Simisage",
         "type": ["Grass"],
         "id": 575,
-        "label": "Simisage"
+        "label": "Simisage",
+        "slug": "simisage"
     },
     {
         "form": "Normal",
@@ -4613,7 +5189,8 @@
         "pokemon_name": "Pansear",
         "type": ["Fire"],
         "id": 576,
-        "label": "Pansear"
+        "label": "Pansear",
+        "slug": "pansear"
     },
     {
         "form": "Normal",
@@ -4621,7 +5198,8 @@
         "pokemon_name": "Simisear",
         "type": ["Fire"],
         "id": 577,
-        "label": "Simisear"
+        "label": "Simisear",
+        "slug": "simisear"
     },
     {
         "form": "Normal",
@@ -4629,7 +5207,8 @@
         "pokemon_name": "Panpour",
         "type": ["Water"],
         "id": 578,
-        "label": "Panpour"
+        "label": "Panpour",
+        "slug": "panpour"
     },
     {
         "form": "Normal",
@@ -4637,7 +5216,8 @@
         "pokemon_name": "Simipour",
         "type": ["Water"],
         "id": 579,
-        "label": "Simipour"
+        "label": "Simipour",
+        "slug": "simipour"
     },
     {
         "form": "Normal",
@@ -4645,7 +5225,8 @@
         "pokemon_name": "Munna",
         "type": ["Psychic"],
         "id": 580,
-        "label": "Munna"
+        "label": "Munna",
+        "slug": "munna"
     },
     {
         "form": "Normal",
@@ -4653,7 +5234,8 @@
         "pokemon_name": "Musharna",
         "type": ["Psychic"],
         "id": 581,
-        "label": "Musharna"
+        "label": "Musharna",
+        "slug": "musharna"
     },
     {
         "form": "Normal",
@@ -4661,7 +5243,8 @@
         "pokemon_name": "Pidove",
         "type": ["Normal", "Flying"],
         "id": 582,
-        "label": "Pidove"
+        "label": "Pidove",
+        "slug": "pidove"
     },
     {
         "form": "Normal",
@@ -4669,7 +5252,8 @@
         "pokemon_name": "Tranquill",
         "type": ["Normal", "Flying"],
         "id": 583,
-        "label": "Tranquill"
+        "label": "Tranquill",
+        "slug": "tranquill"
     },
     {
         "form": "Normal",
@@ -4677,7 +5261,8 @@
         "pokemon_name": "Unfezant",
         "type": ["Normal", "Flying"],
         "id": 584,
-        "label": "Unfezant"
+        "label": "Unfezant",
+        "slug": "unfezant"
     },
     {
         "form": "Normal",
@@ -4685,7 +5270,8 @@
         "pokemon_name": "Blitzle",
         "type": ["Electric"],
         "id": 585,
-        "label": "Blitzle"
+        "label": "Blitzle",
+        "slug": "blitzle"
     },
     {
         "form": "Normal",
@@ -4693,7 +5279,8 @@
         "pokemon_name": "Zebstrika",
         "type": ["Electric"],
         "id": 586,
-        "label": "Zebstrika"
+        "label": "Zebstrika",
+        "slug": "zebstrika"
     },
     {
         "form": "Normal",
@@ -4701,7 +5288,8 @@
         "pokemon_name": "Roggenrola",
         "type": ["Rock"],
         "id": 587,
-        "label": "Roggenrola"
+        "label": "Roggenrola",
+        "slug": "roggenrola"
     },
     {
         "form": "Normal",
@@ -4709,7 +5297,8 @@
         "pokemon_name": "Boldore",
         "type": ["Rock"],
         "id": 588,
-        "label": "Boldore"
+        "label": "Boldore",
+        "slug": "boldore"
     },
     {
         "form": "Normal",
@@ -4717,7 +5306,8 @@
         "pokemon_name": "Gigalith",
         "type": ["Rock"],
         "id": 589,
-        "label": "Gigalith"
+        "label": "Gigalith",
+        "slug": "gigalith"
     },
     {
         "form": "Normal",
@@ -4725,7 +5315,8 @@
         "pokemon_name": "Woobat",
         "type": ["Psychic", "Flying"],
         "id": 590,
-        "label": "Woobat"
+        "label": "Woobat",
+        "slug": "woobat"
     },
     {
         "form": "Normal",
@@ -4733,7 +5324,8 @@
         "pokemon_name": "Swoobat",
         "type": ["Psychic", "Flying"],
         "id": 591,
-        "label": "Swoobat"
+        "label": "Swoobat",
+        "slug": "swoobat"
     },
     {
         "form": "Normal",
@@ -4741,7 +5333,8 @@
         "pokemon_name": "Drilbur",
         "type": ["Ground"],
         "id": 592,
-        "label": "Drilbur"
+        "label": "Drilbur",
+        "slug": "drilbur"
     },
     {
         "form": "Normal",
@@ -4749,7 +5342,8 @@
         "pokemon_name": "Excadrill",
         "type": ["Ground", "Steel"],
         "id": 593,
-        "label": "Excadrill"
+        "label": "Excadrill",
+        "slug": "excadrill"
     },
     {
         "form": "Normal",
@@ -4757,7 +5351,8 @@
         "pokemon_name": "Audino",
         "type": ["Normal"],
         "id": 594,
-        "label": "Audino"
+        "label": "Audino",
+        "slug": "audino"
     },
     {
         "form": "Normal",
@@ -4765,7 +5360,8 @@
         "pokemon_name": "Timburr",
         "type": ["Fighting"],
         "id": 595,
-        "label": "Timburr"
+        "label": "Timburr",
+        "slug": "timburr"
     },
     {
         "form": "Normal",
@@ -4773,7 +5369,8 @@
         "pokemon_name": "Gurdurr",
         "type": ["Fighting"],
         "id": 596,
-        "label": "Gurdurr"
+        "label": "Gurdurr",
+        "slug": "gurdurr"
     },
     {
         "form": "Normal",
@@ -4781,7 +5378,8 @@
         "pokemon_name": "Conkeldurr",
         "type": ["Fighting"],
         "id": 597,
-        "label": "Conkeldurr"
+        "label": "Conkeldurr",
+        "slug": "conkeldurr"
     },
     {
         "form": "Normal",
@@ -4789,7 +5387,8 @@
         "pokemon_name": "Tympole",
         "type": ["Water"],
         "id": 598,
-        "label": "Tympole"
+        "label": "Tympole",
+        "slug": "tympole"
     },
     {
         "form": "Normal",
@@ -4797,7 +5396,8 @@
         "pokemon_name": "Palpitoad",
         "type": ["Water", "Ground"],
         "id": 599,
-        "label": "Palpitoad"
+        "label": "Palpitoad",
+        "slug": "palpitoad"
     },
     {
         "form": "Normal",
@@ -4805,7 +5405,8 @@
         "pokemon_name": "Seismitoad",
         "type": ["Water", "Ground"],
         "id": 600,
-        "label": "Seismitoad"
+        "label": "Seismitoad",
+        "slug": "seismitoad"
     },
     {
         "form": "Normal",
@@ -4813,7 +5414,8 @@
         "pokemon_name": "Throh",
         "type": ["Fighting"],
         "id": 601,
-        "label": "Throh"
+        "label": "Throh",
+        "slug": "throh"
     },
     {
         "form": "Normal",
@@ -4821,7 +5423,8 @@
         "pokemon_name": "Sawk",
         "type": ["Fighting"],
         "id": 602,
-        "label": "Sawk"
+        "label": "Sawk",
+        "slug": "sawk"
     },
     {
         "form": "Normal",
@@ -4829,7 +5432,8 @@
         "pokemon_name": "Sewaddle",
         "type": ["Bug", "Grass"],
         "id": 603,
-        "label": "Sewaddle"
+        "label": "Sewaddle",
+        "slug": "sewaddle"
     },
     {
         "form": "Normal",
@@ -4837,7 +5441,8 @@
         "pokemon_name": "Swadloon",
         "type": ["Bug", "Grass"],
         "id": 604,
-        "label": "Swadloon"
+        "label": "Swadloon",
+        "slug": "swadloon"
     },
     {
         "form": "Normal",
@@ -4845,7 +5450,8 @@
         "pokemon_name": "Leavanny",
         "type": ["Bug", "Grass"],
         "id": 605,
-        "label": "Leavanny"
+        "label": "Leavanny",
+        "slug": "leavanny"
     },
     {
         "form": "Normal",
@@ -4853,7 +5459,8 @@
         "pokemon_name": "Venipede",
         "type": ["Bug", "Poison"],
         "id": 606,
-        "label": "Venipede"
+        "label": "Venipede",
+        "slug": "venipede"
     },
     {
         "form": "Normal",
@@ -4861,7 +5468,8 @@
         "pokemon_name": "Whirlipede",
         "type": ["Bug", "Poison"],
         "id": 607,
-        "label": "Whirlipede"
+        "label": "Whirlipede",
+        "slug": "whirlipede"
     },
     {
         "form": "Normal",
@@ -4869,7 +5477,8 @@
         "pokemon_name": "Scolipede",
         "type": ["Bug", "Poison"],
         "id": 608,
-        "label": "Scolipede"
+        "label": "Scolipede",
+        "slug": "scolipede"
     },
     {
         "form": "Normal",
@@ -4877,7 +5486,8 @@
         "pokemon_name": "Cottonee",
         "type": ["Grass", "Fairy"],
         "id": 609,
-        "label": "Cottonee"
+        "label": "Cottonee",
+        "slug": "cottonee"
     },
     {
         "form": "Normal",
@@ -4885,7 +5495,8 @@
         "pokemon_name": "Whimsicott",
         "type": ["Grass", "Fairy"],
         "id": 610,
-        "label": "Whimsicott"
+        "label": "Whimsicott",
+        "slug": "whimsicott"
     },
     {
         "form": "Normal",
@@ -4893,7 +5504,8 @@
         "pokemon_name": "Petilil",
         "type": ["Grass"],
         "id": 611,
-        "label": "Petilil"
+        "label": "Petilil",
+        "slug": "petilil"
     },
     {
         "form": "Normal",
@@ -4901,7 +5513,8 @@
         "pokemon_name": "Lilligant",
         "type": ["Grass"],
         "id": 612,
-        "label": "Lilligant"
+        "label": "Lilligant",
+        "slug": "lilligant"
     },
     {
         "form": "Blue_striped",
@@ -4909,7 +5522,8 @@
         "pokemon_name": "Basculin",
         "type": ["Water"],
         "id": 613,
-        "label": "Basculin (Blue striped)"
+        "label": "Basculin (Blue striped)",
+        "slug": "basculin-blue-striped"
     },
     {
         "form": "Red_striped",
@@ -4917,7 +5531,8 @@
         "pokemon_name": "Basculin",
         "type": ["Water"],
         "id": 614,
-        "label": "Basculin (Red striped)"
+        "label": "Basculin (Red striped)",
+        "slug": "basculin-red-striped"
     },
     {
         "form": "Normal",
@@ -4925,7 +5540,8 @@
         "pokemon_name": "Sandile",
         "type": ["Ground", "Dark"],
         "id": 615,
-        "label": "Sandile"
+        "label": "Sandile",
+        "slug": "sandile"
     },
     {
         "form": "Normal",
@@ -4933,7 +5549,8 @@
         "pokemon_name": "Krokorok",
         "type": ["Ground", "Dark"],
         "id": 616,
-        "label": "Krokorok"
+        "label": "Krokorok",
+        "slug": "krokorok"
     },
     {
         "form": "Normal",
@@ -4941,7 +5558,8 @@
         "pokemon_name": "Krookodile",
         "type": ["Ground", "Dark"],
         "id": 617,
-        "label": "Krookodile"
+        "label": "Krookodile",
+        "slug": "krookodile"
     },
     {
         "form": "Galarian",
@@ -4949,7 +5567,8 @@
         "pokemon_name": "Darumaka",
         "type": ["Ice"],
         "id": 618,
-        "label": "Darumaka (Galarian)"
+        "label": "Darumaka (Galarian)",
+        "slug": "darumaka-galarian"
     },
     {
         "form": "Normal",
@@ -4957,7 +5576,8 @@
         "pokemon_name": "Darumaka",
         "type": ["Fire"],
         "id": 619,
-        "label": "Darumaka"
+        "label": "Darumaka",
+        "slug": "darumaka"
     },
     {
         "form": "Galarian_standard",
@@ -4965,7 +5585,8 @@
         "pokemon_name": "Darmanitan",
         "type": ["Ice"],
         "id": 620,
-        "label": "Darmanitan (Galarian standard)"
+        "label": "Darmanitan (Galarian standard)",
+        "slug": "darmanitan-galarian-standard"
     },
     {
         "form": "Galarian_zen",
@@ -4973,7 +5594,8 @@
         "pokemon_name": "Darmanitan",
         "type": ["Ice", "Fire"],
         "id": 621,
-        "label": "Darmanitan (Galarian zen)"
+        "label": "Darmanitan (Galarian zen)",
+        "slug": "darmanitan-galarian-zen"
     },
     {
         "form": "Standard",
@@ -4981,7 +5603,8 @@
         "pokemon_name": "Darmanitan",
         "type": ["Fire"],
         "id": 622,
-        "label": "Darmanitan (Standard)"
+        "label": "Darmanitan (Standard)",
+        "slug": "darmanitan-standard"
     },
     {
         "form": "Zen",
@@ -4989,7 +5612,8 @@
         "pokemon_name": "Darmanitan",
         "type": ["Fire", "Psychic"],
         "id": 623,
-        "label": "Darmanitan (Zen)"
+        "label": "Darmanitan (Zen)",
+        "slug": "darmanitan-zen"
     },
     {
         "form": "Normal",
@@ -4997,7 +5621,8 @@
         "pokemon_name": "Maractus",
         "type": ["Grass"],
         "id": 624,
-        "label": "Maractus"
+        "label": "Maractus",
+        "slug": "maractus"
     },
     {
         "form": "Normal",
@@ -5005,7 +5630,8 @@
         "pokemon_name": "Dwebble",
         "type": ["Bug", "Rock"],
         "id": 625,
-        "label": "Dwebble"
+        "label": "Dwebble",
+        "slug": "dwebble"
     },
     {
         "form": "Normal",
@@ -5013,7 +5639,8 @@
         "pokemon_name": "Crustle",
         "type": ["Bug", "Rock"],
         "id": 626,
-        "label": "Crustle"
+        "label": "Crustle",
+        "slug": "crustle"
     },
     {
         "form": "Normal",
@@ -5021,7 +5648,8 @@
         "pokemon_name": "Scraggy",
         "type": ["Dark", "Fighting"],
         "id": 627,
-        "label": "Scraggy"
+        "label": "Scraggy",
+        "slug": "scraggy"
     },
     {
         "form": "Normal",
@@ -5029,7 +5657,8 @@
         "pokemon_name": "Scrafty",
         "type": ["Dark", "Fighting"],
         "id": 628,
-        "label": "Scrafty"
+        "label": "Scrafty",
+        "slug": "scrafty"
     },
     {
         "form": "Normal",
@@ -5037,7 +5666,8 @@
         "pokemon_name": "Sigilyph",
         "type": ["Psychic", "Flying"],
         "id": 629,
-        "label": "Sigilyph"
+        "label": "Sigilyph",
+        "slug": "sigilyph"
     },
     {
         "form": "Galarian",
@@ -5045,7 +5675,8 @@
         "pokemon_name": "Yamask",
         "type": ["Ground", "Ghost"],
         "id": 630,
-        "label": "Yamask (Galarian)"
+        "label": "Yamask (Galarian)",
+        "slug": "yamask-galarian"
     },
     {
         "form": "Normal",
@@ -5053,7 +5684,8 @@
         "pokemon_name": "Yamask",
         "type": ["Ghost"],
         "id": 631,
-        "label": "Yamask"
+        "label": "Yamask",
+        "slug": "yamask"
     },
     {
         "form": "Normal",
@@ -5061,7 +5693,8 @@
         "pokemon_name": "Cofagrigus",
         "type": ["Ghost"],
         "id": 632,
-        "label": "Cofagrigus"
+        "label": "Cofagrigus",
+        "slug": "cofagrigus"
     },
     {
         "form": "Normal",
@@ -5069,7 +5702,8 @@
         "pokemon_name": "Tirtouga",
         "type": ["Water", "Rock"],
         "id": 633,
-        "label": "Tirtouga"
+        "label": "Tirtouga",
+        "slug": "tirtouga"
     },
     {
         "form": "Normal",
@@ -5077,7 +5711,8 @@
         "pokemon_name": "Carracosta",
         "type": ["Water", "Rock"],
         "id": 634,
-        "label": "Carracosta"
+        "label": "Carracosta",
+        "slug": "carracosta"
     },
     {
         "form": "Normal",
@@ -5085,7 +5720,8 @@
         "pokemon_name": "Archen",
         "type": ["Rock", "Flying"],
         "id": 635,
-        "label": "Archen"
+        "label": "Archen",
+        "slug": "archen"
     },
     {
         "form": "Normal",
@@ -5093,7 +5729,8 @@
         "pokemon_name": "Archeops",
         "type": ["Rock", "Flying"],
         "id": 636,
-        "label": "Archeops"
+        "label": "Archeops",
+        "slug": "archeops"
     },
     {
         "form": "Normal",
@@ -5101,7 +5738,8 @@
         "pokemon_name": "Trubbish",
         "type": ["Poison"],
         "id": 637,
-        "label": "Trubbish"
+        "label": "Trubbish",
+        "slug": "trubbish"
     },
     {
         "form": "Normal",
@@ -5109,7 +5747,8 @@
         "pokemon_name": "Garbodor",
         "type": ["Poison"],
         "id": 638,
-        "label": "Garbodor"
+        "label": "Garbodor",
+        "slug": "garbodor"
     },
     {
         "form": "Normal",
@@ -5117,7 +5756,8 @@
         "pokemon_name": "Zorua",
         "type": ["Dark"],
         "id": 639,
-        "label": "Zorua"
+        "label": "Zorua",
+        "slug": "zorua"
     },
     {
         "form": "Normal",
@@ -5125,7 +5765,8 @@
         "pokemon_name": "Zoroark",
         "type": ["Dark"],
         "id": 640,
-        "label": "Zoroark"
+        "label": "Zoroark",
+        "slug": "zoroark"
     },
     {
         "form": "Normal",
@@ -5133,7 +5774,8 @@
         "pokemon_name": "Minccino",
         "type": ["Normal"],
         "id": 641,
-        "label": "Minccino"
+        "label": "Minccino",
+        "slug": "minccino"
     },
     {
         "form": "Normal",
@@ -5141,7 +5783,8 @@
         "pokemon_name": "Cinccino",
         "type": ["Normal"],
         "id": 642,
-        "label": "Cinccino"
+        "label": "Cinccino",
+        "slug": "cinccino"
     },
     {
         "form": "Normal",
@@ -5149,7 +5792,8 @@
         "pokemon_name": "Gothita",
         "type": ["Psychic"],
         "id": 643,
-        "label": "Gothita"
+        "label": "Gothita",
+        "slug": "gothita"
     },
     {
         "form": "Normal",
@@ -5157,7 +5801,8 @@
         "pokemon_name": "Gothorita",
         "type": ["Psychic"],
         "id": 644,
-        "label": "Gothorita"
+        "label": "Gothorita",
+        "slug": "gothorita"
     },
     {
         "form": "Normal",
@@ -5165,7 +5810,8 @@
         "pokemon_name": "Gothitelle",
         "type": ["Psychic"],
         "id": 645,
-        "label": "Gothitelle"
+        "label": "Gothitelle",
+        "slug": "gothitelle"
     },
     {
         "form": "Normal",
@@ -5173,7 +5819,8 @@
         "pokemon_name": "Solosis",
         "type": ["Psychic"],
         "id": 646,
-        "label": "Solosis"
+        "label": "Solosis",
+        "slug": "solosis"
     },
     {
         "form": "Normal",
@@ -5181,7 +5828,8 @@
         "pokemon_name": "Duosion",
         "type": ["Psychic"],
         "id": 647,
-        "label": "Duosion"
+        "label": "Duosion",
+        "slug": "duosion"
     },
     {
         "form": "Normal",
@@ -5189,7 +5837,8 @@
         "pokemon_name": "Reuniclus",
         "type": ["Psychic"],
         "id": 648,
-        "label": "Reuniclus"
+        "label": "Reuniclus",
+        "slug": "reuniclus"
     },
     {
         "form": "Normal",
@@ -5197,7 +5846,8 @@
         "pokemon_name": "Ducklett",
         "type": ["Water", "Flying"],
         "id": 649,
-        "label": "Ducklett"
+        "label": "Ducklett",
+        "slug": "ducklett"
     },
     {
         "form": "Normal",
@@ -5205,7 +5855,8 @@
         "pokemon_name": "Swanna",
         "type": ["Water", "Flying"],
         "id": 650,
-        "label": "Swanna"
+        "label": "Swanna",
+        "slug": "swanna"
     },
     {
         "form": "Normal",
@@ -5213,7 +5864,8 @@
         "pokemon_name": "Vanillite",
         "type": ["Ice"],
         "id": 651,
-        "label": "Vanillite"
+        "label": "Vanillite",
+        "slug": "vanillite"
     },
     {
         "form": "Normal",
@@ -5221,7 +5873,8 @@
         "pokemon_name": "Vanillish",
         "type": ["Ice"],
         "id": 652,
-        "label": "Vanillish"
+        "label": "Vanillish",
+        "slug": "vanillish"
     },
     {
         "form": "Normal",
@@ -5229,7 +5882,8 @@
         "pokemon_name": "Vanilluxe",
         "type": ["Ice"],
         "id": 653,
-        "label": "Vanilluxe"
+        "label": "Vanilluxe",
+        "slug": "vanilluxe"
     },
     {
         "form": "Autumn",
@@ -5237,7 +5891,8 @@
         "pokemon_name": "Deerling",
         "type": ["Normal", "Grass"],
         "id": 654,
-        "label": "Deerling (Autumn)"
+        "label": "Deerling (Autumn)",
+        "slug": "deerling-autumn"
     },
     {
         "form": "Spring",
@@ -5245,7 +5900,8 @@
         "pokemon_name": "Deerling",
         "type": ["Normal", "Grass"],
         "id": 655,
-        "label": "Deerling (Spring)"
+        "label": "Deerling (Spring)",
+        "slug": "deerling-spring"
     },
     {
         "form": "Summer",
@@ -5253,7 +5909,8 @@
         "pokemon_name": "Deerling",
         "type": ["Normal", "Grass"],
         "id": 656,
-        "label": "Deerling (Summer)"
+        "label": "Deerling (Summer)",
+        "slug": "deerling-summer"
     },
     {
         "form": "Winter",
@@ -5261,7 +5918,8 @@
         "pokemon_name": "Deerling",
         "type": ["Normal", "Grass"],
         "id": 657,
-        "label": "Deerling (Winter)"
+        "label": "Deerling (Winter)",
+        "slug": "deerling-winter"
     },
     {
         "form": "Autumn",
@@ -5269,7 +5927,8 @@
         "pokemon_name": "Sawsbuck",
         "type": ["Normal", "Grass"],
         "id": 658,
-        "label": "Sawsbuck (Autumn)"
+        "label": "Sawsbuck (Autumn)",
+        "slug": "sawsbuck-autumn"
     },
     {
         "form": "Spring",
@@ -5277,7 +5936,8 @@
         "pokemon_name": "Sawsbuck",
         "type": ["Normal", "Grass"],
         "id": 659,
-        "label": "Sawsbuck (Spring)"
+        "label": "Sawsbuck (Spring)",
+        "slug": "sawsbuck-spring"
     },
     {
         "form": "Summer",
@@ -5285,7 +5945,8 @@
         "pokemon_name": "Sawsbuck",
         "type": ["Normal", "Grass"],
         "id": 660,
-        "label": "Sawsbuck (Summer)"
+        "label": "Sawsbuck (Summer)",
+        "slug": "sawsbuck-summer"
     },
     {
         "form": "Winter",
@@ -5293,7 +5954,8 @@
         "pokemon_name": "Sawsbuck",
         "type": ["Normal", "Grass"],
         "id": 661,
-        "label": "Sawsbuck (Winter)"
+        "label": "Sawsbuck (Winter)",
+        "slug": "sawsbuck-winter"
     },
     {
         "form": "Normal",
@@ -5301,7 +5963,8 @@
         "pokemon_name": "Emolga",
         "type": ["Electric", "Flying"],
         "id": 662,
-        "label": "Emolga"
+        "label": "Emolga",
+        "slug": "emolga"
     },
     {
         "form": "Normal",
@@ -5309,7 +5972,8 @@
         "pokemon_name": "Karrablast",
         "type": ["Bug"],
         "id": 663,
-        "label": "Karrablast"
+        "label": "Karrablast",
+        "slug": "karrablast"
     },
     {
         "form": "Normal",
@@ -5317,7 +5981,8 @@
         "pokemon_name": "Escavalier",
         "type": ["Bug", "Steel"],
         "id": 664,
-        "label": "Escavalier"
+        "label": "Escavalier",
+        "slug": "escavalier"
     },
     {
         "form": "Normal",
@@ -5325,7 +5990,8 @@
         "pokemon_name": "Foongus",
         "type": ["Grass", "Poison"],
         "id": 665,
-        "label": "Foongus"
+        "label": "Foongus",
+        "slug": "foongus"
     },
     {
         "form": "Normal",
@@ -5333,7 +5999,8 @@
         "pokemon_name": "Amoonguss",
         "type": ["Grass", "Poison"],
         "id": 666,
-        "label": "Amoonguss"
+        "label": "Amoonguss",
+        "slug": "amoonguss"
     },
     {
         "form": "Female",
@@ -5341,7 +6008,8 @@
         "pokemon_name": "Frillish",
         "type": ["Water", "Ghost"],
         "id": 667,
-        "label": "Frillish (Female)"
+        "label": "Frillish (Female)",
+        "slug": "frillish-female"
     },
     {
         "form": "Normal",
@@ -5349,7 +6017,8 @@
         "pokemon_name": "Frillish",
         "type": ["Water", "Ghost"],
         "id": 668,
-        "label": "Frillish"
+        "label": "Frillish",
+        "slug": "frillish"
     },
     {
         "form": "Female",
@@ -5357,7 +6026,8 @@
         "pokemon_name": "Jellicent",
         "type": ["Water", "Ghost"],
         "id": 669,
-        "label": "Jellicent (Female)"
+        "label": "Jellicent (Female)",
+        "slug": "jellicent-female"
     },
     {
         "form": "Normal",
@@ -5365,7 +6035,8 @@
         "pokemon_name": "Jellicent",
         "type": ["Water", "Ghost"],
         "id": 670,
-        "label": "Jellicent"
+        "label": "Jellicent",
+        "slug": "jellicent"
     },
     {
         "form": "Normal",
@@ -5373,7 +6044,8 @@
         "pokemon_name": "Alomomola",
         "type": ["Water"],
         "id": 671,
-        "label": "Alomomola"
+        "label": "Alomomola",
+        "slug": "alomomola"
     },
     {
         "form": "Normal",
@@ -5381,7 +6053,8 @@
         "pokemon_name": "Joltik",
         "type": ["Bug", "Electric"],
         "id": 672,
-        "label": "Joltik"
+        "label": "Joltik",
+        "slug": "joltik"
     },
     {
         "form": "Normal",
@@ -5389,7 +6062,8 @@
         "pokemon_name": "Galvantula",
         "type": ["Bug", "Electric"],
         "id": 673,
-        "label": "Galvantula"
+        "label": "Galvantula",
+        "slug": "galvantula"
     },
     {
         "form": "Normal",
@@ -5397,7 +6071,8 @@
         "pokemon_name": "Ferroseed",
         "type": ["Grass", "Steel"],
         "id": 674,
-        "label": "Ferroseed"
+        "label": "Ferroseed",
+        "slug": "ferroseed"
     },
     {
         "form": "Normal",
@@ -5405,7 +6080,8 @@
         "pokemon_name": "Ferrothorn",
         "type": ["Grass", "Steel"],
         "id": 675,
-        "label": "Ferrothorn"
+        "label": "Ferrothorn",
+        "slug": "ferrothorn"
     },
     {
         "form": "Normal",
@@ -5413,7 +6089,8 @@
         "pokemon_name": "Klink",
         "type": ["Steel"],
         "id": 676,
-        "label": "Klink"
+        "label": "Klink",
+        "slug": "klink"
     },
     {
         "form": "Normal",
@@ -5421,7 +6098,8 @@
         "pokemon_name": "Klang",
         "type": ["Steel"],
         "id": 677,
-        "label": "Klang"
+        "label": "Klang",
+        "slug": "klang"
     },
     {
         "form": "Normal",
@@ -5429,7 +6107,8 @@
         "pokemon_name": "Klinklang",
         "type": ["Steel"],
         "id": 678,
-        "label": "Klinklang"
+        "label": "Klinklang",
+        "slug": "klinklang"
     },
     {
         "form": "Normal",
@@ -5437,7 +6116,8 @@
         "pokemon_name": "Tynamo",
         "type": ["Electric"],
         "id": 679,
-        "label": "Tynamo"
+        "label": "Tynamo",
+        "slug": "tynamo"
     },
     {
         "form": "Normal",
@@ -5445,7 +6125,8 @@
         "pokemon_name": "Eelektrik",
         "type": ["Electric"],
         "id": 680,
-        "label": "Eelektrik"
+        "label": "Eelektrik",
+        "slug": "eelektrik"
     },
     {
         "form": "Normal",
@@ -5453,7 +6134,8 @@
         "pokemon_name": "Eelektross",
         "type": ["Electric"],
         "id": 681,
-        "label": "Eelektross"
+        "label": "Eelektross",
+        "slug": "eelektross"
     },
     {
         "form": "Normal",
@@ -5461,7 +6143,8 @@
         "pokemon_name": "Elgyem",
         "type": ["Psychic"],
         "id": 682,
-        "label": "Elgyem"
+        "label": "Elgyem",
+        "slug": "elgyem"
     },
     {
         "form": "Normal",
@@ -5469,7 +6152,8 @@
         "pokemon_name": "Beheeyem",
         "type": ["Psychic"],
         "id": 683,
-        "label": "Beheeyem"
+        "label": "Beheeyem",
+        "slug": "beheeyem"
     },
     {
         "form": "Normal",
@@ -5477,7 +6161,8 @@
         "pokemon_name": "Litwick",
         "type": ["Ghost", "Fire"],
         "id": 684,
-        "label": "Litwick"
+        "label": "Litwick",
+        "slug": "litwick"
     },
     {
         "form": "Normal",
@@ -5485,7 +6170,8 @@
         "pokemon_name": "Lampent",
         "type": ["Ghost", "Fire"],
         "id": 685,
-        "label": "Lampent"
+        "label": "Lampent",
+        "slug": "lampent"
     },
     {
         "form": "Normal",
@@ -5493,7 +6179,8 @@
         "pokemon_name": "Chandelure",
         "type": ["Ghost", "Fire"],
         "id": 686,
-        "label": "Chandelure"
+        "label": "Chandelure",
+        "slug": "chandelure"
     },
     {
         "form": "Normal",
@@ -5501,7 +6188,8 @@
         "pokemon_name": "Axew",
         "type": ["Dragon"],
         "id": 687,
-        "label": "Axew"
+        "label": "Axew",
+        "slug": "axew"
     },
     {
         "form": "Normal",
@@ -5509,7 +6197,8 @@
         "pokemon_name": "Fraxure",
         "type": ["Dragon"],
         "id": 688,
-        "label": "Fraxure"
+        "label": "Fraxure",
+        "slug": "fraxure"
     },
     {
         "form": "Normal",
@@ -5517,7 +6206,8 @@
         "pokemon_name": "Haxorus",
         "type": ["Dragon"],
         "id": 689,
-        "label": "Haxorus"
+        "label": "Haxorus",
+        "slug": "haxorus"
     },
     {
         "form": "Normal",
@@ -5525,7 +6215,8 @@
         "pokemon_name": "Cubchoo",
         "type": ["Ice"],
         "id": 690,
-        "label": "Cubchoo"
+        "label": "Cubchoo",
+        "slug": "cubchoo"
     },
     {
         "form": "Normal",
@@ -5533,7 +6224,8 @@
         "pokemon_name": "Beartic",
         "type": ["Ice"],
         "id": 691,
-        "label": "Beartic"
+        "label": "Beartic",
+        "slug": "beartic"
     },
     {
         "form": "Normal",
@@ -5541,7 +6233,8 @@
         "pokemon_name": "Cryogonal",
         "type": ["Ice"],
         "id": 692,
-        "label": "Cryogonal"
+        "label": "Cryogonal",
+        "slug": "cryogonal"
     },
     {
         "form": "Normal",
@@ -5549,7 +6242,8 @@
         "pokemon_name": "Shelmet",
         "type": ["Bug"],
         "id": 693,
-        "label": "Shelmet"
+        "label": "Shelmet",
+        "slug": "shelmet"
     },
     {
         "form": "Normal",
@@ -5557,7 +6251,8 @@
         "pokemon_name": "Accelgor",
         "type": ["Bug"],
         "id": 694,
-        "label": "Accelgor"
+        "label": "Accelgor",
+        "slug": "accelgor"
     },
     {
         "form": "Galarian",
@@ -5565,7 +6260,8 @@
         "pokemon_name": "Stunfisk",
         "type": ["Ground", "Steel"],
         "id": 695,
-        "label": "Stunfisk (Galarian)"
+        "label": "Stunfisk (Galarian)",
+        "slug": "stunfisk-galarian"
     },
     {
         "form": "Normal",
@@ -5573,7 +6269,8 @@
         "pokemon_name": "Stunfisk",
         "type": ["Ground", "Electric"],
         "id": 696,
-        "label": "Stunfisk"
+        "label": "Stunfisk",
+        "slug": "stunfisk"
     },
     {
         "form": "Normal",
@@ -5581,7 +6278,8 @@
         "pokemon_name": "Mienfoo",
         "type": ["Fighting"],
         "id": 697,
-        "label": "Mienfoo"
+        "label": "Mienfoo",
+        "slug": "mienfoo"
     },
     {
         "form": "Normal",
@@ -5589,7 +6287,8 @@
         "pokemon_name": "Mienshao",
         "type": ["Fighting"],
         "id": 698,
-        "label": "Mienshao"
+        "label": "Mienshao",
+        "slug": "mienshao"
     },
     {
         "form": "Normal",
@@ -5597,7 +6296,8 @@
         "pokemon_name": "Druddigon",
         "type": ["Dragon"],
         "id": 699,
-        "label": "Druddigon"
+        "label": "Druddigon",
+        "slug": "druddigon"
     },
     {
         "form": "Normal",
@@ -5605,7 +6305,8 @@
         "pokemon_name": "Golett",
         "type": ["Ground", "Ghost"],
         "id": 700,
-        "label": "Golett"
+        "label": "Golett",
+        "slug": "golett"
     },
     {
         "form": "Normal",
@@ -5613,7 +6314,8 @@
         "pokemon_name": "Golurk",
         "type": ["Ground", "Ghost"],
         "id": 701,
-        "label": "Golurk"
+        "label": "Golurk",
+        "slug": "golurk"
     },
     {
         "form": "Normal",
@@ -5621,7 +6323,8 @@
         "pokemon_name": "Pawniard",
         "type": ["Dark", "Steel"],
         "id": 702,
-        "label": "Pawniard"
+        "label": "Pawniard",
+        "slug": "pawniard"
     },
     {
         "form": "Normal",
@@ -5629,7 +6332,8 @@
         "pokemon_name": "Bisharp",
         "type": ["Dark", "Steel"],
         "id": 703,
-        "label": "Bisharp"
+        "label": "Bisharp",
+        "slug": "bisharp"
     },
     {
         "form": "Normal",
@@ -5637,7 +6341,8 @@
         "pokemon_name": "Bouffalant",
         "type": ["Normal"],
         "id": 704,
-        "label": "Bouffalant"
+        "label": "Bouffalant",
+        "slug": "bouffalant"
     },
     {
         "form": "Normal",
@@ -5645,7 +6350,8 @@
         "pokemon_name": "Rufflet",
         "type": ["Normal", "Flying"],
         "id": 705,
-        "label": "Rufflet"
+        "label": "Rufflet",
+        "slug": "rufflet"
     },
     {
         "form": "Normal",
@@ -5653,7 +6359,8 @@
         "pokemon_name": "Braviary",
         "type": ["Normal", "Flying"],
         "id": 706,
-        "label": "Braviary"
+        "label": "Braviary",
+        "slug": "braviary"
     },
     {
         "form": "Normal",
@@ -5661,7 +6368,8 @@
         "pokemon_name": "Vullaby",
         "type": ["Dark", "Flying"],
         "id": 707,
-        "label": "Vullaby"
+        "label": "Vullaby",
+        "slug": "vullaby"
     },
     {
         "form": "Normal",
@@ -5669,7 +6377,8 @@
         "pokemon_name": "Mandibuzz",
         "type": ["Dark", "Flying"],
         "id": 708,
-        "label": "Mandibuzz"
+        "label": "Mandibuzz",
+        "slug": "mandibuzz"
     },
     {
         "form": "Normal",
@@ -5677,7 +6386,8 @@
         "pokemon_name": "Heatmor",
         "type": ["Fire"],
         "id": 709,
-        "label": "Heatmor"
+        "label": "Heatmor",
+        "slug": "heatmor"
     },
     {
         "form": "Normal",
@@ -5685,7 +6395,8 @@
         "pokemon_name": "Durant",
         "type": ["Bug", "Steel"],
         "id": 710,
-        "label": "Durant"
+        "label": "Durant",
+        "slug": "durant"
     },
     {
         "form": "Normal",
@@ -5693,7 +6404,8 @@
         "pokemon_name": "Deino",
         "type": ["Dark", "Dragon"],
         "id": 711,
-        "label": "Deino"
+        "label": "Deino",
+        "slug": "deino"
     },
     {
         "form": "Normal",
@@ -5701,7 +6413,8 @@
         "pokemon_name": "Zweilous",
         "type": ["Dark", "Dragon"],
         "id": 712,
-        "label": "Zweilous"
+        "label": "Zweilous",
+        "slug": "zweilous"
     },
     {
         "form": "Normal",
@@ -5709,7 +6422,8 @@
         "pokemon_name": "Hydreigon",
         "type": ["Dark", "Dragon"],
         "id": 713,
-        "label": "Hydreigon"
+        "label": "Hydreigon",
+        "slug": "hydreigon"
     },
     {
         "form": "Normal",
@@ -5717,7 +6431,8 @@
         "pokemon_name": "Larvesta",
         "type": ["Bug", "Fire"],
         "id": 714,
-        "label": "Larvesta"
+        "label": "Larvesta",
+        "slug": "larvesta"
     },
     {
         "form": "Normal",
@@ -5725,7 +6440,8 @@
         "pokemon_name": "Volcarona",
         "type": ["Bug", "Fire"],
         "id": 715,
-        "label": "Volcarona"
+        "label": "Volcarona",
+        "slug": "volcarona"
     },
     {
         "form": "Normal",
@@ -5733,7 +6449,8 @@
         "pokemon_name": "Cobalion",
         "type": ["Steel", "Fighting"],
         "id": 716,
-        "label": "Cobalion"
+        "label": "Cobalion",
+        "slug": "cobalion"
     },
     {
         "form": "Normal",
@@ -5741,7 +6458,8 @@
         "pokemon_name": "Terrakion",
         "type": ["Rock", "Fighting"],
         "id": 717,
-        "label": "Terrakion"
+        "label": "Terrakion",
+        "slug": "terrakion"
     },
     {
         "form": "Normal",
@@ -5749,7 +6467,8 @@
         "pokemon_name": "Virizion",
         "type": ["Grass", "Fighting"],
         "id": 718,
-        "label": "Virizion"
+        "label": "Virizion",
+        "slug": "virizion"
     },
     {
         "form": "Incarnate",
@@ -5757,7 +6476,8 @@
         "pokemon_name": "Tornadus",
         "type": ["Flying"],
         "id": 719,
-        "label": "Tornadus (Incarnate)"
+        "label": "Tornadus (Incarnate)",
+        "slug": "tornadus-incarnate"
     },
     {
         "form": "Therian",
@@ -5765,7 +6485,8 @@
         "pokemon_name": "Tornadus",
         "type": ["Flying"],
         "id": 720,
-        "label": "Tornadus (Therian)"
+        "label": "Tornadus (Therian)",
+        "slug": "tornadus-therian"
     },
     {
         "form": "Incarnate",
@@ -5773,7 +6494,8 @@
         "pokemon_name": "Thundurus",
         "type": ["Electric", "Flying"],
         "id": 721,
-        "label": "Thundurus (Incarnate)"
+        "label": "Thundurus (Incarnate)",
+        "slug": "thundurus-incarnate"
     },
     {
         "form": "Therian",
@@ -5781,7 +6503,8 @@
         "pokemon_name": "Thundurus",
         "type": ["Electric", "Flying"],
         "id": 722,
-        "label": "Thundurus (Therian)"
+        "label": "Thundurus (Therian)",
+        "slug": "thundurus-therian"
     },
     {
         "form": "Normal",
@@ -5789,7 +6512,8 @@
         "pokemon_name": "Reshiram",
         "type": ["Dragon", "Fire"],
         "id": 723,
-        "label": "Reshiram"
+        "label": "Reshiram",
+        "slug": "reshiram"
     },
     {
         "form": "Normal",
@@ -5797,7 +6521,8 @@
         "pokemon_name": "Zekrom",
         "type": ["Dragon", "Electric"],
         "id": 724,
-        "label": "Zekrom"
+        "label": "Zekrom",
+        "slug": "zekrom"
     },
     {
         "form": "Incarnate",
@@ -5805,7 +6530,8 @@
         "pokemon_name": "Landorus",
         "type": ["Ground", "Flying"],
         "id": 725,
-        "label": "Landorus (Incarnate)"
+        "label": "Landorus (Incarnate)",
+        "slug": "landorus-incarnate"
     },
     {
         "form": "Therian",
@@ -5813,7 +6539,8 @@
         "pokemon_name": "Landorus",
         "type": ["Ground", "Flying"],
         "id": 726,
-        "label": "Landorus (Therian)"
+        "label": "Landorus (Therian)",
+        "slug": "landorus-therian"
     },
     {
         "form": "Black",
@@ -5821,7 +6548,8 @@
         "pokemon_name": "Kyurem",
         "type": ["Dragon", "Ice"],
         "id": 727,
-        "label": "Kyurem (Black)"
+        "label": "Kyurem (Black)",
+        "slug": "kyurem-black"
     },
     {
         "form": "Normal",
@@ -5829,7 +6557,8 @@
         "pokemon_name": "Kyurem",
         "type": ["Dragon", "Ice"],
         "id": 728,
-        "label": "Kyurem"
+        "label": "Kyurem",
+        "slug": "kyurem"
     },
     {
         "form": "White",
@@ -5837,7 +6566,8 @@
         "pokemon_name": "Kyurem",
         "type": ["Dragon", "Ice"],
         "id": 729,
-        "label": "Kyurem (White)"
+        "label": "Kyurem (White)",
+        "slug": "kyurem-white"
     },
     {
         "form": "Ordinary",
@@ -5845,7 +6575,8 @@
         "pokemon_name": "Keldeo",
         "type": ["Water", "Fighting"],
         "id": 730,
-        "label": "Keldeo (Ordinary)"
+        "label": "Keldeo (Ordinary)",
+        "slug": "keldeo-ordinary"
     },
     {
         "form": "Resolute",
@@ -5853,7 +6584,8 @@
         "pokemon_name": "Keldeo",
         "type": ["Water", "Fighting"],
         "id": 731,
-        "label": "Keldeo (Resolute)"
+        "label": "Keldeo (Resolute)",
+        "slug": "keldeo-resolute"
     },
     {
         "form": "Aria",
@@ -5861,7 +6593,8 @@
         "pokemon_name": "Meloetta",
         "type": ["Normal", "Psychic"],
         "id": 732,
-        "label": "Meloetta (Aria)"
+        "label": "Meloetta (Aria)",
+        "slug": "meloetta-aria"
     },
     {
         "form": "Pirouette",
@@ -5869,7 +6602,8 @@
         "pokemon_name": "Meloetta",
         "type": ["Normal", "Fighting"],
         "id": 733,
-        "label": "Meloetta (Pirouette)"
+        "label": "Meloetta (Pirouette)",
+        "slug": "meloetta-pirouette"
     },
     {
         "form": "Burn",
@@ -5877,7 +6611,8 @@
         "pokemon_name": "Genesect",
         "type": ["Bug", "Steel"],
         "id": 734,
-        "label": "Genesect (Burn)"
+        "label": "Genesect (Burn)",
+        "slug": "genesect-burn"
     },
     {
         "form": "Chill",
@@ -5885,7 +6620,8 @@
         "pokemon_name": "Genesect",
         "type": ["Bug", "Steel"],
         "id": 735,
-        "label": "Genesect (Chill)"
+        "label": "Genesect (Chill)",
+        "slug": "genesect-chill"
     },
     {
         "form": "Douse",
@@ -5893,7 +6629,8 @@
         "pokemon_name": "Genesect",
         "type": ["Bug", "Steel"],
         "id": 736,
-        "label": "Genesect (Douse)"
+        "label": "Genesect (Douse)",
+        "slug": "genesect-douse"
     },
     {
         "form": "Normal",
@@ -5901,7 +6638,8 @@
         "pokemon_name": "Genesect",
         "type": ["Bug", "Steel"],
         "id": 737,
-        "label": "Genesect"
+        "label": "Genesect",
+        "slug": "genesect"
     },
     {
         "form": "Shock",
@@ -5909,7 +6647,8 @@
         "pokemon_name": "Genesect",
         "type": ["Bug", "Steel"],
         "id": 738,
-        "label": "Genesect (Shock)"
+        "label": "Genesect (Shock)",
+        "slug": "genesect-shock"
     },
     {
         "form": "Normal",
@@ -5917,7 +6656,8 @@
         "pokemon_name": "Chespin",
         "type": ["Grass"],
         "id": 739,
-        "label": "Chespin"
+        "label": "Chespin",
+        "slug": "chespin"
     },
     {
         "form": "Normal",
@@ -5925,7 +6665,8 @@
         "pokemon_name": "Quilladin",
         "type": ["Grass"],
         "id": 740,
-        "label": "Quilladin"
+        "label": "Quilladin",
+        "slug": "quilladin"
     },
     {
         "form": "Normal",
@@ -5933,7 +6674,8 @@
         "pokemon_name": "Chesnaught",
         "type": ["Grass", "Fighting"],
         "id": 741,
-        "label": "Chesnaught"
+        "label": "Chesnaught",
+        "slug": "chesnaught"
     },
     {
         "form": "Normal",
@@ -5941,7 +6683,8 @@
         "pokemon_name": "Fennekin",
         "type": ["Fire"],
         "id": 742,
-        "label": "Fennekin"
+        "label": "Fennekin",
+        "slug": "fennekin"
     },
     {
         "form": "Normal",
@@ -5949,7 +6692,8 @@
         "pokemon_name": "Braixen",
         "type": ["Fire"],
         "id": 743,
-        "label": "Braixen"
+        "label": "Braixen",
+        "slug": "braixen"
     },
     {
         "form": "Normal",
@@ -5957,7 +6701,8 @@
         "pokemon_name": "Delphox",
         "type": ["Fire", "Psychic"],
         "id": 744,
-        "label": "Delphox"
+        "label": "Delphox",
+        "slug": "delphox"
     },
     {
         "form": "Normal",
@@ -5965,7 +6710,8 @@
         "pokemon_name": "Froakie",
         "type": ["Water"],
         "id": 745,
-        "label": "Froakie"
+        "label": "Froakie",
+        "slug": "froakie"
     },
     {
         "form": "Normal",
@@ -5973,7 +6719,8 @@
         "pokemon_name": "Frogadier",
         "type": ["Water"],
         "id": 746,
-        "label": "Frogadier"
+        "label": "Frogadier",
+        "slug": "frogadier"
     },
     {
         "form": "Normal",
@@ -5981,7 +6728,8 @@
         "pokemon_name": "Greninja",
         "type": ["Water", "Dark"],
         "id": 747,
-        "label": "Greninja"
+        "label": "Greninja",
+        "slug": "greninja"
     },
     {
         "form": "Normal",
@@ -5989,7 +6737,8 @@
         "pokemon_name": "Bunnelby",
         "type": ["Normal"],
         "id": 748,
-        "label": "Bunnelby"
+        "label": "Bunnelby",
+        "slug": "bunnelby"
     },
     {
         "form": "Normal",
@@ -5997,7 +6746,8 @@
         "pokemon_name": "Diggersby",
         "type": ["Normal", "Ground"],
         "id": 749,
-        "label": "Diggersby"
+        "label": "Diggersby",
+        "slug": "diggersby"
     },
     {
         "form": "Normal",
@@ -6005,7 +6755,8 @@
         "pokemon_name": "Fletchling",
         "type": ["Normal", "Flying"],
         "id": 750,
-        "label": "Fletchling"
+        "label": "Fletchling",
+        "slug": "fletchling"
     },
     {
         "form": "Normal",
@@ -6013,7 +6764,8 @@
         "pokemon_name": "Fletchinder",
         "type": ["Fire", "Flying"],
         "id": 751,
-        "label": "Fletchinder"
+        "label": "Fletchinder",
+        "slug": "fletchinder"
     },
     {
         "form": "Normal",
@@ -6021,7 +6773,8 @@
         "pokemon_name": "Talonflame",
         "type": ["Fire", "Flying"],
         "id": 752,
-        "label": "Talonflame"
+        "label": "Talonflame",
+        "slug": "talonflame"
     },
     {
         "form": "Normal",
@@ -6029,7 +6782,8 @@
         "pokemon_name": "Scatterbug",
         "type": ["Bug"],
         "id": 753,
-        "label": "Scatterbug"
+        "label": "Scatterbug",
+        "slug": "scatterbug"
     },
     {
         "form": "Normal",
@@ -6037,7 +6791,8 @@
         "pokemon_name": "Spewpa",
         "type": ["Bug"],
         "id": 754,
-        "label": "Spewpa"
+        "label": "Spewpa",
+        "slug": "spewpa"
     },
     {
         "form": "Normal",
@@ -6045,7 +6800,8 @@
         "pokemon_name": "Vivillon",
         "type": ["Bug", "Flying"],
         "id": 755,
-        "label": "Vivillon"
+        "label": "Vivillon",
+        "slug": "vivillon"
     },
     {
         "form": "Normal",
@@ -6053,7 +6809,8 @@
         "pokemon_name": "Litleo",
         "type": ["Fire", "Normal"],
         "id": 756,
-        "label": "Litleo"
+        "label": "Litleo",
+        "slug": "litleo"
     },
     {
         "form": "Female",
@@ -6061,7 +6818,8 @@
         "pokemon_name": "Pyroar",
         "type": ["Fire", "Normal"],
         "id": 757,
-        "label": "Pyroar (Female)"
+        "label": "Pyroar (Female)",
+        "slug": "pyroar-female"
     },
     {
         "form": "Normal",
@@ -6069,7 +6827,8 @@
         "pokemon_name": "Pyroar",
         "type": ["Fire", "Normal"],
         "id": 758,
-        "label": "Pyroar"
+        "label": "Pyroar",
+        "slug": "pyroar"
     },
     {
         "form": "Normal",
@@ -6077,7 +6836,8 @@
         "pokemon_name": "Flabebe",
         "type": ["Fairy"],
         "id": 759,
-        "label": "Flabebe"
+        "label": "Flabebe",
+        "slug": "flabebe"
     },
     {
         "form": "Normal",
@@ -6085,7 +6845,8 @@
         "pokemon_name": "Floette",
         "type": ["Fairy"],
         "id": 760,
-        "label": "Floette"
+        "label": "Floette",
+        "slug": "floette"
     },
     {
         "form": "Normal",
@@ -6093,7 +6854,8 @@
         "pokemon_name": "Florges",
         "type": ["Fairy"],
         "id": 761,
-        "label": "Florges"
+        "label": "Florges",
+        "slug": "florges"
     },
     {
         "form": "Normal",
@@ -6101,7 +6863,8 @@
         "pokemon_name": "Skiddo",
         "type": ["Grass"],
         "id": 762,
-        "label": "Skiddo"
+        "label": "Skiddo",
+        "slug": "skiddo"
     },
     {
         "form": "Normal",
@@ -6109,7 +6872,8 @@
         "pokemon_name": "Gogoat",
         "type": ["Grass"],
         "id": 763,
-        "label": "Gogoat"
+        "label": "Gogoat",
+        "slug": "gogoat"
     },
     {
         "form": "Normal",
@@ -6117,7 +6881,8 @@
         "pokemon_name": "Pancham",
         "type": ["Fighting"],
         "id": 764,
-        "label": "Pancham"
+        "label": "Pancham",
+        "slug": "pancham"
     },
     {
         "form": "Normal",
@@ -6125,7 +6890,8 @@
         "pokemon_name": "Pangoro",
         "type": ["Fighting", "Dark"],
         "id": 765,
-        "label": "Pangoro"
+        "label": "Pangoro",
+        "slug": "pangoro"
     },
     {
         "form": "Normal",
@@ -6133,7 +6899,8 @@
         "pokemon_name": "Furfrou",
         "type": ["Normal"],
         "id": 766,
-        "label": "Furfrou"
+        "label": "Furfrou",
+        "slug": "furfrou"
     },
     {
         "form": "Normal",
@@ -6141,7 +6908,8 @@
         "pokemon_name": "Espurr",
         "type": ["Psychic"],
         "id": 767,
-        "label": "Espurr"
+        "label": "Espurr",
+        "slug": "espurr"
     },
     {
         "form": "Female",
@@ -6149,7 +6917,8 @@
         "pokemon_name": "Meowstic",
         "type": ["Psychic"],
         "id": 768,
-        "label": "Meowstic (Female)"
+        "label": "Meowstic (Female)",
+        "slug": "meowstic-female"
     },
     {
         "form": "Normal",
@@ -6157,7 +6926,8 @@
         "pokemon_name": "Meowstic",
         "type": ["Psychic"],
         "id": 769,
-        "label": "Meowstic"
+        "label": "Meowstic",
+        "slug": "meowstic"
     },
     {
         "form": "Normal",
@@ -6165,7 +6935,8 @@
         "pokemon_name": "Honedge",
         "type": ["Steel", "Ghost"],
         "id": 770,
-        "label": "Honedge"
+        "label": "Honedge",
+        "slug": "honedge"
     },
     {
         "form": "Normal",
@@ -6173,7 +6944,8 @@
         "pokemon_name": "Doublade",
         "type": ["Steel", "Ghost"],
         "id": 771,
-        "label": "Doublade"
+        "label": "Doublade",
+        "slug": "doublade"
     },
     {
         "form": "Normal",
@@ -6181,7 +6953,8 @@
         "pokemon_name": "Aegislash",
         "type": ["Steel", "Ghost"],
         "id": 772,
-        "label": "Aegislash"
+        "label": "Aegislash",
+        "slug": "aegislash"
     },
     {
         "form": "Normal",
@@ -6189,7 +6962,8 @@
         "pokemon_name": "Spritzee",
         "type": ["Fairy"],
         "id": 773,
-        "label": "Spritzee"
+        "label": "Spritzee",
+        "slug": "spritzee"
     },
     {
         "form": "Normal",
@@ -6197,7 +6971,8 @@
         "pokemon_name": "Aromatisse",
         "type": ["Fairy"],
         "id": 774,
-        "label": "Aromatisse"
+        "label": "Aromatisse",
+        "slug": "aromatisse"
     },
     {
         "form": "Normal",
@@ -6205,7 +6980,8 @@
         "pokemon_name": "Swirlix",
         "type": ["Fairy"],
         "id": 775,
-        "label": "Swirlix"
+        "label": "Swirlix",
+        "slug": "swirlix"
     },
     {
         "form": "Normal",
@@ -6213,7 +6989,8 @@
         "pokemon_name": "Slurpuff",
         "type": ["Fairy"],
         "id": 776,
-        "label": "Slurpuff"
+        "label": "Slurpuff",
+        "slug": "slurpuff"
     },
     {
         "form": "Normal",
@@ -6221,7 +6998,8 @@
         "pokemon_name": "Inkay",
         "type": ["Dark", "Psychic"],
         "id": 777,
-        "label": "Inkay"
+        "label": "Inkay",
+        "slug": "inkay"
     },
     {
         "form": "Normal",
@@ -6229,7 +7007,8 @@
         "pokemon_name": "Malamar",
         "type": ["Dark", "Psychic"],
         "id": 778,
-        "label": "Malamar"
+        "label": "Malamar",
+        "slug": "malamar"
     },
     {
         "form": "Normal",
@@ -6237,7 +7016,8 @@
         "pokemon_name": "Binacle",
         "type": ["Rock", "Water"],
         "id": 779,
-        "label": "Binacle"
+        "label": "Binacle",
+        "slug": "binacle"
     },
     {
         "form": "Normal",
@@ -6245,7 +7025,8 @@
         "pokemon_name": "Barbaracle",
         "type": ["Rock", "Water"],
         "id": 780,
-        "label": "Barbaracle"
+        "label": "Barbaracle",
+        "slug": "barbaracle"
     },
     {
         "form": "Normal",
@@ -6253,7 +7034,8 @@
         "pokemon_name": "Skrelp",
         "type": ["Poison", "Water"],
         "id": 781,
-        "label": "Skrelp"
+        "label": "Skrelp",
+        "slug": "skrelp"
     },
     {
         "form": "Normal",
@@ -6261,7 +7043,8 @@
         "pokemon_name": "Dragalge",
         "type": ["Poison", "Dragon"],
         "id": 782,
-        "label": "Dragalge"
+        "label": "Dragalge",
+        "slug": "dragalge"
     },
     {
         "form": "Normal",
@@ -6269,7 +7052,8 @@
         "pokemon_name": "Clauncher",
         "type": ["Water"],
         "id": 783,
-        "label": "Clauncher"
+        "label": "Clauncher",
+        "slug": "clauncher"
     },
     {
         "form": "Normal",
@@ -6277,7 +7061,8 @@
         "pokemon_name": "Clawitzer",
         "type": ["Water"],
         "id": 784,
-        "label": "Clawitzer"
+        "label": "Clawitzer",
+        "slug": "clawitzer"
     },
     {
         "form": "Normal",
@@ -6285,7 +7070,8 @@
         "pokemon_name": "Helioptile",
         "type": ["Electric", "Normal"],
         "id": 785,
-        "label": "Helioptile"
+        "label": "Helioptile",
+        "slug": "helioptile"
     },
     {
         "form": "Normal",
@@ -6293,7 +7079,8 @@
         "pokemon_name": "Heliolisk",
         "type": ["Electric", "Normal"],
         "id": 786,
-        "label": "Heliolisk"
+        "label": "Heliolisk",
+        "slug": "heliolisk"
     },
     {
         "form": "Normal",
@@ -6301,7 +7088,8 @@
         "pokemon_name": "Tyrunt",
         "type": ["Rock", "Dragon"],
         "id": 787,
-        "label": "Tyrunt"
+        "label": "Tyrunt",
+        "slug": "tyrunt"
     },
     {
         "form": "Normal",
@@ -6309,7 +7097,8 @@
         "pokemon_name": "Tyrantrum",
         "type": ["Rock", "Dragon"],
         "id": 788,
-        "label": "Tyrantrum"
+        "label": "Tyrantrum",
+        "slug": "tyrantrum"
     },
     {
         "form": "Normal",
@@ -6317,7 +7106,8 @@
         "pokemon_name": "Amaura",
         "type": ["Rock", "Ice"],
         "id": 789,
-        "label": "Amaura"
+        "label": "Amaura",
+        "slug": "amaura"
     },
     {
         "form": "Normal",
@@ -6325,7 +7115,8 @@
         "pokemon_name": "Aurorus",
         "type": ["Rock", "Ice"],
         "id": 790,
-        "label": "Aurorus"
+        "label": "Aurorus",
+        "slug": "aurorus"
     },
     {
         "form": "Normal",
@@ -6333,7 +7124,8 @@
         "pokemon_name": "Sylveon",
         "type": ["Fairy"],
         "id": 791,
-        "label": "Sylveon"
+        "label": "Sylveon",
+        "slug": "sylveon"
     },
     {
         "form": "Normal",
@@ -6341,7 +7133,8 @@
         "pokemon_name": "Hawlucha",
         "type": ["Fighting", "Flying"],
         "id": 792,
-        "label": "Hawlucha"
+        "label": "Hawlucha",
+        "slug": "hawlucha"
     },
     {
         "form": "Normal",
@@ -6349,7 +7142,8 @@
         "pokemon_name": "Dedenne",
         "type": ["Electric", "Fairy"],
         "id": 793,
-        "label": "Dedenne"
+        "label": "Dedenne",
+        "slug": "dedenne"
     },
     {
         "form": "Normal",
@@ -6357,7 +7151,8 @@
         "pokemon_name": "Carbink",
         "type": ["Rock", "Fairy"],
         "id": 794,
-        "label": "Carbink"
+        "label": "Carbink",
+        "slug": "carbink"
     },
     {
         "form": "Normal",
@@ -6365,7 +7160,8 @@
         "pokemon_name": "Goomy",
         "type": ["Dragon"],
         "id": 795,
-        "label": "Goomy"
+        "label": "Goomy",
+        "slug": "goomy"
     },
     {
         "form": "Normal",
@@ -6373,7 +7169,8 @@
         "pokemon_name": "Sliggoo",
         "type": ["Dragon"],
         "id": 796,
-        "label": "Sliggoo"
+        "label": "Sliggoo",
+        "slug": "sliggoo"
     },
     {
         "form": "Normal",
@@ -6381,7 +7178,8 @@
         "pokemon_name": "Goodra",
         "type": ["Dragon"],
         "id": 797,
-        "label": "Goodra"
+        "label": "Goodra",
+        "slug": "goodra"
     },
     {
         "form": "Normal",
@@ -6389,7 +7187,8 @@
         "pokemon_name": "Klefki",
         "type": ["Steel", "Fairy"],
         "id": 798,
-        "label": "Klefki"
+        "label": "Klefki",
+        "slug": "klefki"
     },
     {
         "form": "Normal",
@@ -6397,7 +7196,8 @@
         "pokemon_name": "Phantump",
         "type": ["Ghost", "Grass"],
         "id": 799,
-        "label": "Phantump"
+        "label": "Phantump",
+        "slug": "phantump"
     },
     {
         "form": "Normal",
@@ -6405,7 +7205,8 @@
         "pokemon_name": "Trevenant",
         "type": ["Ghost", "Grass"],
         "id": 800,
-        "label": "Trevenant"
+        "label": "Trevenant",
+        "slug": "trevenant"
     },
     {
         "form": "Normal",
@@ -6413,7 +7214,8 @@
         "pokemon_name": "Pumpkaboo",
         "type": ["Ghost", "Grass"],
         "id": 801,
-        "label": "Pumpkaboo"
+        "label": "Pumpkaboo",
+        "slug": "pumpkaboo"
     },
     {
         "form": "Normal",
@@ -6421,7 +7223,8 @@
         "pokemon_name": "Gourgeist",
         "type": ["Ghost", "Grass"],
         "id": 802,
-        "label": "Gourgeist"
+        "label": "Gourgeist",
+        "slug": "gourgeist"
     },
     {
         "form": "Normal",
@@ -6429,7 +7232,8 @@
         "pokemon_name": "Bergmite",
         "type": ["Ice"],
         "id": 803,
-        "label": "Bergmite"
+        "label": "Bergmite",
+        "slug": "bergmite"
     },
     {
         "form": "Normal",
@@ -6437,7 +7241,8 @@
         "pokemon_name": "Avalugg",
         "type": ["Ice"],
         "id": 804,
-        "label": "Avalugg"
+        "label": "Avalugg",
+        "slug": "avalugg"
     },
     {
         "form": "Normal",
@@ -6445,7 +7250,8 @@
         "pokemon_name": "Noibat",
         "type": ["Flying", "Dragon"],
         "id": 805,
-        "label": "Noibat"
+        "label": "Noibat",
+        "slug": "noibat"
     },
     {
         "form": "Normal",
@@ -6453,7 +7259,8 @@
         "pokemon_name": "Noivern",
         "type": ["Flying", "Dragon"],
         "id": 806,
-        "label": "Noivern"
+        "label": "Noivern",
+        "slug": "noivern"
     },
     {
         "form": "Normal",
@@ -6461,7 +7268,8 @@
         "pokemon_name": "Xerneas",
         "type": ["Fairy"],
         "id": 807,
-        "label": "Xerneas"
+        "label": "Xerneas",
+        "slug": "xerneas"
     },
     {
         "form": "Normal",
@@ -6469,7 +7277,8 @@
         "pokemon_name": "Yveltal",
         "type": ["Dark", "Flying"],
         "id": 808,
-        "label": "Yveltal"
+        "label": "Yveltal",
+        "slug": "yveltal"
     },
     {
         "form": "Normal",
@@ -6477,7 +7286,8 @@
         "pokemon_name": "Zygarde",
         "type": ["Dragon", "Ground"],
         "id": 809,
-        "label": "Zygarde"
+        "label": "Zygarde",
+        "slug": "zygarde"
     },
     {
         "form": "Normal",
@@ -6485,7 +7295,8 @@
         "pokemon_name": "Meltan",
         "type": ["Steel"],
         "id": 810,
-        "label": "Meltan"
+        "label": "Meltan",
+        "slug": "meltan"
     },
     {
         "form": "Normal",
@@ -6493,7 +7304,8 @@
         "pokemon_name": "Melmetal",
         "type": ["Steel"],
         "id": 811,
-        "label": "Melmetal"
+        "label": "Melmetal",
+        "slug": "melmetal"
     },
     {
         "form": "Galarian",
@@ -6501,7 +7313,8 @@
         "pokemon_name": "Obstagoon",
         "type": ["Dark", "Normal"],
         "id": 812,
-        "label": "Obstagoon (Galarian)"
+        "label": "Obstagoon (Galarian)",
+        "slug": "obstagoon-galarian"
     },
     {
         "form": "Galarian",
@@ -6509,7 +7322,8 @@
         "pokemon_name": "Perrserker",
         "type": ["Steel"],
         "id": 813,
-        "label": "Perrserker (Galarian)"
+        "label": "Perrserker (Galarian)",
+        "slug": "perrserker-galarian"
     },
     {
         "form": "Galarian",
@@ -6517,7 +7331,8 @@
         "pokemon_name": "Sirfetch’d",
         "type": ["Fighting"],
         "id": 814,
-        "label": "Sirfetch’d (Galarian)"
+        "label": "Sirfetch’d (Galarian)",
+        "slug": "sirfetch’d-galarian"
     },
     {
         "form": "Galarian",
@@ -6525,7 +7340,8 @@
         "pokemon_name": "Mr. Rime",
         "type": ["Ice", "Psychic"],
         "id": 815,
-        "label": "Mr. Rime (Galarian)"
+        "label": "Mr. Rime (Galarian)",
+        "slug": "mr-rime-galarian"
     },
     {
         "form": "Galarian",
@@ -6533,6 +7349,7 @@
         "pokemon_name": "Runerigus",
         "type": ["Ground", "Ghost"],
         "id": 816,
-        "label": "Runerigus (Galarian)"
+        "label": "Runerigus (Galarian)",
+        "slug": "runerigus-galarian"
     }
 ]

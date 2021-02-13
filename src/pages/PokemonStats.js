@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import EffectivenessStats from '../components/EffectivenessStats';
@@ -7,18 +7,26 @@ import fastMoves from '../data/fast_moves.json';
 import pokemonMoves from '../data/current_pokemon_moves.json';
 import typeColors from '../data/type-colors.json';
 import getMultipliers from '../multiplier';
-import { labelToSlug, slugToLabel } from '../utils/slugs';
+import { labelToSlug } from '../utils/slugs';
 import Icon from '../components/SvgIcon';
+import { zeroPad } from '../utils/zeroPad'
 
 const PokemonStats = ({ match }) => {
     const history = useHistory();
     const pokemonSlug = match.params.name;
-    const pokemonLabel = pokemonSlug.includes('-')
-        ? slugToLabel(pokemonSlug)
-        : pokemonSlug;
+    
     const pokemon = pokemonList.filter(
-        (poke) => poke.label.toLowerCase() === pokemonLabel
+        (poke) => poke.slug === pokemonSlug
     )[0];
+
+    const [imageSrc, setImageSrc] = useState('')
+
+    const imageDefault = zeroPad(pokemon.pokemon_id, 3)
+
+    useEffect(() => {
+        setImageSrc(`${imageDefault}${pokemon.form !== 'Normal' ? '_' + pokemon.form.toLowerCase() : ''}`)
+    }, [imageDefault, pokemon.form])
+
     const types = pokemon.type.map((type) => type.toLowerCase());
 
     const multipliers = getMultipliers(types);
@@ -64,15 +72,17 @@ const PokemonStats = ({ match }) => {
 
     const defenseStats = calculateAttackStats(multipliers.defense);
 
+    const useDefaultImage = () => setImageSrc(imageDefault)
+
     return (
         <div>
             <SearchBar showResults={true} onSelect={handleSelect} />
             <h2>
                 {pokemon.label} <span>#{pokemon.pokemon_id}</span>
             </h2>
-            <h3>Types</h3>
+            <img src={`/images/pokemon/${imageSrc}.png`} alt={pokemon.label} onError={useDefaultImage}/>
             {types.map((type, i) => (
-                <Icon name={type} type="tag" />
+                <Icon key={i} name={type} type="tag" />
             ))}
             <EffectivenessStats
                 attackStats={attackMoves}
