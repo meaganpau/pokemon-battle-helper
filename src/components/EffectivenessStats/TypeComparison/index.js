@@ -1,29 +1,34 @@
 import React from 'react';
+import uppercaseFirstChar from '../../../utils/uppercaseFirstChar';
 import Icon from '../../SvgIcon';
 import { Container, IconGrid, EffectContainer } from '../style';
 import { ColoredBackground } from './style';
 
-const Defense = ({ defenseStats }) => (
+const TypeComparison = ({ stats, type }) => { 
+    const statKeys = Object.keys(stats)
+    if (type === 'defense') {
+        statKeys.reverse()
+    }
+    return (
     <Container>
-        {Object.keys(defenseStats)
-            .reverse()
+        {statKeys
             .map((effectiveness) => (
                 <ColoredBackground
-                    color={effectiveness === 'vulnerable' ? 'green' : 'red'}
+                    color={effectiveness === 'vulnerable' || effectiveness === 'weak' ? 'green' : 'red'}
                 >
-                    <h4>{effectiveness.charAt(0).toUpperCase() + effectiveness.slice(1)} To:</h4>
-                    {Object.keys(defenseStats[effectiveness])
+                    <h4>{uppercaseFirstChar(effectiveness)} {type === 'defense' ? 'To' : 'Against'}:</h4>
+                    {Object.keys(stats[effectiveness])
                         .reverse()
                         .map((key, i) => (
                             <EffectContainer key={i}>
                                 <h5>
-                                    Takes{' '}
+                                    {type === 'defense' ? 'Takes' : 'Deals'}{' '}
                                     {Math.round(Number(key) * 1000) / 1000}x
-                                    more damage from:
+                                    more damage {type === 'defense' ? 'from' : 'to'}:
                                 </h5>
                                 <IconGrid>
                                     {Object.values(
-                                        defenseStats[effectiveness][key]
+                                        stats[effectiveness][key]
                                     ).map((type, i) => (
                                         <Icon
                                             key={i}
@@ -37,6 +42,6 @@ const Defense = ({ defenseStats }) => (
                 </ColoredBackground>
             ))}
     </Container>
-);
+)}
 
-export default Defense;
+export default TypeComparison;

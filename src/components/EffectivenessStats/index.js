@@ -1,17 +1,17 @@
 import React from 'react';
-import Attack from './Attack';
-import Defense from './Defense';
+import AttackMoves from './AttackMoves';
+import TypeComparison from './TypeComparison';
 import { StatContainer } from './style';
 
 const EffectivenessStats = ({ attackStats, defenseStats }) => (
     <>
         <StatContainer>
             <h3>Defense</h3>
-            <Defense defenseStats={defenseStats} />
+            <TypeComparison stats={defenseStats} type="defense" />
         </StatContainer>
         <StatContainer>
             <h3>Attack Moves</h3>
-            <Attack attackStats={attackStats} />
+            <AttackMoves attackStats={attackStats} type="attack" />
         </StatContainer>
     </>
 );

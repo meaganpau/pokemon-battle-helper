@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import EffectivenessStats from '../components/EffectivenessStats';
 import pokemonList from '../data/new-pokemon-list.json';
 import fastMoves from '../data/fast_moves.json';
 import pokemonMoves from '../data/current_pokemon_moves.json';
 import typeColors from '../data/type-colors.json';
-import getMultipliers from '../multiplier';
+import getMultipliers from '../utils/multiplier';
 import { labelToSlug } from '../utils/slugs';
 import { zeroPad } from '../utils/zeroPad';
 import PokemonMeta from '../components/PokemonMeta';
+import formatStats from '../utils/formatStats';
 
 const PokemonStats = ({ match }) => {
     const history = useHistory();
@@ -36,30 +37,6 @@ const PokemonStats = ({ match }) => {
     const handleSelect = (selected) => {
         history.push(`/pokemon/${labelToSlug(selected.label)}`);
     };
-
-    const terms = {
-        attack: ['strong', 'weak'],
-        defense: ['vulnerable', 'resistant']
-    };
-
-    const formatStats = (stats, type) =>
-        Object.entries(stats).reduce((acc, [key, val]) => {
-            if (val !== 1) {
-                const termsIndex = val > 1 ? 0 : 1;
-                const effectivenessKey = terms[type][termsIndex];
-                if (!acc[effectivenessKey]) {
-                    acc[effectivenessKey] = {};
-                }
-
-                if (!acc[effectivenessKey][val]) {
-                    acc[effectivenessKey][val] = [];
-                }
-
-                acc[effectivenessKey][val].push(key);
-            }
-
-            return acc;
-        }, {});
 
     const { fast_moves } = pokemonMoves.find(
         (moves) =>
@@ -93,6 +70,7 @@ const PokemonStats = ({ match }) => {
 
     return (
         <>
+            <Link to="/">Back</Link>
             <h4>Opponent's Pokémon:</h4>
             <SearchBar showResults={true} onSelect={handleSelect} />
             <PokemonMeta

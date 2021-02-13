@@ -1,5 +1,5 @@
-import pokemonTypes from './data/type-effectiveness2.json';
-import { MOST_DAMAGE, LESS_DAMAGE, LEAST_DAMAGE } from './utils/constants';
+import pokemonTypes from '../data/type-effectiveness2.json';
+import { MOST_DAMAGE, LESS_DAMAGE, LEAST_DAMAGE } from './constants';
 
 export default function getMultipliers(types) {
     const multipliers = {

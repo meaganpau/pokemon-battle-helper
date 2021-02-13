@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
+import DefaultOptionTypes from '../components/DefaultOptionTypes';
 import SearchBar from '../components/SearchBar';
-import SearchResults from '../components/SearchResults'
+import SearchResults from '../components/SearchResults';
 
 const Home = () => {
     const [searchResults, setSearchResults] = useState([]);
-    const [searchText, setSearchText] = useState('');
+    const [showDefaultOptions, setShowDefaultOptions] = useState(true);
 
     const handleOnSearch = (string, results) => {
-        setSearchText('No results found :(');
+        setShowDefaultOptions(false);
         setSearchResults(results);
     };
 
     const handleOnClear = () => {
-        setSearchText('');
+        setShowDefaultOptions(true);
         setSearchResults([]);
     };
 
@@ -23,11 +24,9 @@ const Home = () => {
                 onSearch={handleOnSearch}
                 showResults={false}
             />
-            {searchResults.length ? (
-                <SearchResults results={searchResults} />
-            ) : (
-                <p>{searchText}</p>
-            )}
+            {searchResults.length > 0 && <SearchResults results={searchResults} />}
+            {searchResults.length === 0 && !showDefaultOptions && <p>No results found :(</p>}
+            {showDefaultOptions && <DefaultOptionTypes />}
         </>
     );
 };

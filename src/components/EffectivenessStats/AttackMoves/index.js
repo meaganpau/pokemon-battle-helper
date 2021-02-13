@@ -2,6 +2,7 @@ import React from 'react';
 import Icon from '../../SvgIcon';
 import { Container, IconGrid, EffectContainer, TypeContainer } from '../style';
 import { AttackContainer, AttackMoveContainer } from './style';
+import uppercaseFirstChar from '../../../utils/uppercaseFirstChar'
 
 const Attack = ({ attackStats }) => (
     <Container>
@@ -15,11 +16,7 @@ const Attack = ({ attackStats }) => (
                     {Object.keys(attackStats[move].attackStats).map(
                         (effectiveness) => (
                             <TypeContainer>
-                                <h4>
-                                    {effectiveness.charAt(0).toUpperCase() +
-                                        effectiveness.slice(1)}{' '}
-                                    Against:
-                                </h4>
+                                <h4>{uppercaseFirstChar(effectiveness)} Against:</h4>
                                 {Object.keys(
                                     attackStats[move].attackStats[effectiveness]
                                 )
