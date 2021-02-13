@@ -1,5 +1,6 @@
 const fs = require('fs');
 const jsonData = require('../src/data/pokemon-types.json')
+const slugs = require('../src/utils/slugs')
 
 const filterOut = [
     "Shadow",
@@ -29,6 +30,7 @@ for (const key in jsonData) {
             let form = (Object.keys(replace).includes(pokemon.form) ? replace[pokemon.form] : pokemon.form).replace('_', ' ')
             pokemon.id = id
             pokemon.label = `${pokemon.pokemon_name}${form !== "Normal" ? ` (${form})` : ''}`
+            pokemon.slug = slugs.labelToSlug(pokemon.label)
             id++
             pokemonList.push(pokemon)
         }
