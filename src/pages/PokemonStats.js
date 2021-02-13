@@ -29,8 +29,6 @@ const PokemonStats = ({ match }) => {
 
     const types = pokemon.type.map((type) => type.toLowerCase());
 
-    const multipliers = getMultipliers(types);
-
     const handleSelect = (selected) => {
         history.push(`/pokemon/${labelToSlug(selected.label)}`);
     };
@@ -70,7 +68,20 @@ const PokemonStats = ({ match }) => {
         return acc;
     }, {});
 
-    const defenseStats = calculateAttackStats(multipliers.defense);
+    const defenseStats = calculateAttackStats(getMultipliers(types).defense)
+
+    const defenseStatsFormatted = Object.keys(defenseStats).reduce((acc, curr) => {
+        const key = Number(curr) > 1 ? 'vulnerable' : 'resistant'
+
+        if (!acc[key]) {
+            acc[key] = {}
+        }
+
+        acc[key][curr] = defenseStats[curr]
+
+        return acc
+    }, {});
+    
 
     const useDefaultImage = () => setImageSrc(imageDefault)
 
@@ -86,7 +97,7 @@ const PokemonStats = ({ match }) => {
             ))}
             <EffectivenessStats
                 attackStats={attackMoves}
-                defenseStats={defenseStats}
+                defenseStats={defenseStatsFormatted}
             />
         </div>
     );

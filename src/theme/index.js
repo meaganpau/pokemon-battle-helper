@@ -10,7 +10,7 @@ const global = {
 }
 
 export const lightTheme = {
-    ...global,
+    global,
     color: {
         text: {
             dark: '#505050',
@@ -29,7 +29,7 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-    ...global,
+    global,
     color: {
         text: {
             dark: '#fff',
