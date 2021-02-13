@@ -8,7 +8,7 @@ const Header = ({ theme, toggleTheme}) => {
             <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
             <h1>
                 <img src='/images/logo.png' alt='' />
-                Pokémon Battle Helper
+                Pokémon Go Battle Helper
             </h1>
         </StyledHeader>
     )

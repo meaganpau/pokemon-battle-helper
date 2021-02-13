@@ -17,16 +17,29 @@ const GlobalStyles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        margin: 10px 0;
+        margin: 0 0 8px 0;
+        font-weight: 500;
     }
 
     h1 {
-        font-family: 'Karla', sans-serif;
+        font-family: ${({ theme }) => theme.global.font.header};
         color: ${({ theme }) => theme.color.dark};
         font-size: 56px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 20px;
     }
 
     p {

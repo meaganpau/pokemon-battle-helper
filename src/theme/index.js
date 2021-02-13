@@ -20,7 +20,8 @@ export const lightTheme = {
         background: {
             main: '#fff',
             content: '#fff',
-            hover: '#eee'
+            hover: '#eee',
+            pokemon: '#f2f2f2'
         },
         pokeball: {
             opacity: 0.035
@@ -37,9 +38,10 @@ export const darkTheme = {
             placeholder: '#fff',
         },
         background: {
-            main: '#4F5763',
+            main: '#4f5763',
             content: '#2c333d',
-            hover: '#2c333d'
+            hover: '#2c333d',
+            pokemon: '#4f5763'
         },
         pokeball: {
             opacity: 0.15

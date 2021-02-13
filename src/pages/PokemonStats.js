@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import EffectivenessStats from '../components/EffectivenessStats';
@@ -8,24 +9,28 @@ import pokemonMoves from '../data/current_pokemon_moves.json';
 import typeColors from '../data/type-colors.json';
 import getMultipliers from '../multiplier';
 import { labelToSlug } from '../utils/slugs';
-import Icon from '../components/SvgIcon';
-import { zeroPad } from '../utils/zeroPad'
+import { zeroPad } from '../utils/zeroPad';
+import PokemonMeta from '../components/PokemonMeta';
 
 const PokemonStats = ({ match }) => {
     const history = useHistory();
     const pokemonSlug = match.params.name;
-    
-    const pokemon = pokemonList.filter(
-        (poke) => poke.slug === pokemonSlug
-    )[0];
 
-    const [imageSrc, setImageSrc] = useState('')
+    const pokemon = pokemonList.filter((poke) => poke.slug === pokemonSlug)[0];
 
-    const imageDefault = zeroPad(pokemon.pokemon_id, 3)
+    const [imageSrc, setImageSrc] = useState('');
+
+    const imageDefault = zeroPad(pokemon.pokemon_id, 3);
 
     useEffect(() => {
-        setImageSrc(`${imageDefault}${pokemon.form !== 'Normal' ? '_' + pokemon.form.toLowerCase() : ''}`)
-    }, [imageDefault, pokemon.form])
+        setImageSrc(
+            `${imageDefault}${
+                pokemon.form !== 'Normal'
+                    ? '_' + pokemon.form.toLowerCase()
+                    : ''
+            }`
+        );
+    }, [imageDefault, pokemon.form]);
 
     const types = pokemon.type.map((type) => type.toLowerCase());
 
@@ -33,13 +38,27 @@ const PokemonStats = ({ match }) => {
         history.push(`/pokemon/${labelToSlug(selected.label)}`);
     };
 
-    const calculateAttackStats = (stats) =>
+    const terms = {
+        attack: ['strong', 'weak'],
+        defense: ['vulnerable', 'resistant']
+    };
+
+    const formatStats = (stats, type) =>
         Object.entries(stats).reduce((acc, [key, val]) => {
-            if (!acc[val]) {
-                acc[val] = [key];
-            } else {
-                acc[val].push(key);
+            if (val !== 1) {
+                const termsIndex = val > 1 ? 0 : 1;
+                const effectivenessKey = terms[type][termsIndex];
+                if (!acc[effectivenessKey]) {
+                    acc[effectivenessKey] = {};
+                }
+
+                if (!acc[effectivenessKey][val]) {
+                    acc[effectivenessKey][val] = [key];
+                } else {
+                    acc[effectivenessKey][val].push(key);
+                }
             }
+
             return acc;
         }, {});
 
@@ -51,8 +70,9 @@ const PokemonStats = ({ match }) => {
 
     const attackMoves = fast_moves.reduce((acc, curr) => {
         const moveStats = fastMoves.find((move) => move.name === curr);
-        const attackStats = calculateAttackStats(
-            getMultipliers([moveStats.type.toLowerCase()]).attack
+        const attackStats = formatStats(
+            getMultipliers([moveStats.type.toLowerCase()]).attack,
+            'attack'
         );
 
         if (!acc[moveStats.type]) {
@@ -63,43 +83,30 @@ const PokemonStats = ({ match }) => {
             };
         }
 
-        acc[moveStats.type].name.push(curr)
+        acc[moveStats.type].name.push(curr);
 
         return acc;
     }, {});
 
-    const defenseStats = calculateAttackStats(getMultipliers(types).defense)
+    const defenseStats = formatStats(getMultipliers(types).defense, 'defense');
 
-    const defenseStatsFormatted = Object.keys(defenseStats).reduce((acc, curr) => {
-        const key = Number(curr) > 1 ? 'vulnerable' : 'resistant'
-
-        if (!acc[key]) {
-            acc[key] = {}
-        }
-
-        acc[key][curr] = defenseStats[curr]
-
-        return acc
-    }, {});
-    
-
-    const useDefaultImage = () => setImageSrc(imageDefault)
+    const useDefaultImage = () => setImageSrc(imageDefault);
 
     return (
-        <div>
+        <>
+            <p>Opponent's Pokémon:</p>
             <SearchBar showResults={true} onSelect={handleSelect} />
-            <h2>
-                {pokemon.label} <span>#{pokemon.pokemon_id}</span>
-            </h2>
-            <img src={`/images/pokemon/${imageSrc}.png`} alt={pokemon.label} onError={useDefaultImage}/>
-            {types.map((type, i) => (
-                <Icon key={i} name={type} type="tag" />
-            ))}
+            <PokemonMeta
+                pokemon={pokemon}
+                types={types}
+                imageSrc={imageSrc}
+                useDefaultImage={useDefaultImage}
+            />
             <EffectivenessStats
                 attackStats={attackMoves}
-                defenseStats={defenseStatsFormatted}
+                defenseStats={defenseStats}
             />
-        </div>
+        </>
     );
 };
 
