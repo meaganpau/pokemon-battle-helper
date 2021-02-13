@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import EffectivenessStats from '../components/EffectivenessStats';
@@ -53,10 +52,10 @@ const PokemonStats = ({ match }) => {
                 }
 
                 if (!acc[effectivenessKey][val]) {
-                    acc[effectivenessKey][val] = [key];
-                } else {
-                    acc[effectivenessKey][val].push(key);
+                    acc[effectivenessKey][val] = [];
                 }
+
+                acc[effectivenessKey][val].push(key);
             }
 
             return acc;
@@ -94,7 +93,7 @@ const PokemonStats = ({ match }) => {
 
     return (
         <>
-            <p>Opponent's Pokémon:</p>
+            <h4>Opponent's Pokémon:</h4>
             <SearchBar showResults={true} onSelect={handleSelect} />
             <PokemonMeta
                 pokemon={pokemon}
