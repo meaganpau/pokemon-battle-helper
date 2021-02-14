@@ -19,6 +19,7 @@ const Home = () => {
 
     return (
         <>
+            <h2>Opponent’s Pokémon</h2>
             <SearchBar
                 onClear={handleOnClear}
                 onSearch={handleOnSearch}

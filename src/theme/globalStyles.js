@@ -1,10 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
+import media from '../theme/breakpoints'
 
 const GlobalStyles = createGlobalStyle`
     body {
         background: ${({ theme }) => theme.color.background.main};
         color: ${({ theme }) => theme.color.text.dark};
-        font-family: 'Roboto', sans-serif;
+        font-family: ${({ theme }) => theme.global.font.main};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         transition: all 0.3s ease;
@@ -28,18 +29,38 @@ const GlobalStyles = createGlobalStyle`
         display: flex;
         align-items: center;
         justify-content: center;
+
+        ${media.md`
+            font-size: 48px;
+        `}
+
+        ${media.sm`
+            font-size: 36px;
+        `}
     }
 
     h2 {
         font-size: 48px;
+
+        ${media.md`
+            font-size: 28px;
+        `}
     }
 
     h3 {
         font-size: 28px;
+
+        ${media.md`
+            font-size: 22px;
+        `}
     }
 
     h4 {
         font-size: 20px;
+        
+        ${media.md`
+            font-size: 18px;
+        `}
     }
 
     p {

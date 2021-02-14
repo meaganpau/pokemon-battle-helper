@@ -1,8 +1,13 @@
 import styled from 'styled-components'
+import media from '../../theme/breakpoints'
 
 export const Container = styled.div`
     margin-bottom: 40px;
     display: flex;
+
+    ${media.xs`
+        flex-direction: column;
+    `}
 `
 
 export const ImageContainer = styled.div`
@@ -12,6 +17,10 @@ export const ImageContainer = styled.div`
     max-width: 250px;
     max-height: 250px;
     margin-right: 50px;
+
+    ${media.xs`
+        margin-right: 0;
+    `}
 
     img {
         max-width: 100%;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import EffectivenessStats from '../components/EffectivenessStats';
 import pokemonList from '../data/new-pokemon-list.json';
@@ -11,6 +11,7 @@ import { labelToSlug } from '../utils/slugs';
 import { zeroPad } from '../utils/zeroPad';
 import PokemonMeta from '../components/PokemonMeta';
 import formatStats from '../utils/formatStats';
+import BackButton from '../components/BackButton';
 
 const PokemonStats = ({ match }) => {
     const history = useHistory();
@@ -70,7 +71,7 @@ const PokemonStats = ({ match }) => {
 
     return (
         <>
-            <Link to="/">Back</Link>
+            <BackButton />
             <h4>Opponent's Pokémon:</h4>
             <SearchBar showResults={true} onSelect={handleSelect} />
             <PokemonMeta

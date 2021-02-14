@@ -1,10 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import BackButton from '../components/BackButton';
 import TypeComparison from '../components/EffectivenessStats/TypeComparison';
 import Icon from '../components/SvgIcon';
 import formatStats from '../utils/formatStats';
 import getMultipliers from '../utils/multiplier';
 import uppercaseFirstChar from '../utils/uppercaseFirstChar';
+
+const Title = styled.h2`
+    display: flex;
+    align-items: center;
+
+    svg { 
+        margin-left: 10px;
+    }
+`
 
 const Type = ({ match }) => {
     const type = match.params.type;    
@@ -13,8 +23,8 @@ const Type = ({ match }) => {
 
     return (
         <>
-            <Link to="/">Back</Link>
-            <h2><Icon name={type} type="no-label" />{uppercaseFirstChar(type)}</h2>
+            <BackButton />
+            <Title>{uppercaseFirstChar(type)}<Icon name={type} type="no-label" width={38} /></Title>
             <h3>Defense</h3>
             <TypeComparison stats={defenseStats} type="defense" />
             <h3>Attack</h3>

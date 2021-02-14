@@ -1,9 +1,19 @@
 import styled from 'styled-components'
 import { ReactComponent as Pokeball } from '../../images/Pokeball.svg'
+import media from '../../theme/breakpoints'
 
 export const Container = styled.div`
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+
+    ${media.sm`
+        padding-left: 20px;
+        padding-right: 20px;
+    `}
 `
 
 export const ContentContainer = styled.div`
@@ -13,6 +23,11 @@ export const ContentContainer = styled.div`
     margin: 40px auto 0;
     padding: 60px 100px;
     background: ${props => props.theme.color.background.content};
+
+    ${media.md`
+        padding: 30px;
+        margin: 20px auto 0;
+    `}
 `
 
 export const BackgroundImage = styled(Pokeball)`

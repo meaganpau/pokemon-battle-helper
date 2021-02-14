@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from '../../theme/breakpoints'
 
 export const Container = styled.div`
     display: grid;
@@ -7,4 +8,16 @@ export const Container = styled.div`
     margin: 100px auto 60px;
     max-width: 80%;
     text-align: center;
+
+    ${media.sm`
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 100%;
+        grid-gap: 30px 10px;
+        margin: 80px auto;
+    `}
+
+    ${media.xs`
+        grid-template-columns: repeat(3, 1fr);
+        margin: 60px auto;
+    `}
 `
