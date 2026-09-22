@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { useEffectSkipFirstRender } from './useEffectSkipFirstRender';
 import PropTypes from 'prop-types';
 import Fuse from 'fuse.js';
-import { defaultTheme, defaultFuseOptions } from './config';
+import { defaultFuseOptions } from './config';
 import Results from './Results';
 import SearchInput from './SearchInput';
 // import { ThemeProvider } from 'styled-components';
@@ -25,7 +25,6 @@ export default function ReactSearchAutocomplete(props) {
         maxResults,
         placeholder,
         autoFocus,
-        styling,
         resultStringKeyName,
         showResults
     } = props;
@@ -138,6 +137,7 @@ export default function ReactSearchAutocomplete(props) {
             .map((result) => ({ ...result.item }))
             .slice(0, maxResults);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const handleOnSearch = useCallback(
         inputDebounce > 0
             ? debounce((keyword) => {
